@@ -136,10 +136,23 @@ frontend 46, infra 9 tests); the Playwright smoke test passes in Chromium; `npm 
 
 **What has and has not been tested live.** All automated tests run offline on mocks and the committed data. The
 local app was checked by hand in a browser (map, clustering, selection, search, filters, details, nearby, insights,
-mobile layout). **Road routing (`CalculateRoutes`), place search and AI summaries have not been tested live through
-the app**, because they need the deployed API key and API; their tests mock the AWS SDK clients. The read-only
-region check did call Amazon Location directly with the developer's credentials (style descriptor, geocode of
-Thanjavur, a 58 km route) in us-east-1. Test routing in the browser after the first deployment.
+mobile layout).
+
+The `dev` stack was deployed to us-east-1 on 2026-10-30 (site `https://d6thdya945lhl.cloudfront.net`, API
+`https://0hi1v5hqbg.execute-api.us-east-1.amazonaws.com/dev`). These were checked live on that deployment:
+
+- **Site:** loads from CloudFront with the security headers and `config.json`, and renders Amazon Location tiles.
+- **Explore, details and Insights:** work. The Insights tab reports 629 records, 365 of them verified.
+- **Road routing in the browser:** Arjuna Ratha to Alamparai Fort gives 54.2 km, about 58 min and 1,042 points.
+  Amazon Location `CalculateRoutes` returned 200 and the route line draws on the map.
+- **API:**
+  - `GET /stats?state=IN-TN` returns 629 records, so the ingest Lambda loaded DynamoDB.
+  - `GET /sites?state=IN-TN&category=fort`, `GET /sites/{id}` and `GET /sites/nearby` return data.
+  - Invalid `lat` and `state` values return 400.
+  - `POST /sites/{id}/summary` returned a Bedrock Nova 2 Lite summary grounded in the stored fields.
+
+Place search (`Geocode`/`Autocomplete`) was not exercised in the deployed app. The browser console shows only
+MapLibre style-expression warnings from the Amazon Location Standard style and no errors.
 
 ## Deployment
 
@@ -167,14 +180,20 @@ billable resources in your AWS account.
    summary Lambda, its Bedrock permissions and the POST route. The model can be changed with
    `-c bedrockModelId=<inference profile id>` (also update `bedrockModelRegions` in `infra/config/environments.ts`).
 10. **Tear down**, from `infra/`: `npx cdk destroy -c env=dev`. The `dev` buckets are emptied and deleted; `prod`
-    keeps its buckets and table. CDK retains the API Gateway CloudWatch role. If the Amazon Location key cannot be
+    keeps its buckets and table. If the Amazon Location key cannot be
     deleted because it was used recently, see the rotation section in [docs/SECURITY.md](docs/SECURITY.md).
 
 Resources created by the stack: one DynamoDB table (two GSIs, PITR), two S3 buckets (data, site), a CloudFront
 distribution with origin access control and a security-headers policy, an API Gateway REST API with stage `dev` or
 `prod` and access logs, three application Lambdas (Node.js 22, arm64) plus CDK helper Lambdas, IAM roles per
-function, the account-level API Gateway CloudWatch role setting, and one Amazon Location API key
-(`heritagetrail-<env>`). Amazon Location V2 needs no map, place index or route calculator resources.
+function, and one Amazon Location API key (`heritagetrail-<env>`). Amazon Location V2 needs no map, place index or
+route calculator resources.
+
+The stack does not set the account-level API Gateway CloudWatch role (`cloudWatchRole: false`), so it leaves a role
+that another stack owns untouched. API access logs need that role to exist in the region. Check it with
+`aws apigateway get-account --region us-east-1`. If `cloudwatchRoleArn` is empty, set a role with the
+`AmazonAPIGatewayPushToCloudWatchLogs` policy before deploying, or set `cloudWatchRole: true` in
+`infra/lib/constructs/api.ts`.
 
 ## Dataset sources and attribution
 

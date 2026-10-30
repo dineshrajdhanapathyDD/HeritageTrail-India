@@ -47,7 +47,7 @@ Roles created by CDK constructs (not application code):
 | Auto-delete objects provider (dev only) | Bucket policy grant: `s3:DeleteObject*`, `s3:GetBucket*`, `s3:List*`, `s3:PutBucketPolicy` on both buckets | Empties buckets on `cdk destroy` |
 | `DescribeKey` custom resource | `geo:DescribeKey` on the stack's API key ARN | Reads the key value at deploy time to write `config.json` |
 | `BucketDeployment` | Read on the CDK assets bucket; object read/write/delete on the data and site buckets; `cloudfront:CreateInvalidation`, `cloudfront:GetInvalidation` on `*` | Uploads the site, `config.json` and data; invalidates CloudFront. The `*` resource is set by CDK |
-| API Gateway CloudWatch role | AWS managed `AmazonAPIGatewayPushToCloudWatchLogs` | Account-level API Gateway setting (`AWS::ApiGateway::Account`) required for access logs. CDK retains this role on delete |
+| API Gateway CloudWatch role | Not created by this stack (`cloudWatchRole: false`) | Access logs use the account's existing API Gateway CloudWatch role. The stack does not replace an account-wide setting another stack owns |
 
 ## 3. Amazon Location API key
 
