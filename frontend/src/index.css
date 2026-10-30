@@ -1,0 +1,147 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Laterite red: Tamil Nadu forts and temple walls */
+  --color-laterite-50: #fbf1ed;
+  --color-laterite-100: #f4dcd2;
+  --color-laterite-300: #dd9a80;
+  --color-laterite-500: #c0583a;
+  --color-laterite-600: #a3432a;
+  --color-laterite-700: #8e3b22;
+  --color-laterite-900: #4e1f12;
+
+  /* Temple gold */
+  --color-gold-100: #f7ecd0;
+  --color-gold-200: #f0dca6;
+  --color-gold-300: #e8c77a;
+  --color-gold-400: #e0b44c;
+  --color-gold-500: #c8962e;
+  --color-gold-600: #b8862b;
+  --color-gold-700: #8f6620;
+
+  /* Granite */
+  --color-granite-100: #ebe7e0;
+  --color-granite-200: #d8d2c6;
+  --color-granite-300: #b9b2a6;
+  --color-granite-500: #7a746b;
+  --color-granite-600: #5f5a52;
+  --color-granite-700: #4a4640;
+  --color-granite-800: #34312d;
+  --color-granite-900: #23211f;
+
+  /* Ivory */
+  --color-ivory-50: #fdfaf3;
+  --color-ivory-100: #f8f1e2;
+  --color-ivory-200: #efe4cc;
+
+  --color-peacock-600: #2b5f6b;
+  --color-indigo-heritage: #243f73;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-granite-900);
+  background: var(--color-ivory-100);
+  -webkit-font-smoothing: antialiased;
+}
+
+@utility panel {
+  background: color-mix(in srgb, var(--color-ivory-50) 93%, transparent);
+  backdrop-filter: blur(12px) saturate(1.1);
+  border: 1px solid color-mix(in srgb, var(--color-gold-600) 28%, transparent);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 18px 40px -18px rgba(52, 49, 45, 0.45);
+}
+
+/* Dotted kolam-like divider */
+@utility ht-divider {
+  height: 6px;
+  background-image: radial-gradient(circle, var(--color-gold-500) 1.1px, transparent 1.4px);
+  background-size: 9px 6px;
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.55;
+}
+
+@utility chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  border: 1px solid var(--color-granite-200);
+  background: var(--color-ivory-50);
+  padding: 0.25rem 0.7rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--color-granite-700);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    color 150ms;
+}
+
+.ht-cluster {
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 16px -6px rgba(52, 49, 45, 0.6);
+  transition: transform 150ms ease;
+}
+.ht-cluster:hover,
+.ht-cluster:focus-visible {
+  transform: scale(1.08);
+  outline: none;
+}
+.ht-cluster > span {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  background: var(--color-ivory-50);
+  color: var(--color-granite-900);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.ht-stop {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 10px -4px rgba(52, 49, 45, 0.7);
+  background: var(--color-laterite-600);
+  color: var(--color-ivory-50);
+  font-size: 11px;
+  font-weight: 700;
+  border: 2px solid var(--color-ivory-50);
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+
+input[type='range'].ht-range {
+  accent-color: var(--color-laterite-600);
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-granite-300) transparent;
+}
