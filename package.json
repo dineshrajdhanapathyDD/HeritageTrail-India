@@ -1,0 +1,23 @@
+{
+  "name": "heritagetrail-india",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HeritageTrail India: map-first explorer of India's heritage sites built on open data and AWS.",
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "pipeline",
+    "backend",
+    "frontend",
+    "infra"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "pipeline": "npm run cli -w pipeline --",
+    "synth": "npm run build -w frontend && npm run synth -w infra"
+  }
+}

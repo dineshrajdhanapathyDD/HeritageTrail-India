@@ -1,0 +1,42 @@
+{
+  "rules": [
+    {
+      "category": "museum",
+      "wikidataLabelKeywords": ["museum", "art gallery"],
+      "osmTags": [{ "key": "tourism", "value": "museum" }]
+    },
+    {
+      "category": "fort",
+      "wikidataLabelKeywords": ["fort", "castle", "citadel", "fortification"],
+      "osmTags": [
+        { "key": "historic", "value": "fort" },
+        { "key": "historic", "value": "castle" }
+      ]
+    },
+    {
+      "category": "temple",
+      "wikidataLabelKeywords": ["temple", "kovil", "church", "mosque", "jain", "basilica", "shrine", "cathedral"],
+      "osmTags": [
+        { "key": "historic", "value": "temple" },
+        { "key": "amenity", "value": "place_of_worship" }
+      ]
+    },
+    {
+      "category": "archaeological-site",
+      "wikidataLabelKeywords": ["archaeological", "excavation", "cave", "rock-cut", "rock cut", "ruins"],
+      "osmTags": [
+        { "key": "historic", "value": "archaeological_site" },
+        { "key": "historic", "value": "ruins" }
+      ]
+    },
+    {
+      "category": "monument",
+      "wikidataLabelKeywords": ["monument", "memorial", "mandapam", "gate", "tomb", "pillar", "palace"],
+      "osmTags": [
+        { "key": "historic", "value": "monument" },
+        { "key": "historic", "value": "memorial" }
+      ]
+    }
+  ],
+  "fallback": "other"
+}

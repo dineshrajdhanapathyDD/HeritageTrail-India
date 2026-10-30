@@ -1,0 +1,22 @@
+{
+  "name": "@heritagetrail/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared record schema, config schemas and geo helpers for HeritageTrail India.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run --maxWorkers=2"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

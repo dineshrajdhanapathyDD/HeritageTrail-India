@@ -1,0 +1,91 @@
+{
+  "userAgent": "HeritageTrailIndia/0.1 (+repo README)",
+  "sources": [
+    {
+      "id": "wikidata",
+      "name": "Wikidata Query Service",
+      "publisher": "Wikimedia Foundation / Wikidata community",
+      "kind": "sites",
+      "enabled": true,
+      "endpoint": "https://query.wikidata.org/sparql",
+      "termsUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Wikidata (structured data, CC0 1.0)",
+      "provenanceNote": null,
+      "downloadUrl": null
+    },
+    {
+      "id": "osm-overpass",
+      "name": "OpenStreetMap via Overpass API",
+      "publisher": "OpenStreetMap Foundation and contributors",
+      "kind": "sites",
+      "enabled": true,
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "termsUrl": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "© OpenStreetMap contributors",
+      "provenanceNote": null,
+      "downloadUrl": null,
+      "overpass": {
+        "timeoutSeconds": 120,
+        "tagFilters": [
+          { "key": "historic", "value": "fort", "requireKeys": [] },
+          { "key": "historic", "value": "castle", "requireKeys": [] },
+          { "key": "historic", "value": "monument", "requireKeys": [] },
+          { "key": "historic", "value": "archaeological_site", "requireKeys": [] },
+          { "key": "historic", "value": "ruins", "requireKeys": [] },
+          { "key": "historic", "value": "temple", "requireKeys": [] },
+          { "key": "tourism", "value": "museum", "requireKeys": [] },
+          { "key": "amenity", "value": "place_of_worship", "requireKeys": ["historic"] }
+        ],
+        "excludeTags": [
+          { "key": "historic", "value": "memorial" }
+        ]
+      }
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons MediaWiki API (imageinfo)",
+      "publisher": "Wikimedia Foundation; each file is owned by its creator",
+      "kind": "images",
+      "enabled": true,
+      "endpoint": "https://commons.wikimedia.org/w/api.php",
+      "termsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+      "license": "per-file",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+      "attribution": "Images from Wikimedia Commons; licence and author shown per image",
+      "provenanceNote": "Only images whose licence and author were resolved from the API are kept.",
+      "downloadUrl": null
+    },
+    {
+      "id": "geoboundaries-adm1",
+      "name": "geoBoundaries gbOpen IND ADM1 (states and union territories)",
+      "publisher": "geoBoundaries (William & Mary geoLab); source DataMeet India community, Election Commission of India",
+      "kind": "boundaries",
+      "enabled": true,
+      "endpoint": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+      "termsUrl": "https://raw.githubusercontent.com/datameet/maps/master/README.md",
+      "license": "CC-BY-2.5-IN",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/in/",
+      "attribution": "geoBoundaries (gbOpen IND ADM1), source: DataMeet India community",
+      "provenanceNote": "geoBoundaries metadata states CC BY 2.5 IN; the DataMeet README states CC BY 4.0. Both require attribution only.",
+      "downloadUrl": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1_simplified.geojson"
+    },
+    {
+      "id": "geoboundaries-adm2",
+      "name": "geoBoundaries gbOpen IND ADM2 (districts)",
+      "publisher": "geoBoundaries (William & Mary geoLab); source Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+      "kind": "boundaries",
+      "enabled": true,
+      "endpoint": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM2/",
+      "termsUrl": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM2/",
+      "license": "ODbL-1.0",
+      "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution": "geoBoundaries (gbOpen IND ADM2), source: Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+      "provenanceNote": "Upstream licence source geonode.pathwaysdata.com could not be reached; ODbL confirmed only by geoBoundaries metadata (upstream unverified).",
+      "downloadUrl": null
+    }
+  ]
+}

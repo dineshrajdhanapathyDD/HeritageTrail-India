@@ -1,1 +1,10 @@
 .agents/
+node_modules/
+dist/
+cdk.out/
+coverage/
+frontend/public/data/
+data/raw/boundaries/
+.env*.local
+test-results/
+playwright-report/

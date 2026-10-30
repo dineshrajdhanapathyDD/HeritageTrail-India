@@ -1,0 +1,14 @@
+{
+  "slug": "tamil-nadu",
+  "code": "IN-TN",
+  "name": "Tamil Nadu",
+  "wikidataQid": "Q1445",
+  "osmIso": "IN-TN",
+  "adm1ShapeISO": "IN-TN",
+  "expectedDistrictCount": 38,
+  "asiCentrallyProtected": {
+    "count": 412,
+    "source": "https://asi.nic.in/pdf/CPM_List.pdf",
+    "asOf": "2025-04-08"
+  }
+}
