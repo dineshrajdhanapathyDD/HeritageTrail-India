@@ -1,0 +1,408 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "itemLabel",
+      "coord",
+      "asi",
+      "whs",
+      "districtLabel",
+      "image",
+      "inception",
+      "inceptionPrecision",
+      "heritageLabel",
+      "typeName",
+      "description"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q97481240"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Chandramoulisvarar temple together with adjacent land, Nattery"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "temple"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.520121174 12.830880747)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C202"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Chandramouliswara Temple"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Tiruvannamalai district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Monument of National Importance"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q97481253"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "gate in Arcot, Ranipet district"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "gate"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.3378 12.9075)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C213"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Delhi%20gate%20-%20river%20side%20view.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Delhi Gate"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ranipet district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Monument of National Importance"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7809304"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "historic fort and temple complex in the Indian state of Tamil Nadu"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "fort"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(78.697 10.828)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-T155"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Rock%20Fort%20Temple.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Tiruchirappalli Rock Fort"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11964733"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Danish fort in the shores of Bay of Bengal"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "fort"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.8558 11.0246)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "S-TN-39"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Dansborg.JPG"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Fort Dansborg"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mayiladuthurai district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "State Protected Monument"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1620-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11964733"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Danish fort in the shores of Bay of Bengal"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "museum"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.8558 11.0246)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "S-TN-39"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Dansborg.JPG"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Fort Dansborg"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mayiladuthurai district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "State Protected Monument"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1620-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q471838"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Historical fort maintained by the Archaeological Survey of India."
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "fortification"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(78.203 11.77)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C184"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sangagiri%20hill%203.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sankagiri Fort"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Salem district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Monument of National Importance"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3437182"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "12th century Chola Hindu temple, UNESCO world heritage site"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hindu temple"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.356708 10.94841)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C189"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%22A%20beautiful%20angle%20of%20Airavatesvara%20Temple%22.JPG"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1166-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Airavatesvara Temple"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Thanjavur district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Monument of National Importance"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "250bis-003"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3437182"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "12th century Chola Hindu temple, UNESCO world heritage site"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hindu temple"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.356708 10.94841)"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C189"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%22A%20beautiful%20angle%20of%20Airavatesvara%20Temple%22.JPG"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1166-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Airavatesvara Temple"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Thanjavur district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "part of UNESCO World Heritage Site"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "250bis-003"
+        }
+      }
+    ]
+  }
+}

@@ -23,7 +23,7 @@
     },
     {
       "category": "archaeological-site",
-      "wikidataLabelKeywords": ["archaeological", "excavation", "cave", "rock-cut", "rock cut", "ruins"],
+      "wikidataLabelKeywords": ["archaeological", "excavation", "cave", "rock-cut", "rock cut", "ruins", "megalith", "dolmen", "cairn", "cist", "stone circle"],
       "osmTags": [
         { "key": "historic", "value": "archaeological_site" },
         { "key": "historic", "value": "ruins" }
@@ -31,7 +31,7 @@
     },
     {
       "category": "monument",
-      "wikidataLabelKeywords": ["monument", "memorial", "mandapam", "gate", "tomb", "pillar", "palace"],
+      "wikidataLabelKeywords": ["monument", "memorial", "mandapa", "gate", "tomb", "pillar", "palace"],
       "osmTags": [
         { "key": "historic", "value": "monument" },
         { "key": "historic", "value": "memorial" }

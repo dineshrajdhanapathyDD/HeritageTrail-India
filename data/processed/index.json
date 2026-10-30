@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "tamil-nadu",
+    "code": "IN-TN",
+    "name": "Tamil Nadu",
+    "file": "tamil-nadu.geojson",
+    "featureCount": 629,
+    "verifiedCount": 371,
+    "stateBoundaryFile": "boundaries/tamil-nadu-state.geojson",
+    "districtsFile": "boundaries/tamil-nadu-districts.geojson"
+  }
+]

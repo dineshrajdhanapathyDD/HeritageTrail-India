@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "source": "commons",
+      "name": "batch-001",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=640&iiextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit&format=json&titles=File%3A%22A+amazing+shot+of+Pallikonda+Perumal+Temple%22.JPG%7CFile%3A%22A+beautiful+Siva+Temple+Tower%22.JPG%7CFile%3A%22A+beautiful+angle+of+Airavatesvara+Temple%22.JPG%7CFile%3A%22A+long+sot+of+Sivan+Temple+of+Kilayur+%28Kaliyapatti%29+1%22.JPG%7CFile%3A%22Aesthetic+cave+with+Two+Jain+Figures+carved+on+the+rock%22.JPG%7CFile%3A%22Amazing+Structure+inside+the+Fort+of+Attur%22.JPG%7CFile%3A%22Amazing+cave+temple+for+Siva%22.JPG%7CFile%3A%22Dolmens+and+Urns+of+Sengalur+1%22.JPG%7CFile%3A%22Rock+Cut+Siva+Cave+Temple%22.JPG%7CFile%3A%22Tower+of+Uttamanathaswamy+Temple%22.JPG%7CFile%3A001+Government+Museum%2C+Madurai+2022+August+13.jpg%7CFile%3A1956+Plymouth+Plaza%2C+Gedee+Car+Museum%2C+Coimbatore%2C+IND+%281%29.jpg%7CFile%3A7th+century+Mandagapattu+Trimurti+Hindu+temple%2C+rock+cut+cave+with+Sanskrit+inscription%2C+overview.jpg%7CFile%3A7th+century+Sri+Kailashnathar+Temple+Kanchipuram+Tamil+Nadu+India+01+%2813%29.jpg%7CFile%3A7th+century+Thalavanur+rock+cut+Shatrumalleswaram+temple%2C+Tamil+Nadu+entrance+2.jpg%7CFile%3A7th+century+rock+cut+Shiva+Lakulisa+Ganesha+Idaichchi+Mandapam+temple+Arittapatti+Madurai+India.jpg%7CFile%3AA+depiction+of+signboard+of+Government+Museum+in+Salem.JPG%7CFile%3AAdjoining+Building+To+The+Masjid+And+Two+Ponds%2C+Arcot+Fort.jpg%7CFile%3AAesthetic+Sikkanathaswamy+Temple+at+Kudumianmalai.JPG%7CFile%3AAlagarmalai+Cavern+With+Panchapandava+Beds+Hill.JPG%7CFile%3AAmman+Shrine+2012-09-16+01-57-32.jpg%7CFile%3AAncient+Burial+Site.JPG%7CFile%3AAnna+science+centre.jpg%7CFile%3AArchaeological+Survey+of+India+information+about+the+temple1.JPG%7CFile%3ABhaktavatsala+Temple+-+7.JPG%7CFile%3ABhima+Ratha+%28Five+Rathas%29%2C+Mahabalipuram.jpg%7CFile%3ABig+Cannon.jpg%7CFile%3ABrammadesam+0326.JPG%7CFile%3ABrick+work+of+Alampara+fort+ruins.jpg%7CFile%3ABritish+Tombs%2C+Ottapidaram+01.jpg%7CFile%3ABritish+Tombs%2C+Panchalankurichi+07.jpg%7CFile%3ABuddisht+Monastery+ruins%2C+Poompuhar.jpg%7CFile%3AChaplins+house.jpg%7CFile%3AChennai+National+Art+Gallery.jpg%7CFile%3AChennarayaperumaltemple.jpg%7CFile%3AChurch+-+N-TN-C191+-+006.jpg%7CFile%3ACinqRathaDharmaraja+%287%29.jpg%7CFile%3AClive+house1.jpg%7CFile%3AClosure+view+of+Inscription%2C+Sholinghur.jpg%7CFile%3ADarasuram%2C+Airavatesvara+Temple%2C+Dravidian+architecture%2C+India.jpg%7CFile%3ADelhi+gate+-+river+side+view.jpg%7CFile%3ADescent+of+the+Ganges+01.jpg%7CFile%3ADharmaraja%E2%80%99s+Rock-cut+Throne+03.jpg%7CFile%3ADilapidated+Structure+-1+%2C+Tip+Sultan+Fort%2C+Rayakottai%2C+Tamilnadu%2C+India.JPG%7CFile%3ADolmens%2C+Machur+02.jpg%7CFile%3ADolmens%2C+Vilpatti+10.jpg%7CFile%3ADolotsava+Mantapa.jpg%7CFile%3ADraupathi%27s+bath.jpg%7CFile%3ADutch+Fort+Sadras.JPG%7CFile%3AEnnayiram+temple1.JPG",
+      "method": "GET",
+      "requestBody": null,
+      "querySha256": "31b66362342bb3c6d2f746600881d43fd05972e1e5e0ece4570c95b89289c572",
+      "fetchedAt": "2026-10-30T08:14:49.366Z",
+      "status": 200,
+      "bodySha256": "2837e80d991f6e53df0e06a9ac27139bdc978177ac9b57b0264a9d269316a412",
+      "error": null
+    },
+    {
+      "source": "commons",
+      "name": "batch-002",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=640&iiextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit&format=json&titles=File%3AEntrance%2C+Thirunanthikarai+rock-cut+cave+temple%2C+Kanyakumari+district+-+third+version.jpg%7CFile%3AErukkampattu+Ranganathar+Temple-2.jpg%7CFile%3AFort+Dansborg.JPG%7CFile%3AFort+Museum%2C+Chennai%2C+an+ASI+protected+heritage+site+01.jpg%7CFile%3AFort+gateway+N-TN-C194+trichy.jpg%7CFile%3AFort+of+thirumayam.jpg%7CFile%3AGRANARY.jpg%7CFile%3AGandhi+museum%2C+Madurai.jpg%7CFile%3AGanesha+Ratha+Mahabalipuram+Sep22+A7C+02582.jpg%7CFile%3AGangaikonda+Cholapuram+view.jpg%7CFile%3AGangaikondacholapuram+Temple+4.jpg%7CFile%3AGiant-squirrel.jpg%7CFile%3AGingee+2010+DSC05871+2+3Compressor+%285032339386%29.jpg%7CFile%3AGingee+Fort+panorama.jpg%7CFile%3AGingee+fort-kalyana+mandabam.JPG%7CFile%3AGingeeFort-Rajagiri.jpg%7CFile%3AGrass+Hills+National+Park.jpg%7CFile%3AGrave+of+Vikrama+Raja+Singa+and+Consort%2C+Vellore.jpg%7CFile%3AIndia+Tamil+Nadu+Mahendravadi+near+Kanchipuram.JPG%7CFile%3AIravadhisvarar+Temple+Kanchipuram.jpg%7CFile%3AJain+Sculpture+close+to+Sittanavasal%2CIndia.jpg%7CFile%3AJain+Sculptures%2C+Jain+Cave%2C+Vallimalai.jpg%7CFile%3AJain+Temple+Site4.JPG%7CFile%3AJain+Tirthankara+Ayyanar+And+Devi+Idols+of+Marudur.JPG%7CFile%3AJain+Tirthankara+Image+Seated+On+Apedestal+To+The+East+Of+The+Bund.jpg%7CFile%3AJain+carvings%2C+Samanar+Hills%2C+near+Madurai.jpg%7CFile%3AJain+statue+called+Paluppar+%286%29.jpg%7CFile%3AJain+temple%2C+Mettupudur+-+Front.jpg%7CFile%3AJalakandeswari+Temple+Vellore%2C+Tamil+Nadu.jpg%7CFile%3AJustAnbu.jpg%7CFile%3AKabilar+Kundru1.JPG%7CFile%3AKalakkad+Mundanthurai.jpg%7CFile%3AKali+Kalinga+sculptures+%E2%80%93+Chengamedu+11.jpg%7CFile%3AKambar-Medu+%287%29.jpg%7CFile%3AKandamangalam+Thirunareeswarar+Temple.jpg%7CFile%3AKanja+Sahib+Tomb%2C+Sholingar.jpg%7CFile%3AKarupanan+jain+scupture.jpg%7CFile%3AKeelmavilangai+Pallava+Rock+Cut+Temple.jpg%7CFile%3AKistnaghurry.jpg%7CFile%3AKizhavalavu+%28Kilavalavu%29+-Jain+Sculptures.JPG%7CFile%3AKodumbalur+Nandhi.jpg%7CFile%3AKrishna+Butterball+Below+Mahabalipuram+Sep22+A7C+02490.jpg%7CFile%3AKrishna+Mandapa+Exterior+NE+Mahabalipuram+Sep22+A7C+02520.jpg%7CFile%3AKuranganathar+temple+-+%28B%29old+%281567726262%29.jpg%7CFile%3AKuranganilmuttam+01.jpg%7CFile%3ALe+temple+de+Brihadishwara+%28Tanjore%2C+Inde%29+%2814354574611%29.jpg%7CFile%3AMANORA+01.JPG%7CFile%3AMadras+museum+theatre+in+October+2007.jpg%7CFile%3AMahabalipuram+P+Pandava+1.jpg%7CFile%3AMahishasura+Mardini+Rock.jpg",
+      "method": "GET",
+      "requestBody": null,
+      "querySha256": "2d73828c91db9aef42acc1b79f4f1c1342df41404916a9dca0636f6dd0c0df0d",
+      "fetchedAt": "2026-10-30T08:14:51.207Z",
+      "status": 200,
+      "bodySha256": "ed0ab52fb0155b3a516cfaa9768bedb72922e917bcd6e0183c143185df0186a6",
+      "error": null
+    },
+    {
+      "source": "commons",
+      "name": "batch-003",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=640&iiextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit&format=json&titles=File%3AMaligaimedu+Chola+Palace+-+Excavation+Site-Museum-WUS02457.jpg%7CFile%3AMamallapuram+104.jpg%7CFile%3AMamallapuram.jpg%7CFile%3AMamandur+cave+tempe.jpg%7CFile%3AMandapakkadu-Kaadukuttai-Chettipalayam-Coimbatore-TN-India.jpg%7CFile%3AMatangesvara+Temple.JPG%7CFile%3AMoovar+koil.jpg%7CFile%3AMuktheeswarer+temple+01.jpg%7CFile%3AMuruganathasvami+Temple+gopuras+11.jpg%7CFile%3AN-TN-C+216+Konar+Temple-Tirumalpur+-Vellore.jpg%7CFile%3AN-TN-C+224+Patalisvara+Temple-+Brahmadesam.jpg%7CFile%3AN-TN-C108+Chittur+Tiruvagnisvara+Temple+Pudukkottai.jpg%7CFile%3AN-TN-C109+Closer+view+Devaramalai+Pudukkottai.jpg%7CFile%3AN-TN-C116+Kannanur+Pudukkottai.jpg%7CFile%3AN-TN-C119+Muchukundesvara+Temple-Kodumbalur.jpg%7CFile%3AN-TN-C125+Natural+Cavern+with+Drip+Line+On+the+Western+Side+Kudumiyanmalai.jpg%7CFile%3AN-TN-C126+Musical+Inscription+Kudumiyanmalai.jpg%7CFile%3AN-TN-C127+Rock+cut+shrine+Melakkoil+mandaba+Kudumiyanmalai.jpg%7CFile%3AN-TN-C130+Kulathur+ruined+Siva+temple.jpg%7CFile%3AN-TN-C136+Two+rock+cut+shrine+on+the+eastern+and+southern+slopes+of+the+hill%2CMalaiyakoil.jpg%7CFile%3AN-TN-C147+View+of+Amman%2Cmelaikadmbar%2Csiva.jpg%7CFile%3AN-TN-C148+Rockcut+Siva+shrine.jpg%7CFile%3AN-TN-C152+Valarmadisvara+Nirpalani.jpg%7CFile%3AN-TN-C153+Panangudi+Siva+Temple+Front+View.jpg%7CFile%3AN-TN-C155+Rajendracholisvara+Ponamaravathi.jpg%7CFile%3AN-TN-C158+Rockcut+Shrine+of+Pushpavanesvarar+Puvalakkudi.jpg%7CFile%3AN-TN-C164+Bhumisvara+Temple+Sevalur.jpg%7CFile%3AN-TN-C171+Thirukattalai+2.jpg%7CFile%3AN-TN-C172+Rock+cut+siva+Sathyagirisvarar+Tirumayam.jpg%7CFile%3AN-TN-C173+Rock+cut+Vishnu+Ranganahar+sathyamurthy+Tirumayam.jpg%7CFile%3AN-TN-C175+Tiruppur+Cholisvaramudaiyar.jpg%7CFile%3AN-TN-C180+Siva+temple+Varpet+Enadikulam.jpg%7CFile%3AN-TN-C201+Large+Unfinished+cave+2Narasamangalam.jpg%7CFile%3AN-TN-C222+Rock%2Csculpture%2Ccaves+at+Vilapakkam.jpg%7CFile%3AN-TN-C234+Kilmavilangai+Villupuram.jpg%7CFile%3AN-TN-C237+Talagirisvarar+Temple-Panamalai.jpg%7CFile%3AN-TN-C28+Piravatanesvara+temple-Kanchipuram.jpg%7CFile%3AN-TN-C33+Arjuna%27s+Ratha.jpg%7CFile%3AN-TN-C40+Seven+Pidaris.jpg%7CFile%3AN-TN-C47+Mahishasuramardini+rock.jpg%7CFile%3AN-TN-C64.jpg%7CFile%3AN-TN-T8+Rock+cut+cave+1+Thirumalapuram.jpg%7CFile%3ANMR+up+train+at+Kateri+Road+05-02-28+04.jpeg%7CFile%3ANaikolli+Mala+near+Anamudi.jpg%7CFile%3ANamakkal+Fort+%283%29.jpg%7CFile%3ANehanurpatti+Tamil+Brahmi+inscription.JPG%7CFile%3ANiltahr.jpg%7CFile%3AOlakkanesvara+Temple.jpg%7CFile%3AOuter+view+of+the+fort.jpg%7CFile%3APadmanabhapuram+Clock+Tower.jpg",
+      "method": "GET",
+      "requestBody": null,
+      "querySha256": "bdb8cc5273b5993b2213b08316e08ca1062d4c05476d875127d2313eb3785042",
+      "fetchedAt": "2026-10-30T08:14:54.015Z",
+      "status": 200,
+      "bodySha256": "3c6b065d3e4a4d2e99d60aa743c2e1100c51110057a208fb29a79bfa6d38f1a1",
+      "error": null
+    },
+    {
+      "source": "commons",
+      "name": "batch-004",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=640&iiextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit&format=json&titles=File%3APancha+Ratha-3.JPG%7CFile%3AParthasarathy+Temple%2C+Parthivapuram.+Kanyakumari%2C+Tamil+Nadu+-+5.jpg%7CFile%3APaththuthungal.jpg%7CFile%3APattabhirama+Temple+12+Pillared+Mandapam.jpg%7CFile%3APeriyar+Science+and+Technology+Centre+and+Birla+Planetarium%2C+Chennai+46.jpg%7CFile%3APoola+Udaiyar+Incriptions+03.jpg%7CFile%3APrehistoric+Burial+Site+%28Known+as+Kurangapattarai%29+10.JPG%7CFile%3APrehistoric+site+known+as+pandava+graves+01.jpg%7CFile%3APulicat-India-Dutch-Cemetery-2.JPG%7CFile%3ARanjankudi+Fort-Perambalur+district-Tamil+Nadu.jpg%7CFile%3ARayagopuram+%28Unfinished%29+-+1.jpg%7CFile%3ARemains+of+Kattabomman+Fort+03.jpg%7CFile%3ARock+Fort+Temple.jpg%7CFile%3ARock+fort+lower+cave+temple.jpg%7CFile%3ARock+memorial+of+Vivekananda.jpg%7CFile%3ARock-Cut+Siva+Temple%2C+Kundrakudi.jpg%7CFile%3ARock-Cut+Vishnu+Shrine.jpg%7CFile%3ARoyal+Palace%2C+Thanjavur%2C+16th+cent+and+later+%284%29+%2837240234760%29.jpg%7CFile%3AS-TN-23+Thirumalai+Naicker+Palace+Madurai+1.jpg%7CFile%3AS-TN-43+Vadavaayilsrikoyil+Cholisvaram+at+erattaikoyil.jpg%7CFile%3AS-TN-48+Sadayar+Koil+Thanjavur.jpg%7CFile%3AS-TN-55+Pachil+Amaleeswarar+Gopurapatti+Trichy.jpg%7CFile%3AS-TN-56+Agastheesvarar+Perungudi+Trichy.jpg%7CFile%3AS-TN-58+Kailayamudaiyar+Cholamadevi+Trichy.jpg%7CFile%3AS-TN-80+Tirumoolanathar+Perangiyur+Villupuram.jpg%7CFile%3AS-TN-C27+Ladan+koil+Kanthan+cave.jpg%7CFile%3ASWASTIKA+WELL.JPG%7CFile%3ASadras+fort+cemetery1.JPG%7CFile%3ASangagiri+hill+3.jpg%7CFile%3ASeeyamangalam+rock+cut+jain+temple.JPG%7CFile%3ASitannav%C3%A0sal+02.jpg%7CFile%3ASittanavasal+jain+bed+1.jpg%7CFile%3ASiva+temple%2C+Melpadi+%283%29.jpg%7CFile%3ASivaganga+Little+Fort.jpg%7CFile%3ASomanathaswamy+temple%2C+Melpadi+%2813%29.jpg%7CFile%3ASt+Mary%27s+Church+Chennai.jpg%7CFile%3ASt-George-Fort-Madras-7.JPG%7CFile%3ASugrisvara+Temple+2.jpg%7CFile%3AThayyar+sannadhi.jpg%7CFile%3AThe+Cannon%2C+Arcot+Fort.jpg%7CFile%3AThekke+Kottaram+Heritage+Museum+Mar24+A7C+10164.jpg%7CFile%3AThenupureeswarar+koil+front+view.jpg%7CFile%3AThirumalai+Nayakkar+Mahal%2C+Srivilliputhur+02.jpg%7CFile%3AThiruparankundram+Umai+Andar+Cave+Temple.jpg%7CFile%3AThiruvaleeswarar+Temple+27.jpg%7CFile%3AThiruvidanthai8.JPG%7CFile%3ATiger-Headed+Rock+Cut+Temple+%282%29.jpg%7CFile%3ATirumalai+Jain+temple+hill.JPG%7CFile%3ATiruparuthikundram+%2815%29.jpg%7CFile%3ATiruverumbur6.jpg",
+      "method": "GET",
+      "requestBody": null,
+      "querySha256": "6c72ce6e6c44e6705861434d3580fa49ea605148eadc64c164068b169ab6d18e",
+      "fetchedAt": "2026-10-30T08:14:55.985Z",
+      "status": 200,
+      "bodySha256": "9536e685e9d45b9d5e4ccafa04cae9a79f03d8ce69c711a4118117497c8cec2a",
+      "error": null
+    },
+    {
+      "source": "commons",
+      "name": "batch-005",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=640&iiextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit&format=json&titles=File%3ATown+Gateway+of+the+dutch+settlement+at+Tharangambadi+or+Tranquebar+in+the+Nagapattinam+district+of+Tamil+Nadu+in+India.JPG%7CFile%3ATranquebarmaritimemuseum1.jpg%7CFile%3AUPPER+CAVE+%2C+ROCKFORT%2C+TRICHY.jpg%7CFile%3AUttamadanisvara+Temple+2.jpg%7CFile%3AVaikunta+Perumal+temple+Kanchipuram+%2826%29.jpg%7CFile%3AVaikunta+Perumal%2C+Uthiramerur1.JPG%7CFile%3AVallimalai+murugan+temple+%285%29.jpg%7CFile%3AVandavasi+Fort.jpg%7CFile%3AVatta+zhutthu+tamil+2ndBC+karadikal+madurai+tamil.jpg%7CFile%3AVattakottai+Fort+kanyakumari+11.jpg%7CFile%3AVeerakudi+jain.jpg%7CFile%3AVellore+Fort+and+Jalakandeswarar+temple+%2810%29.jpg%7CFile%3AVenkataraman+Temple%2C+Gingee.jpg%7CFile%3AVettuvan+Koil.JPG%7CFile%3AVijayalayacholisvaram+And+The+Group+Of+Sub-Shrines.jpg%7CFile%3AVirupakshi+Cuha+%26+Skandashram+And+Path+Leading+From+Ramnasharam4.jpg%7CFile%3AVivekanandar+Illam.jpg%7CFile%3A%E0%AE%95%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B2%E0%AF%8D+2.jpg%7CFile%3A%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B0%E0%AF%88+%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%B0%E0%AF%8D+%E0%AE%AA%E0%AE%BE%E0%AE%A4%E0%AE%AE%E0%AF%8D.JPG%7CFile%3A%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%AE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B2%E0%AE%AE%E0%AF%8D+%E0%AE%95%E0%AF%8B%E0%AE%B5%E0%AE%BF%E0%AE%B2%E0%AF%8D.jpg%7CFile%3A%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AF%81%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%AE%E0%AF%8D+%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88.jpg",
+      "method": "GET",
+      "requestBody": null,
+      "querySha256": "ca22a56547239a80478814b8a35cb867ccf63dc44164d21020d5ba0cf3d560ca",
+      "fetchedAt": "2026-10-30T08:14:57.922Z",
+      "status": 200,
+      "bodySha256": "5ae9110c8e8fc39bbc8069ec5dee22747468febedd9a293c3b63c48fdfdd00a6",
+      "error": null
+    },
+    {
+      "source": "osm-overpass",
+      "name": "sites",
+      "url": "https://overpass-api.de/api/interpreter",
+      "method": "POST",
+      "requestBody": "data=%5Bout%3Ajson%5D%5Btimeout%3A120%5D%3B%0Aarea%5B%22ISO3166-2%22%3D%22IN-TN%22%5D-%3E.searchArea%3B%0A%28%0A++nwr%5B%22historic%22%3D%22fort%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22historic%22%3D%22castle%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22historic%22%3D%22monument%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22historic%22%3D%22archaeological_site%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22historic%22%3D%22ruins%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22historic%22%3D%22temple%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22tourism%22%3D%22museum%22%5D%28area.searchArea%29%3B%0A++nwr%5B%22amenity%22%3D%22place_of_worship%22%5D%5B%22historic%22%5D%5B%22historic%22%21%7E%22%5E%28memorial%7Cboundary_stone%7Cwayside_cross%7Cwayside_shrine%7Cmilestone%29%24%22%5D%28area.searchArea%29%3B%0A%29%3B%0Aout+center+tags%3B%0A",
+      "querySha256": "2ef2920c82becb12b1439637733c096c03079c56c8466421f42cc75f44392967",
+      "fetchedAt": "2026-10-30T08:14:12.597Z",
+      "status": 200,
+      "bodySha256": "b6fbbd621fc1dbac03703ced80da7c43983c57d86186d73ce2df564d8cfb6196",
+      "error": null
+    },
+    {
+      "source": "wikidata",
+      "name": "asi",
+      "url": "https://query.wikidata.org/sparql",
+      "method": "POST",
+      "requestBody": "query=SELECT+%3Fitem+%3FitemLabel+%3Fcoord+%3Fasi+%3Fwhs+%3FdistrictLabel+%3Fimage+%3Finception+%3FinceptionPrecision+%3FheritageLabel+%3FtypeName+%3Fdescription+WHERE+%7B%0A++%3Fitem+wdt%3AP1371+%5B%5D+.%0A++%3Fitem+wdt%3AP131*+wd%3AQ1445+%3B+wdt%3AP625+%3Fcoord+.%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP1371+%3Fasi+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP757+%3Fwhs+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP131+%3Fdistrict+.+%3Fdistrict+wdt%3AP31+wd%3AQ1149652+.+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP18+%3Fimage+%7D%0A++OPTIONAL+%7B%0A++++%3Fitem+p%3AP571+%3FinceptionStatement+.%0A++++%3FinceptionStatement+psv%3AP571+%3FinceptionValue+.%0A++++%3FinceptionValue+wikibase%3AtimeValue+%3Finception+%3B+wikibase%3AtimePrecision+%3FinceptionPrecision+.%0A++++FILTER+NOT+EXISTS+%7B+%3FinceptionStatement+wikibase%3Arank+wikibase%3ADeprecatedRank+%7D%0A++%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP1435+%3Fheritage+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3FtypeName+.+FILTER%28LANG%28%3FtypeName%29+%3D+%22en%22%29+%7D%0A++OPTIONAL+%7B+%3Fitem+schema%3Adescription+%3Fdescription+.+FILTER%28LANG%28%3Fdescription%29+%3D+%22en%22%29+%7D%0A++SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%2Cmul%2Cta%22.+%7D%0A%7D%0A",
+      "querySha256": "21a45aafc6f0c5b47b7ae7bccdf4820c31a5d28960571d0a40db50969c875f20",
+      "fetchedAt": "2026-10-30T08:13:28.994Z",
+      "status": 200,
+      "bodySha256": "0f92177b270e4b318e1c4c9e029ef02dcd1f5a31ee4dc8448c563a64eb919e56",
+      "error": null
+    },
+    {
+      "source": "wikidata",
+      "name": "museums",
+      "url": "https://query.wikidata.org/sparql",
+      "method": "POST",
+      "requestBody": "query=SELECT+%3Fitem+%3FitemLabel+%3Fcoord+%3Fasi+%3Fwhs+%3FdistrictLabel+%3Fimage+%3Finception+%3FinceptionPrecision+%3FheritageLabel+%3FtypeName+%3Fdescription+WHERE+%7B%0A++%3Fitem+wdt%3AP31+wd%3AQ33506+.%0A++%3Fitem+wdt%3AP131*+wd%3AQ1445+%3B+wdt%3AP625+%3Fcoord+.%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP1371+%3Fasi+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP757+%3Fwhs+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP131+%3Fdistrict+.+%3Fdistrict+wdt%3AP31+wd%3AQ1149652+.+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP18+%3Fimage+%7D%0A++OPTIONAL+%7B%0A++++%3Fitem+p%3AP571+%3FinceptionStatement+.%0A++++%3FinceptionStatement+psv%3AP571+%3FinceptionValue+.%0A++++%3FinceptionValue+wikibase%3AtimeValue+%3Finception+%3B+wikibase%3AtimePrecision+%3FinceptionPrecision+.%0A++++FILTER+NOT+EXISTS+%7B+%3FinceptionStatement+wikibase%3Arank+wikibase%3ADeprecatedRank+%7D%0A++%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP1435+%3Fheritage+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3FtypeName+.+FILTER%28LANG%28%3FtypeName%29+%3D+%22en%22%29+%7D%0A++OPTIONAL+%7B+%3Fitem+schema%3Adescription+%3Fdescription+.+FILTER%28LANG%28%3Fdescription%29+%3D+%22en%22%29+%7D%0A++SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%2Cmul%2Cta%22.+%7D%0A%7D%0A",
+      "querySha256": "c4fa58c1cd1cf9f5e95bcfbb8f1ed023c652731a057c2c61b975f80f08c0fb00",
+      "fetchedAt": "2026-10-30T08:13:50.458Z",
+      "status": 200,
+      "bodySha256": "af86d89098dfd0cc677bb557584487dc84e5a5964e246ee1ed0c7abea0d0b4c7",
+      "error": null
+    },
+    {
+      "source": "wikidata",
+      "name": "whs",
+      "url": "https://query.wikidata.org/sparql",
+      "method": "POST",
+      "requestBody": "query=SELECT+%3Fitem+%3FitemLabel+%3Fcoord+%3Fasi+%3Fwhs+%3FdistrictLabel+%3Fimage+%3Finception+%3FinceptionPrecision+%3FheritageLabel+%3FtypeName+%3Fdescription+WHERE+%7B%0A++%3Fitem+wdt%3AP757+%5B%5D+.%0A++%3Fitem+wdt%3AP131*+wd%3AQ1445+%3B+wdt%3AP625+%3Fcoord+.%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP1371+%3Fasi+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP757+%3Fwhs+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP131+%3Fdistrict+.+%3Fdistrict+wdt%3AP31+wd%3AQ1149652+.+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP18+%3Fimage+%7D%0A++OPTIONAL+%7B%0A++++%3Fitem+p%3AP571+%3FinceptionStatement+.%0A++++%3FinceptionStatement+psv%3AP571+%3FinceptionValue+.%0A++++%3FinceptionValue+wikibase%3AtimeValue+%3Finception+%3B+wikibase%3AtimePrecision+%3FinceptionPrecision+.%0A++++FILTER+NOT+EXISTS+%7B+%3FinceptionStatement+wikibase%3Arank+wikibase%3ADeprecatedRank+%7D%0A++%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP1435+%3Fheritage+%7D%0A++OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3FtypeName+.+FILTER%28LANG%28%3FtypeName%29+%3D+%22en%22%29+%7D%0A++OPTIONAL+%7B+%3Fitem+schema%3Adescription+%3Fdescription+.+FILTER%28LANG%28%3Fdescription%29+%3D+%22en%22%29+%7D%0A++SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%2Cmul%2Cta%22.+%7D%0A%7D%0A",
+      "querySha256": "041efb0e910d7bf902e92cff4951568ad9f19b0e4ca479c44bdabe325851b6a4",
+      "fetchedAt": "2026-10-30T08:14:03.580Z",
+      "status": 200,
+      "bodySha256": "45176b52a4de03dcb2ade155f66330c633457f204740bcaf63791562228f8d9d",
+      "error": null
+    }
+  ]
+}

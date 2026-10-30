@@ -1,0 +1,4887 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-30T08:13:20Z",
+    "timestamp_areas_base": "2026-10-30T04:47:07Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 304918810,
+  "lat": 13.0800561,
+  "lon": 80.2628411,
+  "tags": {
+    "historic": "monument",
+    "name": "Annai Maniammai Statue"
+  }
+},
+{
+  "type": "node",
+  "id": 310981471,
+  "lat": 13.0641119,
+  "lon": 80.2837484,
+  "tags": {
+    "artist_name": "Debi Prasad Roy Chowdhury",
+    "historic": "monument",
+    "memorial": "statue",
+    "name": "Triumph of Labour",
+    "name:ml": "അധ്വാനത്തിന്റെ വിജയം",
+    "name:ta": "உழைப்பின் வெற்றி",
+    "start_date": "1959-01-25",
+    "wikidata": "Q7844567",
+    "wikimedia_commons": "Category:Triumph of Labour",
+    "wikipedia": "en:Triumph of Labour"
+  }
+},
+{
+  "type": "node",
+  "id": 315260499,
+  "lat": 13.0348481,
+  "lon": 80.2121781,
+  "tags": {
+    "historic": "monument",
+    "inscription": "Major landmark for Ashok Nagar, named after this Ashoka Pillar",
+    "name": "Ashok Pillar"
+  }
+},
+{
+  "type": "node",
+  "id": 353978517,
+  "lat": 12.6165678,
+  "lon": 80.1918429,
+  "tags": {
+    "historic": "ruins",
+    "name": "Ramanuja Mandapam",
+    "name:ta": "ராமானுஜ மண்டபம்",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 353978523,
+  "lat": 12.6179087,
+  "lon": 80.1926969,
+  "tags": {
+    "historic": "ruins",
+    "name": "Arjuna's Penance",
+    "name:ta": "அர்ச்சுனன் தபசு",
+    "tourism": "attraction",
+    "wikidata": "Q1753664",
+    "wikipedia": "en:Descent of the Ganges (Mahabalipuram)"
+  }
+},
+{
+  "type": "node",
+  "id": 353978532,
+  "lat": 12.6180857,
+  "lon": 80.1922234,
+  "tags": {
+    "historic": "ruins",
+    "name": "Varaha Mandapam / Cave",
+    "name:ta": "மாமல்லபுரம் வராக மண்டபம்",
+    "tourism": "attraction",
+    "wikidata": "Q7915405",
+    "wikipedia": "en:Varaha Cave Temple"
+  }
+},
+{
+  "type": "node",
+  "id": 353978541,
+  "lat": 12.6152265,
+  "lon": 80.1915388,
+  "tags": {
+    "historic": "ruins",
+    "name": "Mahishamadhini Cave",
+    "name:ta": "மகிடாசுரமர்த்தினி மண்டபம்",
+    "tourism": "attraction",
+    "wikidata": "Q24738391",
+    "wikipedia": "en:Mahishasuramardini Mandapa"
+  }
+},
+{
+  "type": "node",
+  "id": 366795457,
+  "lat": 13.0474637,
+  "lon": 80.2395455,
+  "tags": {
+    "name": "காமராஜ் நினைவு வீடு",
+    "name:en": "Kamaraj Memorial House",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 398969025,
+  "lat": 11.5688084,
+  "lon": 76.6872537,
+  "tags": {
+    "historic": "ruins",
+    "name": "Temple"
+  }
+},
+{
+  "type": "node",
+  "id": 518961467,
+  "lat": 9.9298787,
+  "lon": 78.1386083,
+  "tags": {
+    "addr:city": "Madurai",
+    "addr:postcode": "625020",
+    "addr:street": "Tamukkam",
+    "email": "info@gandhimmm.org",
+    "name": "Gandhi Ninaivu Arungatchiyagam",
+    "name:en": "Gandhi Memorial Museum",
+    "name:ml": "ഗാന്ധി സ്മാരക മ്യൂസിയം",
+    "name:ta": "காந்தி நினைவு அருங்காட்சியகம்",
+    "opening_hours": "24/7",
+    "phone": "+91-452-5544 930",
+    "start_date": "1955",
+    "tourism": "museum",
+    "wikidata": "Q5520712",
+    "wikimedia_commons": "Category:Gandhi Museum, Madurai",
+    "wikipedia": "en:Gandhi Memorial Museum, Madurai"
+  }
+},
+{
+  "type": "node",
+  "id": 985508597,
+  "lat": 11.1437074,
+  "lon": 79.8545509,
+  "tags": {
+    "name": "Silappathikara Art Gallery",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1012073321,
+  "lat": 12.8398352,
+  "lon": 79.6960597,
+  "tags": {
+    "addr:street": "SVN Pillai Street",
+    "name": "Kanchi Kudil",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1152517547,
+  "lat": 12.8297761,
+  "lon": 79.7033347,
+  "tags": {
+    "crossing": "traffic_signals",
+    "highway": "traffic_signals",
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 1223934145,
+  "lat": 13.0020541,
+  "lon": 80.2074212,
+  "tags": {
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1282103256,
+  "lat": 13.0416536,
+  "lon": 80.2126953,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 1669711997,
+  "lat": 10.2475835,
+  "lon": 78.7514866,
+  "tags": {
+    "castle_type": "fortress",
+    "historic": "castle",
+    "name": "Thirumayam Fort",
+    "name:ml": "തിരുമയം മലക്കോട്ട",
+    "name:ta": "திருமயம் மலைக்கோட்டை",
+    "wikidata": "Q7785352",
+    "wikimedia_commons": "Category:Thirumayam Fort",
+    "wikipedia": "en:Thirumayam Fort"
+  }
+},
+{
+  "type": "node",
+  "id": 1998113365,
+  "lat": 11.7573412,
+  "lon": 79.7612301,
+  "tags": {
+    "addr:city": "Cuddalore",
+    "addr:postcode": "607001",
+    "name": "Cuddalore Museum",
+    "name:ta": "கடலூர் அருங்காட்சியகம்",
+    "operator": "Cuddalore Municipality",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2152043260,
+  "lat": 8.0788680,
+  "lon": 77.5491035,
+  "tags": {
+    "name": "Kamaraj Mandapam",
+    "name:en": "Kamaraj Mandapam",
+    "name:ta": "காமராஜர் மண்டபம்",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2152043513,
+  "lat": 8.0813017,
+  "lon": 77.5499014,
+  "tags": {
+    "name": "Wandering Monk Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2152354429,
+  "lat": 10.2177198,
+  "lon": 77.4779179,
+  "tags": {
+    "name": "Wax World",
+    "phone": "9944959509",
+    "tourism": "museum",
+    "website": "http://waxworld.in"
+  }
+},
+{
+  "type": "node",
+  "id": 2154074908,
+  "lat": 12.2495903,
+  "lon": 79.3993434,
+  "tags": {
+    "historic": "castle",
+    "name": "Gingee Fort: Rajagiri Fort",
+    "wikidata": "Q3536493",
+    "wikimedia_commons": "Category:Gingee Fort",
+    "wikipedia": "en:Gingee Fort"
+  }
+},
+{
+  "type": "node",
+  "id": 2154131503,
+  "lat": 12.6591317,
+  "lon": 80.2104405,
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "node",
+  "id": 2376662703,
+  "lat": 11.4132290,
+  "lon": 76.6914353,
+  "tags": {
+    "name": "Government Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2390631750,
+  "lat": 12.6611316,
+  "lon": 77.7498748,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 2447138556,
+  "lat": 9.8514691,
+  "lon": 78.4870421,
+  "tags": {
+    "name": "Sivaganga District Museum",
+    "name:ta": "சிவகங்கை மாவட்ட அருங்காட்சியம்",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2859571325,
+  "lat": 10.3889261,
+  "lon": 78.7998193,
+  "tags": {
+    "name": "Government Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 3302175911,
+  "lat": 10.9369511,
+  "lon": 76.9358920,
+  "tags": {
+    "historic": "ruins",
+    "name": "Abandoned House"
+  }
+},
+{
+  "type": "node",
+  "id": 3302181954,
+  "lat": 10.9366041,
+  "lon": 76.9210582,
+  "tags": {
+    "historic": "ruins",
+    "name": "Abandoned House"
+  }
+},
+{
+  "type": "node",
+  "id": 3302183143,
+  "lat": 10.9371202,
+  "lon": 76.9216693,
+  "tags": {
+    "historic": "ruins",
+    "name": "Abandoned House"
+  }
+},
+{
+  "type": "node",
+  "id": 3302241361,
+  "lat": 10.9211595,
+  "lon": 76.9204834,
+  "tags": {
+    "historic": "ruins",
+    "name": "Abandoned House"
+  }
+},
+{
+  "type": "node",
+  "id": 3304645320,
+  "lat": 10.9191124,
+  "lon": 76.9202609,
+  "tags": {
+    "historic": "ruins",
+    "name": "Abandoned House"
+  }
+},
+{
+  "type": "node",
+  "id": 3447500693,
+  "lat": 10.2299031,
+  "lon": 77.4917867,
+  "tags": {
+    "historic": "monument",
+    "name": "Ashoka Pillar"
+  }
+},
+{
+  "type": "node",
+  "id": 3695165434,
+  "lat": 11.4251793,
+  "lon": 76.8733616,
+  "tags": {
+    "historic": "monument",
+    "name": "M. G. Ramachandran Statue"
+  }
+},
+{
+  "type": "node",
+  "id": 3720959173,
+  "lat": 9.8638889,
+  "lon": 78.1883333,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Keezhadi",
+    "name:en": "Keeladi",
+    "postal_code": "630611",
+    "wikidata": "Q6382732",
+    "wikimedia_commons": "Category:Keezhadi",
+    "wikipedia": "en:Keezhadi"
+  }
+},
+{
+  "type": "node",
+  "id": 3725644175,
+  "lat": 11.4131715,
+  "lon": 76.6968956,
+  "tags": {
+    "addr:city": "Ooty",
+    "addr:housenumber": "176/A",
+    "addr:postcode": "643001",
+    "addr:street": "Club Road",
+    "name": "தேனீ அருங்காட்சியகம், ஊட்டி",
+    "name:en": "Bee Museum",
+    "operator": "Last Forest Enterprises",
+    "phone": "+91 423 244 1340",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 3819750016,
+  "lat": 11.0270198,
+  "lon": 79.8518709,
+  "tags": {
+    "historic": "fort",
+    "name": "Denmark Bastion",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3972810391,
+  "lat": 10.7786649,
+  "lon": 79.6338998,
+  "tags": {
+    "historic": "monument",
+    "name": "St. Thyagaraja's birthplace"
+  }
+},
+{
+  "type": "node",
+  "id": 3972810520,
+  "lat": 10.7786125,
+  "lon": 79.6326682,
+  "tags": {
+    "historic": "monument",
+    "name": "St. Muthuswami Dikshitar's birthplace"
+  }
+},
+{
+  "type": "node",
+  "id": 4121381964,
+  "lat": 12.6094296,
+  "lon": 80.1876686,
+  "tags": {
+    "name": "India Seashell Museum",
+    "opening_hours": "Mo-Su 08:00-08:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4283061863,
+  "lat": 10.4548539,
+  "lon": 78.7248312,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Sittanavasal Cave",
+    "name:ta": "சித்தன்னவாசல் குகை",
+    "natural": "cave_entrance",
+    "wikidata": "Q7532018",
+    "wikimedia_commons": "Category:Sittanavasal Cave",
+    "wikipedia": "en:Sittanavasal Cave"
+  }
+},
+{
+  "type": "node",
+  "id": 4299433690,
+  "lat": 11.6757518,
+  "lon": 78.1279485,
+  "tags": {
+    "historic": "monument",
+    "name": "AVR Roundabout "
+  }
+},
+{
+  "type": "node",
+  "id": 4302953996,
+  "lat": 11.6674670,
+  "lon": 78.1244306,
+  "tags": {
+    "historic": "monument",
+    "name": "ThiruvaGoundanur Roundabout "
+  }
+},
+{
+  "type": "node",
+  "id": 4305372689,
+  "lat": 11.6602549,
+  "lon": 78.1894690,
+  "tags": {
+    "historic": "monument",
+    "name": "Military Road Roundabout "
+  }
+},
+{
+  "type": "node",
+  "id": 4411851896,
+  "lat": 13.0260704,
+  "lon": 80.1832118,
+  "tags": {
+    "historic": "monument",
+    "name:en": "annai therasa idol"
+  }
+},
+{
+  "type": "node",
+  "id": 4439102110,
+  "lat": 9.9031979,
+  "lon": 78.2518272,
+  "tags": {
+    "amenity": "place_of_worship",
+    "historic": "yes",
+    "name": "Asthagrisvara temple",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "node",
+  "id": 4439102111,
+  "lat": 9.9633692,
+  "lon": 78.1867560,
+  "tags": {
+    "archaeological_site": "petroglyph",
+    "historic": "archaeological_site",
+    "name": "Jain sculptures & Jain Monks rock shelter"
+  }
+},
+{
+  "type": "node",
+  "id": 4439102112,
+  "lat": 9.9659432,
+  "lon": 78.1888581,
+  "tags": {
+    "amenity": "place_of_worship",
+    "historic": "yes",
+    "name": "Laden Temple",
+    "natural": "cave_entrance",
+    "religion": "hindu",
+    "url": "http://www.tnarch.gov.in/cons/temple/temple29.htm"
+  }
+},
+{
+  "type": "node",
+  "id": 4439102114,
+  "lat": 9.9030661,
+  "lon": 78.2535974,
+  "tags": {
+    "amenity": "place_of_worship",
+    "historic": "yes",
+    "name": "Subramaniam temple",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "node",
+  "id": 4439102115,
+  "lat": 9.9038237,
+  "lon": 78.2541325,
+  "tags": {
+    "amenity": "place_of_worship",
+    "historic": "yes",
+    "name": "Udayagirisvarar Temple",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "node",
+  "id": 4522411389,
+  "lat": 12.2392901,
+  "lon": 79.0610014,
+  "tags": {
+    "historic": "monument",
+    "name:en": "Shiva cave"
+  }
+},
+{
+  "type": "node",
+  "id": 4623137089,
+  "lat": 13.1122709,
+  "lon": 80.2378269,
+  "tags": {
+    "historic": "monument",
+    "name": "காந்தி சிலை",
+    "name:en": "Gandhi Statue"
+  }
+},
+{
+  "type": "node",
+  "id": 4679970589,
+  "lat": 8.0791814,
+  "lon": 77.5480562,
+  "tags": {
+    "name:en": "Aqua World",
+    "opening_hours": "Mo-Su 06:30-21:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4691858189,
+  "lat": 13.1004324,
+  "lon": 80.2087325,
+  "tags": {
+    "addr:postcode": "600038",
+    "addr:street": "New Avadi Road",
+    "name": "Chennai Railway Museum",
+    "name:ta": "சென்னை ரயில் அருங்காட்சியகம்",
+    "phone": "+91 90031 41003",
+    "tourism": "museum",
+    "wikidata": "Q7309131",
+    "wikimedia_commons": "Category:Regional Railway Museum, Chennai",
+    "wikipedia": "en:Chennai Rail Museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4692047333,
+  "lat": 9.1793795,
+  "lon": 79.4156670,
+  "tags": {
+    "abandoned:railway": "station",
+    "disused:building": "train_station",
+    "end_date": "1964-12-23",
+    "historic": "ruins",
+    "name": "Dhanushkodi",
+    "source": "bing",
+    "wikidata": "Q24088770",
+    "wikipedia": "en:Dhanushkodi railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 4788407923,
+  "lat": 13.1078316,
+  "lon": 80.2912521,
+  "tags": {
+    "historic": "monument",
+    "name:en": "Singaravelar Memorial House"
+  }
+},
+{
+  "type": "node",
+  "id": 4792615751,
+  "lat": 13.0931657,
+  "lon": 80.2564738,
+  "tags": {
+    "historic": "monument",
+    "name": "Kosapet 5 lights"
+  }
+},
+{
+  "type": "node",
+  "id": 4801784602,
+  "lat": 10.6578713,
+  "lon": 78.7429315,
+  "tags": {
+    "historic": "monument",
+    "name": "anna statue"
+  }
+},
+{
+  "type": "node",
+  "id": 4815793437,
+  "lat": 11.0170550,
+  "lon": 76.9458512,
+  "tags": {
+    "addr:city": "Coimbatore",
+    "addr:housenumber": "P.B.No.1061",
+    "addr:postcode": "641002",
+    "addr:street": "Forest Campus, R.S.Puram",
+    "name:en": "Gass Forest Museum",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "tourism": "museum",
+    "wikidata": "Q5526641"
+  }
+},
+{
+  "type": "node",
+  "id": 5091751922,
+  "lat": 12.8001850,
+  "lon": 80.2271011,
+  "tags": {
+    "historic": "monument",
+    "name": "Nandi flame tree planted by A.P.J Abdul Kalam"
+  }
+},
+{
+  "type": "node",
+  "id": 5096042202,
+  "lat": 12.6072495,
+  "lon": 80.1907486,
+  "tags": {
+    "amenity": "place_of_worship",
+    "historic": "heritage",
+    "name": "Vālmīkanāthar",
+    "religion": "hindu",
+    "source": "bing",
+    "source:name": "geonames.nga.mil"
+  }
+},
+{
+  "type": "node",
+  "id": 5234891441,
+  "lat": 11.9366502,
+  "lon": 79.4977273,
+  "tags": {
+    "historic": "monument",
+    "name": "MGR statue"
+  }
+},
+{
+  "type": "node",
+  "id": 5511537906,
+  "lat": 12.6151119,
+  "lon": 80.1922604,
+  "tags": {
+    "historic": "ruins",
+    "name": "Arunjas Penance Model",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5517871828,
+  "lat": 12.6147635,
+  "lon": 80.1916985,
+  "tags": {
+    "historic": "ruins",
+    "name": "Dharmaraja Mandapam",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5517872608,
+  "lat": 12.6197938,
+  "lon": 80.1926528,
+  "tags": {
+    "historic": "ruins",
+    "name": "Tirmurthy Cave",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5517872748,
+  "lat": 12.6197470,
+  "lon": 80.1922279,
+  "tags": {
+    "historic": "ruins",
+    "name": "Kodikal Mandapam",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5517872769,
+  "lat": 12.6185549,
+  "lon": 80.1913387,
+  "tags": {
+    "historic": "ruins",
+    "name": "Five Celled Rock Cave",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5517874190,
+  "lat": 12.6186059,
+  "lon": 80.1913696,
+  "tags": {
+    "historic": "ruins",
+    "name": "Keneri Mandapam",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5517879855,
+  "lat": 12.6162423,
+  "lon": 80.1922604,
+  "tags": {
+    "name": "Maritime Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5518300719,
+  "lat": 12.6165109,
+  "lon": 80.1922643,
+  "tags": {
+    "name": "Lighthouse Heritage Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5625813433,
+  "lat": 13.1055919,
+  "lon": 80.2079346,
+  "tags": {
+    "addr:street": "South Mada Street, Villivakkam, Chennai",
+    "historic": "monument",
+    "name": "Ambedkar Statue"
+  }
+},
+{
+  "type": "node",
+  "id": 5679713257,
+  "lat": 12.6176455,
+  "lon": 80.1926301,
+  "tags": {
+    "historic": "ruins",
+    "name": "Panchapandava Mandapam",
+    "name:ta": "பஞ்சபாண்டவ மண்டபம்",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5685948849,
+  "lat": 12.6149240,
+  "lon": 80.1916726,
+  "tags": {
+    "historic": "ruins",
+    "name": "Olakkannesvara Temple",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6027054256,
+  "lat": 10.9779753,
+  "lon": 76.7360027,
+  "tags": {
+    "historic": "monument",
+    "name": "Nandi"
+  }
+},
+{
+  "type": "node",
+  "id": 6126092460,
+  "lat": 10.6654898,
+  "lon": 78.8252767,
+  "tags": {
+    "historic": "ruins",
+    "name": "Jain Monument",
+    "operator": "Madurai Jain Heritage center"
+  }
+},
+{
+  "type": "node",
+  "id": 6126093129,
+  "lat": 10.6627858,
+  "lon": 78.8166678,
+  "tags": {
+    "description": "1st RajaRajaChola period sculpture",
+    "historic": "ruins",
+    "name": "Jain temple ruins",
+    "operator": "Madurai Jain Heritage center"
+  }
+},
+{
+  "type": "node",
+  "id": 6160955385,
+  "lat": 9.5832252,
+  "lon": 77.9619181,
+  "tags": {
+    "building": "yes",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 6227534406,
+  "lat": 10.2016191,
+  "lon": 78.8986582,
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "node",
+  "id": 6367890928,
+  "lat": 12.5358100,
+  "lon": 78.2525950,
+  "tags": {
+    "historic": "castle",
+    "name:en": "Sri Devaraj Marriage Hall"
+  }
+},
+{
+  "type": "node",
+  "id": 7100854585,
+  "lat": 9.9303356,
+  "lon": 78.1387190,
+  "tags": {
+    "museum": "history",
+    "name": "Arasu Arungatchiyagam - Madurai",
+    "name:en": "Government Museum - Madurai",
+    "name:ta": "அரசு அருங்காட்சியகம் - மதுரை",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 7372276671,
+  "lat": 10.2983633,
+  "lon": 77.5134762,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "dolmen"
+  }
+},
+{
+  "type": "node",
+  "id": 7372276672,
+  "lat": 10.2983679,
+  "lon": 77.5135539,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "dolmen"
+  }
+},
+{
+  "type": "node",
+  "id": 7379623436,
+  "lat": 10.2836750,
+  "lon": 77.5303084,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "dolmen"
+  }
+},
+{
+  "type": "node",
+  "id": 7379623437,
+  "lat": 10.2837079,
+  "lon": 77.5303097,
+  "tags": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "dolmen"
+  }
+},
+{
+  "type": "node",
+  "id": 7686583985,
+  "lat": 12.0194274,
+  "lon": 79.6556698,
+  "tags": {
+    "historic": "monument",
+    "name": "National Fossil Wood Park, Tiruvakkarai",
+    "wikidata": "Q6972778",
+    "wikimedia_commons": "Category:National Fossil Wood Park, Tiruvakkarai",
+    "wikipedia": "en:National Fossil Wood Park, Tiruvakkarai"
+  }
+},
+{
+  "type": "node",
+  "id": 7689382152,
+  "lat": 11.4792256,
+  "lon": 77.8639376,
+  "tags": {
+    "historic": "fort",
+    "name": "Sankagiri Fort",
+    "wikidata": "Q471838",
+    "wikipedia": "en:Sankagiri Fort"
+  }
+},
+{
+  "type": "node",
+  "id": 8827381920,
+  "lat": 13.0332048,
+  "lon": 80.2787726,
+  "tags": {
+    "historic": "monument",
+    "name": "St. Thomas Pole"
+  }
+},
+{
+  "type": "node",
+  "id": 9577070883,
+  "lat": 9.1503827,
+  "lon": 79.4491322,
+  "tags": {
+    "access": "yes",
+    "addr:country": "IN",
+    "addr:district": "Ramanathapuram",
+    "addr:place": "Dhanushkodi / தனுஷ்கோடி",
+    "addr:state": "Tamil Nadu",
+    "historic": "monument",
+    "name": "அரிச்சல் முனை",
+    "name:en": "Arichal Munai",
+    "name:ta": "அரிச்சல் முனை",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "postal_code": "623526",
+    "source": "data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"
+  }
+},
+{
+  "type": "node",
+  "id": 9591495621,
+  "lat": 10.2322204,
+  "lon": 77.4633504,
+  "tags": {
+    "name": "Kodai Observatory Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 9647962096,
+  "lat": 9.9460330,
+  "lon": 78.0990710,
+  "tags": {
+    "historic": "monument",
+    "name:en": "Stone Chariot"
+  }
+},
+{
+  "type": "node",
+  "id": 9648122356,
+  "lat": 9.9056549,
+  "lon": 78.0986472,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 9789561219,
+  "lat": 13.0666054,
+  "lon": 80.2838024,
+  "tags": {
+    "historic": "monument",
+    "name": "75th Anniversary of Independence Monument"
+  }
+},
+{
+  "type": "node",
+  "id": 9982798055,
+  "lat": 13.0889988,
+  "lon": 80.2899841,
+  "tags": {
+    "historic": "monument",
+    "name": "Esplanade Boundary Marker"
+  }
+},
+{
+  "type": "node",
+  "id": 9982814778,
+  "lat": 13.0431530,
+  "lon": 80.2796808,
+  "tags": {
+    "historic": "monument",
+    "name": "State Emblem Monument"
+  }
+},
+{
+  "type": "node",
+  "id": 9982814779,
+  "lat": 13.0422961,
+  "lon": 80.2791507,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 9992935856,
+  "lat": 12.8353667,
+  "lon": 80.2317522,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 10033772088,
+  "lat": 8.1491769,
+  "lon": 77.3916643,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 10036499280,
+  "lat": 13.0323338,
+  "lon": 80.2431720,
+  "tags": {
+    "historic": "monument",
+    "name": "Alstom Metropolis"
+  }
+},
+{
+  "type": "node",
+  "id": 10235283023,
+  "lat": 13.1305555,
+  "lon": 80.0045579,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 10268822150,
+  "lat": 12.9985702,
+  "lon": 80.1919684,
+  "tags": {
+    "historic": "monument",
+    "name": "T-55",
+    "tank:model": "T-55",
+    "war_memorial": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10313205137,
+  "lat": 13.0734541,
+  "lon": 80.2732181,
+  "tags": {
+    "historic": "monument",
+    "name": "May Day Monument"
+  }
+},
+{
+  "type": "node",
+  "id": 10538425194,
+  "lat": 13.0672252,
+  "lon": 80.2696676,
+  "tags": {
+    "name": "India Post Philatelic Bureau",
+    "name:en": "India Post Philatelic Bureau",
+    "name:ta": "பிலாடெலிக் பீரோ",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 10542956150,
+  "lat": 10.0789583,
+  "lon": 78.7890612,
+  "tags": {
+    "fee": "yes",
+    "name": "Vallal Dr. Alagappar Museum",
+    "opening_hours": "Mo-Fr 16:00-19:30; Sa, Su 10:00-13:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 10575306250,
+  "lat": 13.0193927,
+  "lon": 80.2246204,
+  "tags": {
+    "historic": "monument",
+    "name": "Marmalong Bridge (1728-1966) Monument"
+  }
+},
+{
+  "type": "node",
+  "id": 10604028542,
+  "lat": 13.0804251,
+  "lon": 80.2807380,
+  "tags": {
+    "historic": "monument",
+    "level": "2",
+    "name": "Chennai Zero Mile"
+  }
+},
+{
+  "type": "node",
+  "id": 10761052192,
+  "lat": 12.1076769,
+  "lon": 79.4566412,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Rockcut Art"
+  }
+},
+{
+  "type": "node",
+  "id": 10761072384,
+  "lat": 12.0601311,
+  "lon": 79.3360673,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Goddess"
+  }
+},
+{
+  "type": "node",
+  "id": 10761077949,
+  "lat": 12.0598960,
+  "lon": 79.3360843,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Padhukkai"
+  }
+},
+{
+  "type": "node",
+  "id": 10777257478,
+  "lat": 10.1606025,
+  "lon": 77.2981929,
+  "tags": {
+    "historic": "ruins",
+    "name": "Forest quarters"
+  }
+},
+{
+  "type": "node",
+  "id": 10892539371,
+  "lat": 13.1129905,
+  "lon": 79.7495272,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 10913695286,
+  "lat": 12.9165172,
+  "lon": 79.1323862,
+  "tags": {
+    "historic": "monument",
+    "name": "Victoria Jubilee Memorial Pillar"
+  }
+},
+{
+  "type": "node",
+  "id": 11054268974,
+  "lat": 8.7195536,
+  "lon": 77.4898917,
+  "tags": {
+    "addr:city": "Athalanallur",
+    "addr:district": "Tirunelveli",
+    "addr:postcode": "627426",
+    "name": "Gajendravaradhar Arakkattalai Arungatchiyagam",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11070564360,
+  "lat": 8.9324821,
+  "lon": 77.2720131,
+  "tags": {
+    "name": "Folk Arts Site Museum, Courtallam",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11091213857,
+  "lat": 10.9648896,
+  "lon": 79.3409684,
+  "tags": {
+    "level": "-1",
+    "name": "Museum Of Rajendra Chola",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11468630269,
+  "lat": 11.6228604,
+  "lon": 79.5490863,
+  "tags": {
+    "historic": "monument",
+    "name:en": "Neyveli township arch"
+  }
+},
+{
+  "type": "node",
+  "id": 11477245163,
+  "lat": 13.0448153,
+  "lon": 80.0684665,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11488217582,
+  "lat": 11.3685578,
+  "lon": 76.6625853,
+  "tags": {
+    "name": "Tribal research centre museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11491457872,
+  "lat": 12.9923625,
+  "lon": 80.2616289,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11491541466,
+  "lat": 13.0053941,
+  "lon": 80.1938544,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11491573434,
+  "lat": 13.0127681,
+  "lon": 80.1990246,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11491610136,
+  "lat": 13.0258864,
+  "lon": 80.2304012,
+  "tags": {
+    "historic": "monument",
+    "name": "Fourbeck Bridge (Marmalong Brook Bridge) Monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11492710973,
+  "lat": 13.0456353,
+  "lon": 80.2574632,
+  "tags": {
+    "historic": "monument",
+    "name": "The Nation Remembers"
+  }
+},
+{
+  "type": "node",
+  "id": 11502749862,
+  "lat": 13.1026782,
+  "lon": 80.2761434,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11516606570,
+  "lat": 9.8640085,
+  "lon": 78.1850556,
+  "tags": {
+    "addr:postcode": "630611",
+    "addr:street": "excavation Site, Keeladi, Tamil Nadu 630611",
+    "museum": "archaeological",
+    "name:en": "Keeladi Museum",
+    "name:ta": "கீழடி அருங்காட்சியகம்",
+    "opening_hours": "Mo, We-Fr 10:00-18:00; Sa, Su 10:00-19:00",
+    "phone": "044 2819 0020",
+    "tourism": "museum",
+    "website": "https://www.tnarch.gov.in/",
+    "wikidata": "Q117006024",
+    "wikimedia_commons": "Category:Keezhadi Museum",
+    "wikipedia": "ta:கீழடி அருங்காட்சியகம், கொந்தகை"
+  }
+},
+{
+  "type": "node",
+  "id": 11518547470,
+  "lat": 9.8557579,
+  "lon": 78.1936024,
+  "tags": {
+    "name:en": "Keeladi Archaeological Site",
+    "phone": "1800 4253 1111",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11524374305,
+  "lat": 13.0361919,
+  "lon": 79.8378860,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 12012801136,
+  "lat": 11.3673218,
+  "lon": 76.6635507,
+  "tags": {
+    "name": "Tribal museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 12012857074,
+  "lat": 11.3674184,
+  "lon": 76.6609184,
+  "tags": {
+    "name": "Street to Tribal museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 12078445544,
+  "lat": 10.2784859,
+  "lon": 77.9342101,
+  "tags": {
+    "check_date": "2024-07-28",
+    "name": "Constructive Program Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 12121948117,
+  "lat": 9.4153122,
+  "lon": 78.3752504,
+  "tags": {
+    "historic": "monument",
+    "inscription": "Kamudi Kottai, Kamudi",
+    "name": "Kamudi Kottai"
+  }
+},
+{
+  "type": "node",
+  "id": 12327155402,
+  "lat": 11.0072775,
+  "lon": 76.9780888,
+  "tags": {
+    "name": "GeeDee Car Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 12400402157,
+  "lat": 10.0190397,
+  "lon": 78.2536716,
+  "tags": {
+    "historic": "monument",
+    "name": "Meenakishipuram Mangulam inscription"
+  }
+},
+{
+  "type": "node",
+  "id": 12400413529,
+  "lat": 10.0275525,
+  "lon": 78.2633287,
+  "tags": {
+    "historic": "monument",
+    "name": "Mangulam Tamil inscription"
+  }
+},
+{
+  "type": "node",
+  "id": 12400416120,
+  "lat": 10.0210630,
+  "lon": 78.2555920,
+  "tags": {
+    "historic": "monument",
+    "name": "Thamizhi inscription"
+  }
+},
+{
+  "type": "node",
+  "id": 12400416121,
+  "lat": 10.0267259,
+  "lon": 78.2620508,
+  "tags": {
+    "historic": "monument",
+    "name": "Tamil Brahmi inscriptions"
+  }
+},
+{
+  "type": "node",
+  "id": 12787618884,
+  "lat": 13.0950782,
+  "lon": 79.8116352,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 12787618889,
+  "lat": 13.0952633,
+  "lon": 79.8117811,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 12787619052,
+  "lat": 13.0938508,
+  "lon": 79.8014326,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 12830024797,
+  "lat": 10.9969574,
+  "lon": 76.9683436,
+  "tags": {
+    "name": "Tamil Nadu Police Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 13047656691,
+  "lat": 13.0258776,
+  "lon": 80.2724379,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 13157236508,
+  "lat": 12.8913207,
+  "lon": 79.9154460,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 13239865245,
+  "lat": 8.7296487,
+  "lon": 78.0221341,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 13239865246,
+  "lat": 8.7293981,
+  "lon": 78.0234354,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 13239868370,
+  "lat": 8.7295217,
+  "lon": 78.0227889,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 13272072692,
+  "lat": 12.8995145,
+  "lon": 80.0920683,
+  "tags": {
+    "access": "private",
+    "historic": "monument",
+    "material": "steel",
+    "name": "Mystery of life",
+    "survey:date": "2025-10-31"
+  }
+},
+{
+  "type": "node",
+  "id": 13335406137,
+  "lat": 9.8901427,
+  "lon": 78.0900450,
+  "tags": {
+    "addr:city": "Pudukulam",
+    "addr:district": "Madurai",
+    "addr:postcode": "625003",
+    "addr:street": "Bykara",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Mathavan Dream House 2025( Pearl Palace)",
+    "start_date": "2025-11-27"
+  }
+},
+{
+  "type": "node",
+  "id": 13434210508,
+  "lat": 11.0663812,
+  "lon": 77.0935081,
+  "tags": {
+    "name": "PSG GRD Museum of Science & Technology",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 13592766101,
+  "lat": 12.9907828,
+  "lon": 80.2329210,
+  "tags": {
+    "name": "Heritage Centre",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 13729338544,
+  "lat": 13.0714052,
+  "lon": 80.2573845,
+  "tags": {
+    "name": "Main Building",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 13985755002,
+  "lat": 9.2846960,
+  "lon": 79.3123160,
+  "tags": {
+    "name": "House of Kalam (APJ Abdul Kalam House/Museum)",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 14020771394,
+  "lat": 12.7601570,
+  "lon": 78.6405444,
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Armamalai Caves, Ambur",
+    "name": "Armamalai Caves"
+  }
+},
+{
+  "type": "node",
+  "id": 14310408838,
+  "lat": 11.4117407,
+  "lon": 76.7207951,
+  "tags": {
+    "name": "The Tea Museum",
+    "name:ta": "தேயிலை அருங்காட்சியகம், ஊட்டி",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 14315904586,
+  "lat": 11.4052984,
+  "lon": 76.6963465,
+  "tags": {
+    "name": "Heritage Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 25742025,
+  "center": {
+    "lat": 11.4114357,
+    "lon": 76.7095200
+  },
+  "tags": {
+    "historic": "monument",
+    "leisure": "park",
+    "name": "Periyar Garden"
+  }
+},
+{
+  "type": "way",
+  "id": 49175978,
+  "center": {
+    "lat": 9.9148737,
+    "lon": 78.1238724
+  },
+  "tags": {
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Tirumalai Nayak Palace",
+    "name:ml": "തിരുമലനായ്ക്കൻ കൊട്ടാരം",
+    "name:ta": "திருமலை நாயக்கர் அரண்மனை",
+    "name:zh": "蒂鲁玛莱·纳亚克宫",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q3536592",
+    "wikimedia_commons": "Category:Thirumalai Nayakkar Mahal",
+    "wikipedia": "en:Thirumalai Nayakkar Mahal"
+  }
+},
+{
+  "type": "way",
+  "id": 52060466,
+  "center": {
+    "lat": 10.7916972,
+    "lon": 79.1371573
+  },
+  "tags": {
+    "building": "yes",
+    "fee": "yes",
+    "name:en": "Thanjavur Maratha Palace and Museum",
+    "name:ml": "തഞ്ചാവൂർ മറാത്ത കൊട്ടാരം",
+    "name:ta": "தஞ்சை மராட்டிய அரண்மனை",
+    "tourism": "museum",
+    "wikidata": "Q7710416",
+    "wikimedia_commons": "Category:Thanjavur Maratha Palace",
+    "wikipedia": "en:Thanjavur Maratha Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 91456713,
+  "center": {
+    "lat": 12.2318444,
+    "lon": 79.0668268
+  },
+  "tags": {
+    "addr:full": "Pavazhakundur, Tiruvannamalai, Tamil Nadu 606601",
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "description": "Hindu temples for Lord Shiva with 6 sculpted towers reaching up to 217-feet high & shrines.",
+    "historic": "yes",
+    "name": "Arulmigu Arunachaleswarar Temple",
+    "name:en": "Arunachaleswara Temple",
+    "name:ml": "അരുണാചലേശ്വര ക്ഷേത്രം",
+    "name:ta": "அண்ணாமலையார் கோயில்",
+    "phone": "4175 252 438",
+    "religion": "hindu",
+    "wikidata": "Q3523924",
+    "wikimedia_commons": "Category:Arunchaleshvara Temple",
+    "wikipedia": "en:Arunachalesvara Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 100787187,
+  "center": {
+    "lat": 10.8280999,
+    "lon": 78.6968806
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Tiruchirapalli Rock Fort",
+    "name:ml": "തിരുച്ചിറപ്പള്ളി മലക്കോട്ട",
+    "name:ta": "திருச்சிராப்பள்ளி மலைக்கோட்டை",
+    "natural": "bare_rock",
+    "wikidata": "Q7809304",
+    "wikimedia_commons": "Category:Tiruchirapalli Rock Fort",
+    "wikipedia": "en:Tiruchirappalli Rock Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 103082949,
+  "center": {
+    "lat": 12.6089511,
+    "lon": 80.1895901
+  },
+  "tags": {
+    "barrier": "fence",
+    "heritage": "1",
+    "historic": "archaeological_site",
+    "name": "Pancha Rathas",
+    "name:de": "Fünf Rathas",
+    "name:en": "Five Rathas",
+    "name:hi": "पंच रथ",
+    "name:ta": "மாமல்லபுரம் இரதக் கோயில்கள்",
+    "name:te": "పంచరథాలు",
+    "tourism": "attraction",
+    "wikidata": "Q2445615",
+    "wikipedia": "en:Pancha Rathas"
+  }
+},
+{
+  "type": "way",
+  "id": 103163461,
+  "center": {
+    "lat": 12.6172058,
+    "lon": 80.1917451
+  },
+  "tags": {
+    "barrier": "fence",
+    "historic": "archaeological_site",
+    "leisure": "park",
+    "name": "Group of Monuments - Mahabalipuram",
+    "name:en": "Group of Monuments - Mahabalipuram",
+    "name:hi": "महाबलीपुरम में स्मारकों का समूह",
+    "name:ml": "മഹാബലിപുരം സ്മാരകങ്ങളുടെ കൂട്ടം",
+    "name:ta": "மாமல்லபுர மரபுக்கோயில்கள்"
+  }
+},
+{
+  "type": "way",
+  "id": 103450655,
+  "center": {
+    "lat": 13.4194316,
+    "lon": 80.3164663
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Fort Geldria",
+    "name:ta": "பழவேற்காடு கோட்டை",
+    "wikidata": "Q5471211",
+    "wikimedia_commons": "Category:Fort Geldria",
+    "wikipedia": "en:Fort Geldria"
+  }
+},
+{
+  "type": "way",
+  "id": 115666904,
+  "center": {
+    "lat": 8.0777460,
+    "lon": 77.5540027
+  },
+  "tags": {
+    "building": "yes",
+    "building:colour": "#726e6e",
+    "building:material": "sandstone",
+    "building:part": "yes",
+    "ele": "133",
+    "height": "11.5",
+    "historic": "monument",
+    "name": "திருவள்ளுவர் சிலை",
+    "name:en": "Thiruvalluvar Statue",
+    "name:hi": "तिरुवल्लुवर प्रतिमा",
+    "name:ml": "തിരുവള്ളുവർ പ്രതിമ",
+    "name:ta": "திருவள்ளுவர் சிலை"
+  }
+},
+{
+  "type": "way",
+  "id": 120390896,
+  "center": {
+    "lat": 10.7825788,
+    "lon": 79.1313962
+  },
+  "tags": {
+    "alt_name": "Tanjai Periya Kovil",
+    "alt_name:en": "Big temple",
+    "alt_name:eo": "templo RajaRajeswara",
+    "alt_name:es": "templo RajaRajeswara",
+    "alt_name:fr": "temple de Râjarâjeshvaram",
+    "alt_name:hr": "Rajarajeswaram",
+    "alt_name:id": "Kuil Rajarajeswara",
+    "alt_name:ja": "ラージャラージェーシュヴァラ寺院",
+    "alt_name:ka": "ბრიჰადეესვარარის ტაძარი",
+    "alt_name:kn": "ಬೃಹದೀಶ್ವರ್ ಟೆಂಪಲ್",
+    "alt_name:mai": "बृहदीश्वर मन्दिर",
+    "alt_name:ml": "തിരുവുടയാർ കോവിൽ",
+    "alt_name:new": "बृहदीश्वर",
+    "alt_name:pt": "Peruvudaiyar Koyil",
+    "alt_name:sh": "Rajarajeswaram",
+    "alt_name:ta": "தஞ்சைப் பெரிய கோயில்",
+    "alt_name:zh": "罗阇罗阇希瓦拉神庙",
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "historic": "archaeological_site",
+    "historic:period": "1002",
+    "name": "Brihadeeswara Temple",
+    "name:de": "Brihadishvara-Tempel",
+    "name:en": "Brihadishwara Temple",
+    "name:eo": "templo Brihadisvara",
+    "name:es": "templo Brihadisvara",
+    "name:fr": "temple de Brihadesvara",
+    "name:hi": "बृहदेश्वर मन्दिर",
+    "name:hr": "Brihadishwara",
+    "name:id": "Kuil Brihadiswara",
+    "name:ja": "ブリハディーシュヴァラ寺院",
+    "name:ka": "ბრიჰადეშვარას ტაძარი",
+    "name:kn": "ಬೃಹದೀಶ್ವರ ದೇವಾಲಯ",
+    "name:ko": "브리하디스와라 사원",
+    "name:mai": "बृहदेश्वर मन्दिर",
+    "name:ml": "ബൃഹദീശ്വരക്ഷേത്രം",
+    "name:new": "बृहदेश्वर",
+    "name:nl": "Brihadisvaratempel",
+    "name:nn": "Brihadisjvara-tempelet",
+    "name:or": "ବୃହଦେଶ୍ଵର ମନ୍ଦିର",
+    "name:pt": "templo Brihadeeswarar",
+    "name:ro": "Templul Brihadeeswarar",
+    "name:ru": "Брахадисва́ра",
+    "name:sa": "बृहदीश्वरदेवालयः",
+    "name:sh": "Hram Brihadishwara",
+    "name:sr": "Брихадесварар храм",
+    "name:sv": "Brihadisvaratemplet",
+    "name:ta": "தஞ்சைப் பெருவுடையார் கோயில்",
+    "name:te": "బృహదీశ్వర ఆలయం",
+    "name:uk": "Брахідеешварар",
+    "name:zh": "布里哈迪希瓦拉神庙",
+    "religion": "hindu",
+    "tourism": "attraction",
+    "wheelchair": "no",
+    "wikidata": "Q916943",
+    "wikimedia_commons": "Category:Brihadisvara Temple",
+    "wikipedia": "ta:தஞ்சைப் பெருவுடையார் கோயில்"
+  }
+},
+{
+  "type": "way",
+  "id": 141317287,
+  "center": {
+    "lat": 12.0070368,
+    "lon": 79.8016645
+  },
+  "tags": {
+    "building": "yes",
+    "is_in": "Auroville",
+    "name": "Bharat Nivas",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 154429751,
+  "center": {
+    "lat": 10.1539139,
+    "lon": 78.7267722
+  },
+  "tags": {
+    "building": "haveli",
+    "castle_type": "manor",
+    "check_date": "2024-09-21",
+    "fee": "yes",
+    "name": "Athangudi Palace",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "toilets": "yes",
+    "toilets:menstrual_products": "no",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "wheelchair": "no",
+    "wikidata": "Q82945943",
+    "wikipedia": "en:Attangudi Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 154430603,
+  "center": {
+    "lat": 10.1744172,
+    "lon": 78.7798254
+  },
+  "tags": {
+    "access": "private",
+    "building": "yes",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Kanadukathan Palace",
+    "name:ml": "കാനാടുകാത്താൻ കൊട്ടാരം",
+    "name:ta": "கானாடுகாத்தான் அரண்மனை",
+    "wikidata": "Q82945187",
+    "wikipedia": "en:Kanadukathan Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 157804925,
+  "center": {
+    "lat": 8.1257588,
+    "lon": 77.5652708
+  },
+  "tags": {
+    "barrier": "city_wall",
+    "historic": "fort",
+    "name": "Vattakottai Fort",
+    "name:ml": "വട്ടക്കോട്ട",
+    "name:ta": "வட்டக்கோட்டை",
+    "tourism": "attraction",
+    "wikidata": "Q7917189",
+    "wikipedia": "en:Vattakottai Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 180660930,
+  "center": {
+    "lat": 12.5241538,
+    "lon": 78.2218116
+  },
+  "tags": {
+    "name": "Anna museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 189154729,
+  "center": {
+    "lat": 11.7573516,
+    "lon": 79.7612506
+  },
+  "tags": {
+    "addr:city": "Cuddalore",
+    "addr:postcode": "607001",
+    "name": "Cuddalore Museum",
+    "name:ta": "கடலூர் அருங்காட்சியகம்",
+    "operator": "Cuddalore Municipality",
+    "tourism": "museum",
+    "wikidata": "Q5192483",
+    "wikipedia": "en:Cuddalore Government Museum"
+  }
+},
+{
+  "type": "way",
+  "id": 192303710,
+  "center": {
+    "lat": 12.8229336,
+    "lon": 80.2433524
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hindu House",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 192303712,
+  "center": {
+    "lat": 12.8229790,
+    "lon": 80.2436043
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hindu House",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 192303731,
+  "center": {
+    "lat": 12.8224852,
+    "lon": 80.2434157
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Syrian Christian House",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 208567688,
+  "center": {
+    "lat": 13.0334291,
+    "lon": 80.2686576
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Mylapore Kapaleeshwarar Temple Tank",
+    "name:en": "Mylapore Kapaleeshwarar Temple Tank",
+    "name:hi": "மயிலாப்பூர் கபாலீஸ்வரர் திருக்கோவில் குளம்"
+  }
+},
+{
+  "type": "way",
+  "id": 214698560,
+  "center": {
+    "lat": 13.0752168,
+    "lon": 80.2719575
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "historic": "church",
+    "name": "Zion Church",
+    "religion": "christian",
+    "wikidata": "Q55638257",
+    "wikipedia": "en:Zion Church, Chintadripet"
+  }
+},
+{
+  "type": "way",
+  "id": 253596091,
+  "center": {
+    "lat": 8.0788400,
+    "lon": 77.5497833
+  },
+  "tags": {
+    "museum": "history",
+    "opening_hours": "07:00-19:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 253596094,
+  "center": {
+    "lat": 8.0812550,
+    "lon": 77.5500222
+  },
+  "tags": {
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 253596095,
+  "center": {
+    "lat": 8.0789248,
+    "lon": 77.5491340
+  },
+  "tags": {
+    "name": "Kamarajar memorial",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 256020630,
+  "center": {
+    "lat": 8.2507084,
+    "lon": 77.3270850
+  },
+  "tags": {
+    "name": "Padmanabhapuram Palace",
+    "name:ml": "പത്മനാഭപുരം കൊട്ടാരം",
+    "name:ta": "பத்மனாபபுரம் அரன்மணை",
+    "opening_hours": "Tu-Su 09:00-16:30",
+    "tourism": "museum",
+    "wikidata": "Q3534509",
+    "wikipedia": "en:Padmanabhapuram Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 287693274,
+  "center": {
+    "lat": 9.3712440,
+    "lon": 78.8268577
+  },
+  "tags": {
+    "addr:city": "Ramanathapuram",
+    "building": "yes",
+    "fee": "yes",
+    "name": "Ramalinga Vilasam",
+    "opening_hours": "Mo-Sa 09:00-13:00; Mo-Sa 14:00-17:00",
+    "operator": "Ramalinga Vilasam, Ramnathapuram",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 292493479,
+  "center": {
+    "lat": 11.3476449,
+    "lon": 78.9393510
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Ranjankudi Fort",
+    "wikidata": "Q12066895",
+    "wikipedia": "en:Ranjankudi Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 309221449,
+  "center": {
+    "lat": 11.3726245,
+    "lon": 77.8980789
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "historic": "yes",
+    "name": "Arthanareeswarar Temple",
+    "name:ta": "அர்த்தநாரீஸ்வரர் திருக்கோயில்",
+    "religion": "hindu",
+    "wikidata": "Q12980473",
+    "wikipedia": "en:Ardhanareeswarar Temple, Tiruchengode"
+  }
+},
+{
+  "type": "way",
+  "id": 353396285,
+  "center": {
+    "lat": 8.6261454,
+    "lon": 77.8680732
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Adichanallur Archaeological Site",
+    "name:ml": "ആദിച്ചനല്ലൂർ പുരാവസ്തു സ്ഥലം",
+    "name:ta": "ஆதிச்சநல்லூர் தொல்லியல் களம்",
+    "wikidata": "Q2824397",
+    "wikimedia_commons": "Category:Adichanallur",
+    "wikipedia": "en:Adichanallur"
+  }
+},
+{
+  "type": "way",
+  "id": 354739431,
+  "center": {
+    "lat": 13.0157649,
+    "lon": 80.2692454
+  },
+  "tags": {
+    "access": "private",
+    "building": "yes",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Chettinad House",
+    "name:en": "Chettinad House"
+  }
+},
+{
+  "type": "way",
+  "id": 355095196,
+  "center": {
+    "lat": 13.0739165,
+    "lon": 80.2630147
+  },
+  "tags": {
+    "building": "yes",
+    "museum": "history",
+    "name": "Tamilnadu Police Museum",
+    "opening_hours": "except tuesday",
+    "operator": "Tamilnadu Government",
+    "operator:type": "government",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 355669137,
+  "center": {
+    "lat": 13.0543896,
+    "lon": 80.2755905
+  },
+  "tags": {
+    "building": "yes",
+    "description": "The historic Triplicane (Thiruvallikeni) residence in Chennai where the legendary Tamil poet and freedom fighter Subramania Bharati spent his final years from 1920 until his death in September 1921.",
+    "museum": "history",
+    "name": "Mahakavi Subramania Bharati Memorial",
+    "operator": "Tamil Nadu Government",
+    "operator:type": "government",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 364613094,
+  "center": {
+    "lat": 11.0265045,
+    "lon": 79.8565025
+  },
+  "tags": {
+    "alt_name": "Masilamaninathar Temple;Kulasekarapattinam",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:colour": "#fac78e",
+    "building:levels": "1",
+    "building:material": "stone",
+    "historic": "temple",
+    "name": "Masilamani Nathar Temple",
+    "religion": "hindu",
+    "roof:colour": "#fac78e",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 364613096,
+  "center": {
+    "lat": 11.0256272,
+    "lon": 79.8540300
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:colour": "white",
+    "building:levels": "2",
+    "denomination": "lutheran",
+    "height": "8",
+    "historic": "church",
+    "name": "New Jerusalem Church",
+    "operator": "TELC",
+    "religion": "christian",
+    "roof:angle": "45",
+    "roof:colour": "#a65947",
+    "roof:height": "5",
+    "roof:shape": "gabled",
+    "start_date": "1718",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 364627277,
+  "center": {
+    "lat": 11.0259664,
+    "lon": 79.8545868
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:colour": "#eee7d5",
+    "building:levels": "1",
+    "height": "8",
+    "historic": "church",
+    "name": "Zion Church",
+    "operator": "Church of  South India",
+    "religion": "christian",
+    "roof:colour": "#eee7d5",
+    "roof:levels": "1",
+    "roof:shape": "mansard",
+    "start_date": "1701"
+  }
+},
+{
+  "type": "way",
+  "id": 365524039,
+  "center": {
+    "lat": 11.0269236,
+    "lon": 79.8549332
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Tharangambadi Maritime Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 370135158,
+  "center": {
+    "lat": 12.6164803,
+    "lon": 80.1992347
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "denomination": "shaivism",
+    "historic": "heritage",
+    "name": "Mamallapuram Shore Temple",
+    "name:hi": "महाबलिपुरम के तट मंदिर",
+    "name:ml": "മഹാബലിപുരം കടൽക്കരക്ഷേത്രം",
+    "name:ta": "மாமல்லபுரம் கடற்கரைக் கோயில்",
+    "religion": "hindu",
+    "wikidata": "Q1144279",
+    "wikimedia_commons": "Category:Shore Temple",
+    "wikipedia": "en:Shore Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 378559746,
+  "center": {
+    "lat": 11.0286855,
+    "lon": 79.8527355
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "building:colour": "#e7e7c1",
+    "building:levels": "1",
+    "historic": "mosque",
+    "name": "Tranquebar Mosque",
+    "religion": "muslim",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 378567260,
+  "center": {
+    "lat": 11.0254652,
+    "lon": 79.8568154
+  },
+  "tags": {
+    "building": "ruins",
+    "building:levels": "1",
+    "building:material": "brick",
+    "historic": "ruins",
+    "name": "Danish Harbour Walls"
+  }
+},
+{
+  "type": "way",
+  "id": 379493148,
+  "center": {
+    "lat": 12.9074698,
+    "lon": 79.3377840
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "name": "Delhi Gate",
+    "wikidata": "Q97481253",
+    "wikimedia_commons": "Category:Delhi Gate, Arcot",
+    "wikipedia": "en:Delhi Gate (Vellore)"
+  }
+},
+{
+  "type": "way",
+  "id": 379696345,
+  "center": {
+    "lat": 12.9994247,
+    "lon": 80.2721150
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Kaj Schmidt Memorial",
+    "wikidata": "Q6372233",
+    "wikimedia_commons": "Category:Karl Schmidt Memorial",
+    "wikipedia": "en:Kaj Schmidt Memorial"
+  }
+},
+{
+  "type": "way",
+  "id": 387806929,
+  "center": {
+    "lat": 12.0073699,
+    "lon": 79.8012776
+  },
+  "tags": {
+    "building": "yes",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 390473765,
+  "center": {
+    "lat": 12.6166329,
+    "lon": 80.1991407
+  },
+  "tags": {
+    "archaeological_site": "temple",
+    "barrier": "fence",
+    "heritage": "1",
+    "historic": "archaeological_site",
+    "is_in:town": "Mahabalipuram",
+    "name": "Shore Temple Complex, Mahabalipuram",
+    "name:hi": "महाबलिपुरम के तट मन्दिर",
+    "name:ml": "കടൽക്കര ക്ഷേത്ര സമുച്ചയം, മഹാബലിപുരം",
+    "name:ta": "கடற்கரை கோயில் வளாகம், மகாபலிபுரம்",
+    "tourism": "attraction",
+    "wikidata": "Q1144279",
+    "wikipedia": "en:Shore Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 390485989,
+  "center": {
+    "lat": 12.9225358,
+    "lon": 80.2514915
+  },
+  "tags": {
+    "building": "public",
+    "name": "Modern Art Gallery",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 402592136,
+  "center": {
+    "lat": 11.2226169,
+    "lon": 78.1652032
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Namakkal Rockfort",
+    "name:ta": "நாமக்கல் மலைக்கோட்டை",
+    "tourism": "attraction",
+    "wikidata": "Q15260872",
+    "wikipedia": "en:Namakkal Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 443083327,
+  "center": {
+    "lat": 12.6165066,
+    "lon": 80.1916937
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 446674981,
+  "center": {
+    "lat": 9.9034644,
+    "lon": 78.2528518
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Varichurmalai (Kunnaththur)",
+    "name": "Udayagiriswararkoil"
+  }
+},
+{
+  "type": "way",
+  "id": 446674982,
+  "center": {
+    "lat": 9.9633725,
+    "lon": 78.1867740
+  },
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 446674983,
+  "center": {
+    "lat": 9.8551899,
+    "lon": 78.1946770
+  },
+  "tags": {
+    "archaeological_site": "settlement",
+    "historic": "archaeological_site",
+    "name": "Sangham Period settlement",
+    "url": "http://www.rediff.com/news/report/revisiting-history-a-harappa-in-tamil-nadu/20160614.htm",
+    "wikidata": "Q25551381",
+    "wikimedia_commons": "Category:Keezhadi archeological site",
+    "wikipedia": "en:Keezhadi excavation site"
+  }
+},
+{
+  "type": "way",
+  "id": 460993545,
+  "center": {
+    "lat": 9.1779478,
+    "lon": 79.4178744
+  },
+  "tags": {
+    "access": "yes",
+    "historic": "ruins",
+    "landuse": "residential",
+    "name": "Dhanushkodi",
+    "name:ml": "ധനുഷ്കോടി",
+    "name:ta": "தனுஷ்கோடி",
+    "wikidata": "Q1207562",
+    "wikimedia_commons": "Category:Dhanushkodi",
+    "wikipedia": "en:Dhanushkodi"
+  }
+},
+{
+  "type": "way",
+  "id": 484180640,
+  "center": {
+    "lat": 9.5079335,
+    "lon": 77.6323373
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Thirumalai Nayakkar Mahal"
+  }
+},
+{
+  "type": "way",
+  "id": 496461074,
+  "center": {
+    "lat": 9.9244830,
+    "lon": 78.1232010
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Yaanaikal",
+    "survey:date": "2024-05-20"
+  }
+},
+{
+  "type": "way",
+  "id": 496461076,
+  "center": {
+    "lat": 9.9202504,
+    "lon": 78.1217676
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Nandi Statue",
+    "survey:date": "2023-12-02"
+  }
+},
+{
+  "type": "way",
+  "id": 496461084,
+  "center": {
+    "lat": 9.9298472,
+    "lon": 78.1377743
+  },
+  "tags": {
+    "access": "yes",
+    "historic": "monument",
+    "name": "Gandhi Memorial",
+    "name:en": "Gandhi Memorial",
+    "name:ta": "காந்தி நினைவிடம்"
+  }
+},
+{
+  "type": "way",
+  "id": 523738594,
+  "center": {
+    "lat": 12.8015028,
+    "lon": 80.2260521
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "MiG display"
+  }
+},
+{
+  "type": "way",
+  "id": 551890529,
+  "center": {
+    "lat": 8.2420634,
+    "lon": 77.3382032
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Udayagiri Fort",
+    "name:ml": "ഉദയഗിരി കോട്ട",
+    "name:ta": "உதயகிரி கோட்டை",
+    "wikidata": "Q3533901",
+    "wikipedia": "en:Udayagiri Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 551890530,
+  "center": {
+    "lat": 8.2401199,
+    "lon": 77.3382947
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Tomb of De Lannoy"
+  }
+},
+{
+  "type": "way",
+  "id": 555491609,
+  "center": {
+    "lat": 12.5390405,
+    "lon": 78.2142824
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "fort",
+    "name": "Krishnagiri Fort",
+    "name:ta": "கிருட்டிணகிரிக் கோட்டை",
+    "wikidata": "Q6437519",
+    "wikimedia_commons": "Category:Krishnagiri Fort",
+    "wikipedia": "en:Krishnagiri Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 555491612,
+  "center": {
+    "lat": 12.2659840,
+    "lon": 80.0101407
+  },
+  "tags": {
+    "historic": "ruins",
+    "name": "Alamparai Fort",
+    "wikidata": "Q468734",
+    "wikipedia": "en:Alamparai Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 555497834,
+  "center": {
+    "lat": 11.6034578,
+    "lon": 78.5995817
+  },
+  "tags": {
+    "historic": "castle",
+    "name": "Attur Fort",
+    "wikidata": "Q15193894",
+    "wikipedia": "en:Attur Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 555498571,
+  "center": {
+    "lat": 10.3606877,
+    "lon": 77.9631692
+  },
+  "tags": {
+    "access": "yes",
+    "addr:street": "Muthalagupatty, Dindigul, Tamil Nadu 624001",
+    "castle_type": "defensive",
+    "historic": "castle",
+    "historic:civilization": "indian",
+    "name": "Dindigul Rock Fort",
+    "name:ta": "திண்டுக்கல் மலைக்கோட்டை",
+    "opening_hours": "09:00-15:00",
+    "phone": "1800 4253 1111",
+    "survey:date": "2025-07-21",
+    "tourism": "attraction",
+    "wikidata": "Q3534110",
+    "wikimedia_commons": "Category:Dindigul Fort",
+    "wikipedia": "en:Dindigul Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 555507809,
+  "center": {
+    "lat": 13.4154854,
+    "lon": 80.3171896
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-04-05",
+    "historic": "ruins",
+    "name": "Athi Narayana Perumal Temple",
+    "name:ta": "ஆதி நாராயண பெருமாள் கோயில்",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 555507812,
+  "center": {
+    "lat": 11.3167263,
+    "lon": 76.8361634
+  },
+  "tags": {
+    "historic": "castle",
+    "name": "Droog Fort",
+    "name:ta": "துரூக் கோட்டை",
+    "wikidata": "Q5308351",
+    "wikipedia": "en:Droog Fort, Coonoor"
+  }
+},
+{
+  "type": "way",
+  "id": 555516027,
+  "center": {
+    "lat": 10.2688942,
+    "lon": 79.3048753
+  },
+  "tags": {
+    "historic": "castle",
+    "name": "Manora Fort",
+    "wikidata": "Q13646574",
+    "wikimedia_commons": "Category:Manora Fort, Thanjavur",
+    "wikipedia": "en:Manora Fort, Thanjavur"
+  }
+},
+{
+  "type": "way",
+  "id": 555716222,
+  "center": {
+    "lat": 12.2584673,
+    "lon": 79.4056505
+  },
+  "tags": {
+    "historic": "castle",
+    "name": "Krishnagiri Fort",
+    "tourism": "attraction",
+    "wikidata": "Q6437519",
+    "wikimedia_commons": "Category:Krishnagiri Fort",
+    "wikipedia": "en:Krishnagiri Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 555716227,
+  "center": {
+    "lat": 12.2505139,
+    "lon": 79.3970782
+  },
+  "tags": {
+    "alt_name": "Rajagiri Citadel",
+    "heritage:operator": "whc",
+    "heritage:website": "https://whc.unesco.org/en/list/1739",
+    "historic": "castle",
+    "name": "செஞ்சிக் கோட்டை",
+    "name:en": "Gingee Fort",
+    "name:hi": "जिंजी दुर्ग",
+    "name:mr": "जिंजीचा किल्ला",
+    "ref:whc": "1739-012",
+    "tourism": "attraction",
+    "whc:criteria": "(iv)(vi)",
+    "whc:inscription_date": "2025",
+    "wikidata": "Q3536493",
+    "wikipedia": "en:Gingee Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 557512110,
+  "center": {
+    "lat": 12.9204709,
+    "lon": 79.1283342
+  },
+  "tags": {
+    "barrier": "city_wall",
+    "historic": "fort",
+    "name": "Vellore Fort",
+    "name:ml": "വേലൂർ കോട്ട",
+    "name:ta": "வேலூர் கோட்டை",
+    "tourism": "attraction",
+    "wikidata": "Q3390913",
+    "wikipedia": "en:Vellore Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 576022679,
+  "center": {
+    "lat": 12.6089934,
+    "lon": 80.1895634
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "historic": "heritage",
+    "name": "Nakula Sahadeva Ratha",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 576022681,
+  "center": {
+    "lat": 12.6090056,
+    "lon": 80.1897208
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "historic": "heritage",
+    "name": "Draupadi Ratha",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 576022684,
+  "center": {
+    "lat": 12.6089619,
+    "lon": 80.1896833
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "historic": "heritage",
+    "name": "Arjuna Ratha",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 576022688,
+  "center": {
+    "lat": 12.6086973,
+    "lon": 80.1895126
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "historic": "heritage",
+    "name": "Dharmaraja Ratha",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 576022690,
+  "center": {
+    "lat": 12.6088419,
+    "lon": 80.1895974
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "historic": "heritage",
+    "name": "Bhima Ratha",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 596118069,
+  "center": {
+    "lat": 12.6173641,
+    "lon": 80.1925982
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "ruins",
+    "name": "Krishna Mandapam",
+    "name:ta": "கிருட்டிணன் குகைக்கோயில்",
+    "tourism": "attraction",
+    "wikidata": "Q15240480",
+    "wikimedia_commons": "Category:Krishna Mandapam",
+    "wikipedia": "en:Krishna Mandapam, Mahabalipuram"
+  }
+},
+{
+  "type": "way",
+  "id": 596622866,
+  "center": {
+    "lat": 12.6202455,
+    "lon": 80.1875969
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "historic": "archaeological_site",
+    "name": "Pidari ratha and Valayankuttai ratha",
+    "religion": "hindu",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 597062769,
+  "center": {
+    "lat": 12.6176038,
+    "lon": 80.1922847
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "ruins",
+    "name": "Rayala Gopuram",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 597062775,
+  "center": {
+    "lat": 12.6151230,
+    "lon": 80.1913647
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "ruins",
+    "name": "Old lighthouse",
+    "tourism": "attraction",
+    "wikimedia_commons": "File:Madapam.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 598058539,
+  "center": {
+    "lat": 11.0001203,
+    "lon": 76.9679121
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Ashok Pillar"
+  }
+},
+{
+  "type": "way",
+  "id": 651581596,
+  "center": {
+    "lat": 10.7996882,
+    "lon": 79.8384722
+  },
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "way",
+  "id": 680969892,
+  "center": {
+    "lat": 12.9848669,
+    "lon": 80.2599418
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "historic": "monument",
+    "name": "Marudeeswarar Temple",
+    "religion": "hindu"
+  }
+},
+{
+  "type": "way",
+  "id": 694264724,
+  "center": {
+    "lat": 8.2078401,
+    "lon": 77.3178197
+  },
+  "tags": {
+    "access": "no",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Eraniel Palace",
+    "name:ta": "இரணியல் அரண்மனை",
+    "wikidata": "Q31379660",
+    "wikipedia": "en:Eraniel Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 718103092,
+  "center": {
+    "lat": 8.2417631,
+    "lon": 77.3019352
+  },
+  "tags": {
+    "alt_name": "Thomayar Kovil",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "historic": "yes",
+    "int_name": "St. Mary's Orthodox Church",
+    "name": "Thiruvithamcode Arappally",
+    "name:ml": "തിരുവിതാംകോട് അരപ്പള്ളി",
+    "name:ta": "திருவிதாங்கோடு அரப்பள்ளி",
+    "religion": "christian",
+    "start_date": "57",
+    "tourism": "attraction",
+    "wikidata": "Q3569081",
+    "wikipedia": "en:St. Mary's Church, Thiruvithamcode"
+  }
+},
+{
+  "type": "way",
+  "id": 738907161,
+  "center": {
+    "lat": 11.3223775,
+    "lon": 77.7424670
+  },
+  "tags": {
+    "historic": "ruins",
+    "historic:civilization": "prehistoric",
+    "inscription": "old remaining fort. abondant long time.",
+    "name": "bhooth banglou"
+  }
+},
+{
+  "type": "way",
+  "id": 756020642,
+  "center": {
+    "lat": 9.9177832,
+    "lon": 78.1237591
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Vilakkuthoon",
+    "survey:date": "2023-12-02"
+  }
+},
+{
+  "type": "way",
+  "id": 789246297,
+  "center": {
+    "lat": 10.2837508,
+    "lon": 77.5302386
+  },
+  "tags": {
+    "archaeological_site": "tumulus",
+    "historic": "archaeological_site",
+    "operator": "ASI"
+  }
+},
+{
+  "type": "way",
+  "id": 866443916,
+  "center": {
+    "lat": 11.2994192,
+    "lon": 76.9348803
+  },
+  "tags": {
+    "building": "industrial",
+    "name": "Nilgiri Mountain Railway Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 910550440,
+  "center": {
+    "lat": 12.8993429,
+    "lon": 79.3371919
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Arcot Fort",
+    "source": "https://militarymaps.rct.uk/other-18th-19th-century-conflicts/arcot-1760-arcott-surrenderd-feby-10-th-1760"
+  }
+},
+{
+  "type": "way",
+  "id": 910550441,
+  "center": {
+    "lat": 12.9009325,
+    "lon": 79.3352312
+  },
+  "tags": {
+    "historic": "archaeological_site"
+  }
+},
+{
+  "type": "way",
+  "id": 910550442,
+  "center": {
+    "lat": 12.9009017,
+    "lon": 79.3349252
+  },
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "way",
+  "id": 910557882,
+  "center": {
+    "lat": 12.6714470,
+    "lon": 79.2815226
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Arani Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 911713515,
+  "center": {
+    "lat": 12.5256703,
+    "lon": 80.1636263
+  },
+  "tags": {
+    "access": "yes",
+    "building": "yes",
+    "historic": "fort",
+    "name": "Fort Sadras",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 916891574,
+  "center": {
+    "lat": 8.0875972,
+    "lon": 77.5488832
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Mayapuri Wax Museum",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 964602899,
+  "center": {
+    "lat": 13.0607811,
+    "lon": 80.2826629
+  },
+  "tags": {
+    "historic": "monument",
+    "layer": "1",
+    "name": "Dr. M. G. Ramachandran Memorial Arch"
+  }
+},
+{
+  "type": "way",
+  "id": 964604228,
+  "center": {
+    "lat": 13.0716192,
+    "lon": 80.2851808
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Tamil Nadu Legislative Assembly Diamond Jubilee Arch"
+  }
+},
+{
+  "type": "way",
+  "id": 973622474,
+  "center": {
+    "lat": 10.0010094,
+    "lon": 78.7721602
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1021331582,
+  "center": {
+    "lat": 13.0494830,
+    "lon": 80.2803222
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Vivekananda Heritage Museum",
+    "name:etymology:wikidata": "Q47478",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1024879574,
+  "center": {
+    "lat": 9.9363015,
+    "lon": 78.1446117
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Arch"
+  }
+},
+{
+  "type": "way",
+  "id": 1027027522,
+  "center": {
+    "lat": 9.9295445,
+    "lon": 78.1381111
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Gallery Kutir Asthi Peedam",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1034787749,
+  "center": {
+    "lat": 9.9461554,
+    "lon": 77.9884314
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Brahmi Kalvettu, Kongarapuliyankulam",
+    "name": "Brahmi Kalvettu"
+  }
+},
+{
+  "type": "way",
+  "id": 1060263932,
+  "center": {
+    "lat": 9.9016696,
+    "lon": 78.1207747
+  },
+  "tags": {
+    "barrier": "entrance",
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Thorana Vayil",
+    "name:en": "Entrance Arch",
+    "name:ta": "தோரண வாயில்"
+  }
+},
+{
+  "type": "way",
+  "id": 1060306828,
+  "center": {
+    "lat": 9.9099739,
+    "lon": 78.1523806
+  },
+  "tags": {
+    "barrier": "entrance",
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Thorana Vayil",
+    "name:en": "Entrance Arch",
+    "name:ta": "தோரண வாயில்"
+  }
+},
+{
+  "type": "way",
+  "id": 1065857133,
+  "center": {
+    "lat": 13.4195445,
+    "lon": 80.3150898
+  },
+  "tags": {
+    "building": "yes",
+    "name": "AARDE Pulicat Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1066524650,
+  "center": {
+    "lat": 9.9352443,
+    "lon": 78.0442640
+  },
+  "tags": {
+    "barrier": "entrance",
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Thorana Vayil",
+    "name:en": "Entrance Arch",
+    "name:ta": "தோரண வாயில்"
+  }
+},
+{
+  "type": "way",
+  "id": 1073728713,
+  "center": {
+    "lat": 12.6973222,
+    "lon": 79.3016674
+  },
+  "tags": {
+    "addr:district": "Tiruvannamalai",
+    "addr:suburb": "Irumbedu",
+    "alt_name": "Viravira Jinalayam",
+    "amenity": "place_of_worship",
+    "historic": "monument",
+    "name": "Ponnezhilnathar Koil (Ponninathar Temple)",
+    "religion": "jain",
+    "website": "https://www.tnarch.gov.in/poondi-arugar"
+  }
+},
+{
+  "type": "way",
+  "id": 1076583943,
+  "center": {
+    "lat": 13.0889733,
+    "lon": 80.2885005
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:levels": "2",
+    "denomination": "protestant",
+    "historic": "building",
+    "name": "Anderson Church",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1076727632,
+  "center": {
+    "lat": 13.0897225,
+    "lon": 80.2873571
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "historic": "building",
+    "name": "St. Mary's Co-Cathedral",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1076727642,
+  "center": {
+    "lat": 13.0892009,
+    "lon": 80.2873201
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "armenian_apostolic",
+    "historic": "building",
+    "int_name": "Armenian Church of the Virgin Mary",
+    "name": "Armenian Church of the Virgin Mary",
+    "name:pl": "Kościół Najświętszej Maryi Panny",
+    "name:ru": "Церковь Пресвятой Девы Марии",
+    "religion": "christian",
+    "start_date": "1712",
+    "wikidata": "Q4504905",
+    "wikimedia_commons": "Category:Armenian Church, Chennai",
+    "wikipedia": "en:Armenian Church, Chennai"
+  }
+},
+{
+  "type": "way",
+  "id": 1079228580,
+  "center": {
+    "lat": 10.0391393,
+    "lon": 78.7609827
+  },
+  "tags": {
+    "barrier": "entrance",
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Karaikudi Therkku Thorana Vayil",
+    "name:en": "Karaikudi South Entrance Arch",
+    "name:ta": "காரைக்குடி தெற்கு தோரண வாயில்"
+  }
+},
+{
+  "type": "way",
+  "id": 1089790103,
+  "center": {
+    "lat": 13.0803520,
+    "lon": 80.2875169
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Cornwallis Cupola"
+  }
+},
+{
+  "type": "way",
+  "id": 1089790865,
+  "center": {
+    "lat": 13.0807265,
+    "lon": 80.2876120
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Fort St. George Museum",
+    "name:ta": "சென்னை கோட்டை அருங்காட்சியகம்",
+    "opening_hours": "Mo-Su 09:00 - 17:00; Fr off",
+    "operator": "Archaeological Survey of India",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1092912285,
+  "center": {
+    "lat": 8.7220539,
+    "lon": 77.7411702
+  },
+  "tags": {
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1092941690,
+  "center": {
+    "lat": 8.7264514,
+    "lon": 77.7164296
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "District Science Centre",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1096179348,
+  "center": {
+    "lat": 10.8247625,
+    "lon": 78.6962794
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1096179349,
+  "center": {
+    "lat": 10.8250971,
+    "lon": 78.6957994
+  },
+  "tags": {
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1096186846,
+  "center": {
+    "lat": 10.7971964,
+    "lon": 78.6861225
+  },
+  "tags": {
+    "alt_name": "Railway Heritage Centre",
+    "name": "Tiruchchirappalli Rail Museum",
+    "name:ml": "തിരുച്ചിറപ്പള്ളി റെയിൽ മ്യൂസിയം",
+    "name:ta": "திருச்சிராப்பள்ளி ரயில் அருங்காட்சியகம்",
+    "operator": "Southern Railway",
+    "tourism": "museum",
+    "wikidata": "Q15961662",
+    "wikimedia_commons": "Category:Rail Museum, Tiruchirappalli",
+    "wikipedia": "en:Railway Heritage Centre, Tiruchirappalli"
+  }
+},
+{
+  "type": "way",
+  "id": 1098342020,
+  "center": {
+    "lat": 11.5886116,
+    "lon": 76.9921604
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1098613588,
+  "center": {
+    "lat": 12.5776618,
+    "lon": 79.0747324
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Carnaticgiri Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1098613589,
+  "center": {
+    "lat": 12.5804262,
+    "lon": 79.0758831
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1104067952,
+  "center": {
+    "lat": 13.0861077,
+    "lon": 80.2865922
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Madras High Court Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1126975440,
+  "center": {
+    "lat": 13.0699896,
+    "lon": 80.2564172
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Egmore Childrens Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1126975457,
+  "center": {
+    "lat": 13.0712834,
+    "lon": 80.2567535
+  },
+  "tags": {
+    "addr:street": "Pantheon Road",
+    "alt_name": "Madras Museum",
+    "building": "yes",
+    "name": "சென்னை அரசு அருங்காட்சியகம்",
+    "name:en": "Chennai Government Museum",
+    "name:hi": "एग्मोर सरकार संग्रहालय",
+    "name:ta": "எழும்பூர் தேசிய அருங்காட்சியகம்",
+    "opening_hours": "Sa-Th 10:30-18:30;Aug 15 off;Jan 26 off; Oct 2 off",
+    "tourism": "museum",
+    "wikidata": "Q3536763",
+    "wikimedia_commons": "Category:Government Museum, Chennai",
+    "wikipedia": "en:Government Museum, Chennai"
+  }
+},
+{
+  "type": "way",
+  "id": 1128362740,
+  "center": {
+    "lat": 13.0694402,
+    "lon": 80.2831077
+  },
+  "tags": {
+    "abandoned": "yes",
+    "drinking_water": "no",
+    "historic": "ruins",
+    "lit": "no",
+    "name": "Cooum River Fountain"
+  }
+},
+{
+  "type": "way",
+  "id": 1134360229,
+  "center": {
+    "lat": 13.0188698,
+    "lon": 80.2246162
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Maraimalai Adigal Bridge Monument"
+  }
+},
+{
+  "type": "way",
+  "id": 1137581557,
+  "center": {
+    "lat": 13.0645113,
+    "lon": 80.2858467
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Amma Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1137581558,
+  "center": {
+    "lat": 13.0649880,
+    "lon": 80.2850421
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Dr. Maruthur Gopalan Ramachandran Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1149106630,
+  "center": {
+    "lat": 12.5301750,
+    "lon": 78.1111863
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1149106632,
+  "center": {
+    "lat": 12.5216443,
+    "lon": 78.0371077
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Rayakottai Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1149106648,
+  "center": {
+    "lat": 12.4381428,
+    "lon": 78.1306752
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1149180239,
+  "center": {
+    "lat": 12.5009292,
+    "lon": 78.3476177
+  },
+  "tags": {
+    "access": "yes",
+    "castle_type": "fortress",
+    "historic": "castle",
+    "name": "Nagamangalam Fortress",
+    "name:ta": "நாகமங்கலம் கோட்டை"
+  }
+},
+{
+  "type": "way",
+  "id": 1152519362,
+  "center": {
+    "lat": 10.6016421,
+    "lon": 79.4009989
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Mahadevapatnam Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1152520631,
+  "center": {
+    "lat": 12.0130347,
+    "lon": 78.3965439
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Tangrakottai",
+    "wikidata": "Q7683141",
+    "wikipedia": "en:Tangrakottai"
+  }
+},
+{
+  "type": "way",
+  "id": 1152520994,
+  "center": {
+    "lat": 12.1513346,
+    "lon": 79.2923936
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1152521016,
+  "center": {
+    "lat": 12.4325439,
+    "lon": 79.4830582
+  },
+  "tags": {
+    "historic": "fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1152521531,
+  "center": {
+    "lat": 12.5095291,
+    "lon": 79.6037420
+  },
+  "tags": {
+    "historic": "fort",
+    "name": "Vandavasi Fort",
+    "name:ta": "வந்தவாசி கோட்டை"
+  }
+},
+{
+  "type": "way",
+  "id": 1178009706,
+  "center": {
+    "lat": 13.0796765,
+    "lon": 80.2849395
+  },
+  "tags": {
+    "addr:city": "Chennai",
+    "addr:postcode": "600009",
+    "addr:street": "Rajaji Salai",
+    "description": "The first British fortress built in India, established in 1644, with a museum & 17th-century church.",
+    "historic": "castle",
+    "landuse": "military",
+    "military": "base",
+    "name": "Fort St. George",
+    "name:hi": "सेंट जॉर्ज फोर्ट",
+    "name:ml": "സെന്റ് ജോർജ്ജ് കോട്ട",
+    "name:ta": "புனித ஜார்ஜ் கோட்டை",
+    "old_name": "White Town",
+    "tourism": "attraction",
+    "wikidata": "Q1438739",
+    "wikipedia": "en:Fort St. George, India"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944177,
+  "center": {
+    "lat": 10.3613527,
+    "lon": 77.9625132
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944178,
+  "center": {
+    "lat": 10.3610065,
+    "lon": 77.9628129
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944179,
+  "center": {
+    "lat": 10.3615507,
+    "lon": 77.9627394
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944181,
+  "center": {
+    "lat": 10.3598177,
+    "lon": 77.9626217
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944182,
+  "center": {
+    "lat": 10.3598125,
+    "lon": 77.9628304
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944183,
+  "center": {
+    "lat": 10.3597881,
+    "lon": 77.9624134
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944184,
+  "center": {
+    "lat": 10.3623086,
+    "lon": 77.9625243
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944185,
+  "center": {
+    "lat": 10.3623128,
+    "lon": 77.9629532
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944186,
+  "center": {
+    "lat": 10.3623566,
+    "lon": 77.9632895
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1218944187,
+  "center": {
+    "lat": 10.3618638,
+    "lon": 77.9640679
+  },
+  "tags": {
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 1227711044,
+  "center": {
+    "lat": 11.6685260,
+    "lon": 78.1409497
+  },
+  "tags": {
+    "name": "Exhibiton Ground",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1237149555,
+  "center": {
+    "lat": 12.8927264,
+    "lon": 80.2413325
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Adityaram Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 1237662330,
+  "center": {
+    "lat": 13.0563923,
+    "lon": 80.2687276
+  },
+  "tags": {
+    "building": "yes",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Amir Mahal",
+    "start_date": "1798"
+  }
+},
+{
+  "type": "way",
+  "id": 1248973262,
+  "center": {
+    "lat": 13.1252789,
+    "lon": 80.2876723
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "layer": "1",
+    "name": "Seniamman Kovil Arch"
+  }
+},
+{
+  "type": "way",
+  "id": 1274173765,
+  "center": {
+    "lat": 10.7924734,
+    "lon": 79.6040376
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Kalaignar Kottam"
+  }
+},
+{
+  "type": "way",
+  "id": 1287952795,
+  "center": {
+    "lat": 8.0801213,
+    "lon": 77.5501909
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Governement museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1308764500,
+  "center": {
+    "lat": 12.1606769,
+    "lon": 78.9355215
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Sculpture Tank (Amma Kulam), Kilravandavadi"
+  }
+},
+{
+  "type": "way",
+  "id": 1308774669,
+  "center": {
+    "lat": 12.1663711,
+    "lon": 79.2504731
+  },
+  "tags": {
+    "name": "Rock Paintings, Sethavarai, Sathiyamangalam",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1308777963,
+  "center": {
+    "lat": 12.0313007,
+    "lon": 79.3327403
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Rock Paintings, Kilvalai",
+    "name": "Rock Paintings, Kilvalai"
+  }
+},
+{
+  "type": "way",
+  "id": 1308778407,
+  "center": {
+    "lat": 12.0060178,
+    "lon": 79.2830070
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Rock Paintings, Alambadi"
+  }
+},
+{
+  "type": "way",
+  "id": 1308779828,
+  "center": {
+    "lat": 12.1639089,
+    "lon": 79.7733683
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Sivan Koil, Ulagapuram",
+    "name": "Sivan Koil, Ulagapuram"
+  }
+},
+{
+  "type": "way",
+  "id": 1308780209,
+  "center": {
+    "lat": 12.4469738,
+    "lon": 79.9332811
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Vishnu Koil, Ulagapuram (Devaraja Perumal Koil)"
+  }
+},
+{
+  "type": "way",
+  "id": 1308780855,
+  "center": {
+    "lat": 12.2888767,
+    "lon": 79.4374205
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Tamizhi Inscriptions, Neganoor"
+  }
+},
+{
+  "type": "way",
+  "id": 1308785411,
+  "center": {
+    "lat": 11.2393177,
+    "lon": 79.5343615
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Rudrapathi Temple, Keelakadambur",
+    "name": "Rudrapathi Temple, Keelakadambur"
+  }
+},
+{
+  "type": "way",
+  "id": 1308941991,
+  "center": {
+    "lat": 10.7553273,
+    "lon": 79.8475976
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Dutch Tombs, Nagapattinam"
+  }
+},
+{
+  "type": "way",
+  "id": 1308942638,
+  "center": {
+    "lat": 10.9535957,
+    "lon": 78.6669417
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Thiruvellarai, Mannnachanallur",
+    "name": "Swasthik Well"
+  }
+},
+{
+  "type": "way",
+  "id": 1308943353,
+  "center": {
+    "lat": 10.9046294,
+    "lon": 78.6643448
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Alagiamanavalam (Gopurapatti)",
+    "name": "Sivankoil,"
+  }
+},
+{
+  "type": "way",
+  "id": 1308947716,
+  "center": {
+    "lat": 12.4763845,
+    "lon": 78.3164234
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Jegadevipalayam, Bargur",
+    "name": "Jegadevi Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1308951633,
+  "center": {
+    "lat": 9.9170206,
+    "lon": 78.1236811
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Paththu Thungal, Madurai",
+    "name": "Paththu Thungal"
+  }
+},
+{
+  "type": "way",
+  "id": 1308951980,
+  "center": {
+    "lat": 9.9709627,
+    "lon": 78.1972981
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Theerthangarar Sculptures"
+  }
+},
+{
+  "type": "way",
+  "id": 1308952197,
+  "center": {
+    "lat": 9.9647267,
+    "lon": 78.1868419
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Yanaimalai",
+    "name": "Brahmi Kalvettugal"
+  }
+},
+{
+  "type": "way",
+  "id": 1308954300,
+  "center": {
+    "lat": 9.9035421,
+    "lon": 78.0993415
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Kovalanpottal, Madakulam",
+    "name": "Kovalanpottal"
+  }
+},
+{
+  "type": "way",
+  "id": 1308969447,
+  "center": {
+    "lat": 9.8796456,
+    "lon": 78.0710414
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Asthagiriswararkoil, Varichiyur",
+    "name": "Asthagiriswararkoil"
+  }
+},
+{
+  "type": "way",
+  "id": 1308972974,
+  "center": {
+    "lat": 10.0400972,
+    "lon": 78.2761205
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Sivan Koil, Arittappatti",
+    "name": "Sivan Koil"
+  }
+},
+{
+  "type": "way",
+  "id": 1308980330,
+  "center": {
+    "lat": 9.1530615,
+    "lon": 77.7043012
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Vettuvankoil, Kazhugumalai",
+    "name": "Vettuvankoil"
+  }
+},
+{
+  "type": "way",
+  "id": 1308982702,
+  "center": {
+    "lat": 9.9226978,
+    "lon": 78.0475677
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Keezhakuyilkudi Pechipallam Kalvettu, Keezhakuyilkudi",
+    "name": "Keezhakuyilkudi Kalvettu"
+  }
+},
+{
+  "type": "way",
+  "id": 1308992816,
+  "center": {
+    "lat": 10.0450253,
+    "lon": 78.2801353
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Tamizhi Inscriptions and Theerthangara Sculpture, Arittapatti",
+    "name": "Tamizhi Inscriptions and Theerthangara Sculpture"
+  }
+},
+{
+  "type": "way",
+  "id": 1308994382,
+  "center": {
+    "lat": 12.1407795,
+    "lon": 79.4761065
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Jain Beds & Cave and Brahmi Inscription, Mudalaikkulam, Usilampatty",
+    "name": "Jain Beds & Cave and Brahmi Inscription"
+  }
+},
+{
+  "type": "way",
+  "id": 1308997900,
+  "center": {
+    "lat": 9.4828665,
+    "lon": 78.4716782
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Early Pandiya Kalvettup Padukkai,Ramnathapuram",
+    "name": "Early Pandiya Kalvettup Padukkai"
+  }
+},
+{
+  "type": "way",
+  "id": 1308999296,
+  "center": {
+    "lat": 10.4763013,
+    "lon": 77.4035660
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Kugaikoil Chinna Ivarmalai Sculptures, Thathanaickanpatti",
+    "name": "Kugaikoil Chinna Ivarmalai Sculptures"
+  }
+},
+{
+  "type": "way",
+  "id": 1308999928,
+  "center": {
+    "lat": 9.4145886,
+    "lon": 78.3752818
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Kamudi Kottai, Kamudi",
+    "name": "Kamudi Kottai, Kamudi"
+  }
+},
+{
+  "type": "way",
+  "id": 1309000050,
+  "center": {
+    "lat": 9.9595157,
+    "lon": 78.6561075
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Marudupandiyan Fort, Aranmanai Siruvayal",
+    "name": "Marudupandiyan Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1309197166,
+  "center": {
+    "lat": 9.8532734,
+    "lon": 78.2261596
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Urn Burial Site and Habitation Sites, Kondhagai and Agaram Village in Kalugarkadai Revenue Village, Thiruppuvanam",
+    "name": "Urn Burial Site and Habitation Sites"
+  }
+},
+{
+  "type": "way",
+  "id": 1309197377,
+  "center": {
+    "lat": 8.9336939,
+    "lon": 78.0338583
+  },
+  "tags": {
+    "historic": "fort",
+    "museum": "fort",
+    "name": "Kattabomman Fort",
+    "name:etymology:wikidata": "Q888293",
+    "operator": "Panchalankurichi",
+    "operator:type": "government",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1309197627,
+  "center": {
+    "lat": 8.9422408,
+    "lon": 78.0245204
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "British tombs , Panchalankurichi",
+    "name": "44 British Tombs"
+  }
+},
+{
+  "type": "way",
+  "id": 1309198068,
+  "center": {
+    "lat": 8.9187324,
+    "lon": 78.0233128
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "British tombs, Ottapidaram",
+    "name": "5 British Tombs"
+  }
+},
+{
+  "type": "way",
+  "id": 1309200767,
+  "center": {
+    "lat": 8.6461298,
+    "lon": 77.9658553
+  },
+  "tags": {
+    "archaeological_site": "graveyard",
+    "historic": "archaeological_site",
+    "inscription": "Iron Age Grave Yard, Sivagalai",
+    "name": "Iron Age Grave Yard"
+  }
+},
+{
+  "type": "way",
+  "id": 1309204771,
+  "center": {
+    "lat": 8.7909214,
+    "lon": 77.8109781
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Poola Udaiyar Kalvettu, Seevalaperi",
+    "name": "Poola Udaiyar Kalvettu"
+  }
+},
+{
+  "type": "way",
+  "id": 1309206955,
+  "center": {
+    "lat": 8.6145339,
+    "lon": 77.5776396
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Iranyankudiyiruppu, Rajakhalmankalam",
+    "name": "Iranyankudiyiruppu"
+  }
+},
+{
+  "type": "way",
+  "id": 1309207564,
+  "center": {
+    "lat": 8.7419296,
+    "lon": 77.4668003
+  },
+  "tags": {
+    "archaeological_site": "temple",
+    "historic": "archaeological_site",
+    "inscription": "Tiruneelakandar Temple, Pananjadi",
+    "name": "Tiruneelakandar Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 1309208218,
+  "center": {
+    "lat": 8.8224640,
+    "lon": 77.7921185
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Early Pandiya period Andhichi Rock cave Temple, Pathinalamperi",
+    "name": "Early Pandiya period Andhichi Rock cave Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 1309208849,
+  "center": {
+    "lat": 9.5340057,
+    "lon": 78.1825063
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Cave Temple, Paraikulam",
+    "name": "Cave Temple, Paraikulam"
+  }
+},
+{
+  "type": "way",
+  "id": 1309211046,
+  "center": {
+    "lat": 9.6226813,
+    "lon": 77.7175321
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Cave Temple, Muvaraivenran",
+    "name": "Cave Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 1309211580,
+  "center": {
+    "lat": 12.2723206,
+    "lon": 79.4065084
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Cave Temple, Kalarkuruchi (M.Puthupatti)",
+    "name": "Cave Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 1309212365,
+  "center": {
+    "lat": 9.3069363,
+    "lon": 77.7150623
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Cave Temple, Sevelpatti",
+    "name": "Cave Temple"
+  }
+},
+{
+  "type": "way",
+  "id": 1309212562,
+  "center": {
+    "lat": 12.2659840,
+    "lon": 80.0101407
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Alambarai Fort, Alambarai",
+    "name": "Alambarai Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1309213231,
+  "center": {
+    "lat": 12.5285991,
+    "lon": 79.9023041
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Karunguzhi Fort",
+    "name": "Karunguzhi Fort"
+  }
+},
+{
+  "type": "way",
+  "id": 1309256173,
+  "center": {
+    "lat": 12.3348643,
+    "lon": 79.6658543
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Jain Sculptures and Inscriptions, Anandhamangalam",
+    "name": "Jain Sculptures and Inscriptions"
+  }
+},
+{
+  "type": "way",
+  "id": 1309259907,
+  "center": {
+    "lat": 13.0598862,
+    "lon": 79.4040621
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Seven Mother’s Sculptures, Sholingar",
+    "name": "Seven Mother’s Sculptures"
+  }
+},
+{
+  "type": "way",
+  "id": 1309261794,
+  "center": {
+    "lat": 13.1116832,
+    "lon": 79.4205156
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Kanja Sahib Tomb, Sholingar",
+    "name": "Kanja Sahib Tomb"
+  }
+},
+{
+  "type": "way",
+  "id": 1309306253,
+  "center": {
+    "lat": 12.0150912,
+    "lon": 79.0607475
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Brahmi Inscription, Tirukkoilur",
+    "name": "Brahmi Inscription"
+  }
+},
+{
+  "type": "way",
+  "id": 1309318891,
+  "center": {
+    "lat": 12.1900678,
+    "lon": 79.3852672
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Jain Sculptures & Beds and Inscriptions, Tirukkoilur",
+    "name": "Jain Sculptures & Beds and Inscriptions"
+  }
+},
+{
+  "type": "way",
+  "id": 1309523801,
+  "center": {
+    "lat": 12.9026421,
+    "lon": 78.9447336
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Meqalithic Burial Sites, Pangunatham, Nallampalli",
+    "name": "Meqalithic Burial Sites"
+  }
+},
+{
+  "type": "way",
+  "id": 1309524424,
+  "center": {
+    "lat": 11.1103933,
+    "lon": 77.5224997
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "inscription": "Menhir (Standing stone)& Habitation Site and Megalithic Burial Sites, Perundurai, erode",
+    "name": "Menhir (Standing stone)& Habitation Site and Megalithic Burial Sites"
+  }
+},
+{
+  "type": "way",
+  "id": 1331630767,
+  "center": {
+    "lat": 12.8411055,
+    "lon": 80.1546962
+  },
+  "tags": {
+    "historic": "monument",
+    "name": "Clock Court"
+  }
+},
+{
+  "type": "way",
+  "id": 1357955070,
+  "center": {
+    "lat": 10.2310524,
+    "lon": 77.5009750
+  },
+  "tags": {
+    "building": "yes",
+    "fee": "INR30",
+    "name": "Shenbaganur Museum of Natural History",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1363049396,
+  "center": {
+    "lat": 9.8636102,
+    "lon": 78.1849162
+  },
+  "tags": {
+    "addr:district": "Madurai",
+    "addr:street": "Keezhadi Village",
+    "alt_name:en": "Keeladi Museum",
+    "alt_name:ta": "கீழடி அருங்காட்சியகம்",
+    "building": "no",
+    "charge": "15 INR",
+    "charge:conditional": "10 INR @ age < 13",
+    "fee": "yes",
+    "fee:conditional": "no @ age < 5",
+    "museum": "archaeological",
+    "name": "Keezhadi Archeological Museum",
+    "name:ta": "கீழடி தொல்பொருள் அருங்காட்சியகம்",
+    "opening_hours": "Mo, We-Fr 10:00-18:00; Sa, Su 10:00-19:00; Tu off; PH off",
+    "operator": "Department of Archeology - Tamilnadu",
+    "operator:type": "government",
+    "tourism": "museum",
+    "website": "https://keeladimuseum.tn.gov.in",
+    "wikidata": "Q117006024",
+    "wikimedia_commons": "Category:Keezhadi Museum",
+    "wikipedia": "ta:கீழடி அருங்காட்சியகம், கொந்தகை"
+  }
+},
+{
+  "type": "way",
+  "id": 1424845166,
+  "center": {
+    "lat": 10.7092285,
+    "lon": 79.7351723
+  },
+  "tags": {
+    "access": "yes",
+    "building": "yes",
+    "historic": "monument",
+    "name": "Venmani Memorial Hall",
+    "name:ta": "வெண்மணி தியாகிகள் மண்டபம்"
+  }
+},
+{
+  "type": "way",
+  "id": 1424845167,
+  "center": {
+    "lat": 10.7092283,
+    "lon": 79.7347482
+  },
+  "tags": {
+    "access": "yes",
+    "alt_name": "Venmani Thiyagigal Chinnam",
+    "building": "yes",
+    "historic": "monument",
+    "name": "Venmani Martyrs Symbol",
+    "wikidata": "Q6408274",
+    "wikipedia": "en:Kilvenmani massacre"
+  }
+},
+{
+  "type": "way",
+  "id": 1510447381,
+  "center": {
+    "lat": 13.0707392,
+    "lon": 80.2568316
+  },
+  "tags": {
+    "name": "Egmore Government Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1552618807,
+  "center": {
+    "lat": 13.0396591,
+    "lon": 80.2794681
+  },
+  "tags": {
+    "air_conditioning": "no",
+    "building:part": "yes",
+    "changing_table": "no",
+    "charge": "20 INR",
+    "check_date": "2026-04-14",
+    "fee": "yes",
+    "height": "5",
+    "internet_access": "no",
+    "level": "0;9",
+    "museum": "technology",
+    "name": "Chennai Lighthouse Museum",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:google_pay": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1553374197,
+  "center": {
+    "lat": 11.9783009,
+    "lon": 79.1848085
+  },
+  "tags": {
+    "building": "house",
+    "name": "Gnanananda House",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1556796788,
+  "center": {
+    "lat": 12.9194911,
+    "lon": 79.1299619
+  },
+  "tags": {
+    "addr:street": "Infantry Road",
+    "building": "yes",
+    "name": "Government Museum - Vellore",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1564779885,
+  "center": {
+    "lat": 12.6198216,
+    "lon": 80.1878513
+  },
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Group of Monuments - Mahabalipuram"
+  }
+},
+{
+  "type": "relation",
+  "id": 5637874,
+  "center": {
+    "lat": 11.0246153,
+    "lon": 79.8557157
+  },
+  "tags": {
+    "alt_name": "Danish Fort Museum",
+    "building": "public",
+    "building:colour": "#fac78e",
+    "building:levels": "1",
+    "building:material": "stone",
+    "historic": "fort",
+    "level": "0",
+    "name": "Dansborg",
+    "name:ml": "ഡാനിഷ് കോട്ട",
+    "name:ta": "டேனியக்கோட்டை",
+    "operator": "State Department of Archaeology of the Government of Tamil Nadu",
+    "roof:colour": "#fac78e",
+    "roof:shape": "flat",
+    "start_date": "1620",
+    "subject": "history",
+    "tourism": "museum",
+    "type": "multipolygon",
+    "wikidata": "Q11964733",
+    "wikipedia": "en:Fort Dansborg"
+  }
+},
+{
+  "type": "relation",
+  "id": 8388199,
+  "center": {
+    "lat": 12.8421692,
+    "lon": 79.6897123
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "temple",
+    "denomination": "shaivism",
+    "historic": "yes",
+    "name": "Kailasanathar",
+    "name:ta": "கைலாசநாதர்",
+    "religion": "hindu",
+    "tourism": "attraction",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 9762728,
+  "center": {
+    "lat": 10.9943643,
+    "lon": 79.2900794
+  },
+  "tags": {
+    "boundary": "protected_area",
+    "heritage": "1",
+    "heritage:operator": "whc",
+    "historic": "archaeological_site",
+    "name": "Great Living Chola Temples",
+    "name:ar": "معابد شولا الكبيرة الحية",
+    "name:en": "Great Living Chola Temples",
+    "name:es": "Grandes templos vivientes cholas",
+    "name:fr": "Les grands temples vivants Chola",
+    "name:ja": "大チョーラ朝寺院群",
+    "name:nl": "Great Living Chola tempels",
+    "name:ru": "Великие храмы империи Чола",
+    "name:zh": "朱罗王朝现存的神庙",
+    "protect_class": "22",
+    "ref:whc": "250bis",
+    "type": "site",
+    "whc:criteria": "(i)(ii)(iii)(iv)",
+    "whc:inscription_date": "1987",
+    "wikidata": "Q695229",
+    "wikipedia": "en:Great Living Chola Temples"
+  }
+},
+{
+  "type": "relation",
+  "id": 14377429,
+  "center": {
+    "lat": 13.0635723,
+    "lon": 80.2816298
+  },
+  "tags": {
+    "building": "yes",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Chepauk Palace",
+    "name:ml": "ചേപ്പാക്കം കൊട്ടാരം",
+    "type": "multipolygon",
+    "wikidata": "Q5091701"
+  }
+}
+
+  ]
+}

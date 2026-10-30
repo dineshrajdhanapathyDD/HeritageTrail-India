@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-30T08:13:20Z",
+    "timestamp_areas_base": "2026-10-30T04:47:07Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1152517547,
+      "lat": 12.8297761,
+      "lon": 79.7033347,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1223934145,
+      "lat": 13.0020541,
+      "lon": 80.2074212,
+      "tags": {
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1669711997,
+      "lat": 10.2475835,
+      "lon": 78.7514866,
+      "tags": {
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Thirumayam Fort",
+        "name:ml": "തിരുമയം മലക്കോട്ട",
+        "name:ta": "திருமயம் மலைக்கோட்டை",
+        "wikidata": "Q7785352",
+        "wikimedia_commons": "Category:Thirumayam Fort",
+        "wikipedia": "en:Thirumayam Fort"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4439102110,
+      "lat": 9.9031979,
+      "lon": 78.2518272,
+      "tags": {
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "name": "Asthagrisvara temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100854585,
+      "lat": 9.9303356,
+      "lon": 78.138719,
+      "tags": {
+        "museum": "history",
+        "name": "Arasu Arungatchiyagam - Madurai",
+        "name:en": "Government Museum - Madurai",
+        "name:ta": "அரசு அருங்காட்சியகம் - மதுரை",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7689382152,
+      "lat": 11.4792256,
+      "lon": 77.8639376,
+      "tags": {
+        "historic": "fort",
+        "name": "Sankagiri Fort",
+        "wikidata": "Q471838",
+        "wikipedia": "en:Sankagiri Fort"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49175978,
+      "center": {
+        "lat": 9.9148737,
+        "lon": 78.1238724
+      },
+      "tags": {
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Tirumalai Nayak Palace",
+        "name:ml": "തിരുമലനായ്ക്കൻ കൊട്ടാരം",
+        "name:ta": "திருமலை நாயக்கர் அரண்மனை",
+        "name:zh": "蒂鲁玛莱·纳亚克宫",
+        "tourism": "attraction",
+        "wheelchair": "yes",
+        "wikidata": "Q3536592",
+        "wikimedia_commons": "Category:Thirumalai Nayakkar Mahal",
+        "wikipedia": "en:Thirumalai Nayakkar Mahal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379493148,
+      "center": {
+        "lat": 12.9074698,
+        "lon": 79.337784
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "monument",
+        "name": "Delhi Gate",
+        "wikidata": "Q97481253",
+        "wikimedia_commons": "Category:Delhi Gate, Arcot",
+        "wikipedia": "en:Delhi Gate (Vellore)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@heritagetrail/pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ingestion and validation pipeline: Wikidata, OpenStreetMap, Wikimedia Commons and geoBoundaries to per-state GeoJSON.",
+  "scripts": {
+    "cli": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run --maxWorkers=2"
+  },
+  "dependencies": {
+    "@heritagetrail/shared": "*",
+    "@turf/area": "^7.4.0",
+    "@turf/boolean-point-in-polygon": "^7.4.0",
+    "@turf/helpers": "^7.4.0",
+    "@turf/point-on-feature": "^7.4.0",
+    "@turf/point-to-polygon-distance": "^7.4.0",
+    "@turf/simplify": "^7.4.0",
+    "@turf/truncate": "^7.4.0",
+    "fastest-levenshtein": "^1.0.16",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

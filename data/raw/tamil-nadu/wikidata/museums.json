@@ -1,0 +1,765 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "coord", "asi", "whs", "districtLabel", "image", "inception", "inceptionPrecision", "heritageLabel", "typeName", "description" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3350092"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in South India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.2803 13.0492)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Vivekanandar%20Illam.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vivekanandar Illam"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3536763"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum of human history and culture in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.257289 13.07065)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Madras%20museum%20theatre%20in%20October%202007.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Government Museum, Chennai"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1851-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4767463"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(78.703144 10.768859)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Anna%20science%20centre.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anna Science Centre"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1999-06-10T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "11"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4916535"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "planetarium museum in Chennai, India."
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.2437 13.012)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Periyar%20Science%20and%20Technology%20Centre%20and%20Birla%20Planetarium%2C%20Chennai%2046.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Birla Planetarium"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-05-11T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "11"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5520712"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "memorial museum for Gandhi located in Madurai"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(78.138593 9.929923)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Gandhi%20museum%2C%20Madurai.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gandhi Memorial Museum"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gandhi Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7710416"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palace in Thanjavur, Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.136244444 10.791333333)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Palace%2C%20Thanjavur%2C%2016th%20cent%20and%20later%20%284%29%20%2837240234760%29.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur Maratha Palace"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Protected Monument"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "S-TN-49"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7710416"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palace in Thanjavur, Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.136244444 10.791333333)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Palace%2C%20Thanjavur%2C%2016th%20cent%20and%20later%20%284%29%20%2837240234760%29.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur Maratha Palace"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Protected Monument"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "S-TN-47"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7753143"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in Chennai, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.255833 13.069444)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20hall%20%2844827%29.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Art Gallery, Chennai"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7753143"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in Chennai, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.255833 13.069444)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Chennai%20National%20Art%20Gallery.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "National Art Gallery, Chennai"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11964733"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Danish fort in the shores of Bay of Bengal"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "fort"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.8558 11.0246)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Dansborg.JPG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fort Dansborg"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1620-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Protected Monument"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "S-TN-39"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mayiladuthurai district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11964733"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Danish fort in the shores of Bay of Bengal"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.8558 11.0246)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Dansborg.JPG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fort Dansborg"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1620-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "State Protected Monument"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "S-TN-39"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mayiladuthurai district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q63993718"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "maritime museum in Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.854922222 11.025894444)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Tranquebarmaritimemuseum1.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tharangambadi maritime museum"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q113992715"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in Madurai, Tamil Nadu"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(78.138657594 9.930330684)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/001%20Government%20Museum%2C%20Madurai%202022%20August%2013.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Government Museum, Madurai"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121756957"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vintage car museum in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.977926536 11.00664408)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/1956%20Plymouth%20Plaza%2C%20Gedee%20Car%20Museum%2C%20Coimbatore%2C%20IND%20%281%29.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gedee Car Museum"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q127689870"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in Tamil Nadu"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.327434023 8.250089787)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Thekke%20Kottaram%20Heritage%20Museum%20Mar24%20A7C%2010164.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thekke Kottaram Heritage Museum"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1993-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q130395289"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(78.144522 11.677156)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/A%20depiction%20of%20signboard%20of%20Government%20Museum%20in%20Salem.JPG"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Government Museum, Salem"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Salem district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137359540"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Museum on-site of the Brihadishvara-Temple"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.131527647 10.782184295)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Temple Museum Thanjavur"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137381661"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Archeological museum"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "archaeological museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.438206745 11.199944486)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Maligaimedu%20Chola%20Palace%20-%20Excavation%20Site-Museum-WUS02457.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rajendra Chola's Palace Archaeological Site Museum"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137381661"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Archeological museum"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.438206745 11.199944486)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Maligaimedu%20Chola%20Palace%20-%20Excavation%20Site-Museum-WUS02457.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rajendra Chola's Palace Archaeological Site Museum"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137386437"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Museum for the artefacts found at the excavation of the palace of Rajendra I"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "archaeological museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.448705714 11.207351974)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Historical Museum of Rajendrachola"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137386437"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Museum for the artefacts found at the excavation of the palace of Rajendra I"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.448705714 11.207351974)"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Historical Museum of Rajendrachola"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q137410047"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Museum in Chennai"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "museum"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.287609189 13.08063493)"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Museum%2C%20Chennai%2C%20an%20ASI%20protected%20heritage%20site%2001.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fort St. George Museum"
+      }
+    } ]
+  }
+}

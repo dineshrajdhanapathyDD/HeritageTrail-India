@@ -1,0 +1,659 @@
+{
+  "state": "Tamil Nadu",
+  "stateCode": "IN-TN",
+  "dataRetrievedAt": "2026-10-30T08:14:57.922Z",
+  "counts": {
+    "candidates": {
+      "wikidata": 382,
+      "osm-overpass": 304
+    },
+    "published": 629,
+    "verified": 371,
+    "unverified": 258,
+    "rejected": 1
+  },
+  "byCategory": {
+    "temple": 186,
+    "fort": 44,
+    "monument": 117,
+    "museum": 85,
+    "archaeological-site": 102,
+    "other": 95
+  },
+  "byUnesco": {
+    "component": 12,
+    "inscribed": 2,
+    "none": 614,
+    "tentative": 1
+  },
+  "flags": {
+    "boundary-tolerance": 4,
+    "coordinate-conflict": 6,
+    "district-derived": 276,
+    "district-mismatch": 75,
+    "missing-description": 454,
+    "missing-image": 408,
+    "missing-period": 603,
+    "possible-duplicate": 84
+  },
+  "dedupe": {
+    "mergedByWikidataTag": 31,
+    "mergedByName": 25,
+    "possibleDuplicatePairs": 42,
+    "coordinateConflicts": 6
+  },
+  "images": {
+    "requested": 221,
+    "kept": 221,
+    "dropped": []
+  },
+  "districts": {
+    "expected": 38,
+    "actual": 38,
+    "ok": true,
+    "withSites": 38,
+    "mismatchPairs": {
+      "Chengalpattu (claimed) vs Kancheepuram (ADM2)": 44,
+      "Kanchipuram (claimed) vs Chengalputtu (ADM2)": 19,
+      "Madurai (claimed) vs Dindigul (ADM2)": 2,
+      "Ranipet (claimed) vs Thiruvallur (ADM2)": 1,
+      "Thanjavur (claimed) vs Ariyalur (ADM2)": 1,
+      "Thoothukudi (claimed) vs Tirunelveli (ADM2)": 1,
+      "Tirupattur (claimed) vs Vellore (ADM2)": 1,
+      "Tiruvannamalai (claimed) vs Vellore (ADM2)": 1,
+      "Vellore (claimed) vs Ranipet (ADM2)": 5
+    },
+    "note": "On district-mismatch the source (Wikidata P131) district is kept. geoBoundaries ADM2 names Kancheepuram and Chengalputtu appear swapped (checked against OSM admin_level=5 boundaries on 2026-10-30)."
+  },
+  "asiCoverage": {
+    "asiPublishedCount": 412,
+    "asiSource": "https://asi.nic.in/pdf/CPM_List.pdf",
+    "asiAsOf": "2025-04-08",
+    "distinctCentralAsiIds": 263,
+    "missing": 149,
+    "note": "Distinct N-TN-* ASI Monument IDs (Wikidata P1371) among published records, compared with the ASI published count. ASI data itself is not ingested."
+  },
+  "sourceFailures": [],
+  "rejected": [
+    {
+      "id": "wd-Q4527",
+      "name": "Western Ghats",
+      "source": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q4527",
+      "reason": "outside-claimed-state",
+      "coordinates": [
+        77.061111111,
+        10.169722222
+      ],
+      "detectedState": "Kerala"
+    }
+  ],
+  "coordinateConflicts": [
+    {
+      "id": "wd-Q15260872",
+      "name": "Namakkal Fort",
+      "published": [
+        78.166667,
+        11.233333
+      ],
+      "others": [
+        {
+          "source": "osm-overpass",
+          "ref": "way/402592136",
+          "coordinates": [
+            78.1652032,
+            11.2226169
+          ],
+          "km": 1.2
+        }
+      ]
+    },
+    {
+      "id": "wd-Q2824397",
+      "name": "Adichanallur archaeological site",
+      "published": [
+        77.7,
+        8.73
+      ],
+      "others": [
+        {
+          "source": "osm-overpass",
+          "ref": "way/353396285",
+          "coordinates": [
+            77.8680732,
+            8.6261454
+          ],
+          "km": 21.8
+        }
+      ]
+    },
+    {
+      "id": "wd-Q471838",
+      "name": "Sankagiri Fort",
+      "published": [
+        78.203,
+        11.77
+      ],
+      "others": [
+        {
+          "source": "osm-overpass",
+          "ref": "node/7689382152",
+          "coordinates": [
+            77.8639376,
+            11.4792256
+          ],
+          "km": 49.1
+        }
+      ]
+    },
+    {
+      "id": "wd-Q6437519",
+      "name": "Krishnagiri Fort",
+      "published": [
+        78.214638,
+        12.537721
+      ],
+      "others": [
+        {
+          "source": "osm-overpass",
+          "ref": "way/555716222",
+          "coordinates": [
+            79.4056505,
+            12.2584673
+          ],
+          "km": 133
+        }
+      ]
+    },
+    {
+      "id": "wd-Q695229",
+      "name": "Great Living Chola Temples",
+      "published": [
+        79.1325,
+        10.783055555
+      ],
+      "others": [
+        {
+          "source": "osm-overpass",
+          "ref": "relation/9762728",
+          "coordinates": [
+            79.2900794,
+            10.9943643
+          ],
+          "km": 29.1
+        }
+      ]
+    },
+    {
+      "id": "wd-Q7915405",
+      "name": "Varaha Cave Temple",
+      "published": [
+        80.025,
+        12.6167
+      ],
+      "others": [
+        {
+          "source": "osm-overpass",
+          "ref": "node/353978532",
+          "coordinates": [
+            80.1922234,
+            12.6180857
+          ],
+          "km": 18.1
+        }
+      ]
+    }
+  ],
+  "districtMismatches": [
+    {
+      "id": "wd-Q1144279",
+      "name": "Shore Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q1493439",
+      "name": "Gangaikonda Cholapuram",
+      "claimed": "Thanjavur",
+      "adm2": "Ariyalur"
+    },
+    {
+      "id": "wd-Q15228795",
+      "name": "Iravatanesvara Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q15240480",
+      "name": "Krishna Cave Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q15263712",
+      "name": "Olakkannesvara Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q16308593",
+      "name": "Dhenupureeswarar Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q16868981",
+      "name": "Armamalai Cave",
+      "claimed": "Tirupattur",
+      "adm2": "Vellore"
+    },
+    {
+      "id": "wd-Q17053330",
+      "name": "Ganesha Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q17062524",
+      "name": "Nakula Sahadeva Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q1753664",
+      "name": "Descent of the Ganges",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q24192141",
+      "name": "Krishna's Butterball",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q24738391",
+      "name": "Mahishasuramardini Mandapa",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q24937257",
+      "name": "Vaikunda Perumal Temple, Uthiramerur",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q24946811",
+      "name": "Nithyakalyana Perumal temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q25553364",
+      "name": "Piravatheeswarar Temple, Kanchipuram",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q25553459",
+      "name": "Chokkeeswarar Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q26833741",
+      "name": "Trilokyanatha Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q2824397",
+      "name": "Adichanallur archaeological site",
+      "claimed": "Thoothukudi",
+      "adm2": "Tirunelveli"
+    },
+    {
+      "id": "wd-Q31368464",
+      "name": "Orukkal Mandapam",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q31368747",
+      "name": "Kooram Vidya Veenitha Pallava Parameswaram Temple Kanchipuram",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q468734",
+      "name": "Alamparai Fort",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q4791597",
+      "name": "Arjuna Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q4901753",
+      "name": "Bhima Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q4991977",
+      "name": "Tiger Cave",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q5269312",
+      "name": "Dharmaraja Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q5305938",
+      "name": "Draupadi Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q65998810",
+      "name": "Mukunda Nayanar Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q6786058",
+      "name": "Madhangeeswarar Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q6881667",
+      "name": "Trimurti cave temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q6933613",
+      "name": "Muktheshwarar Temple, Kanchipuram",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q7915405",
+      "name": "Varaha Cave Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97144222",
+      "name": "Sivankoil (Siva Kozhundeeshwarar Temple)",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97144225",
+      "name": "Mahadevar Koil",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97144230",
+      "name": "Karunguzhi Fort",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97144232",
+      "name": "Vittal Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97144234",
+      "name": "Vazhipokkar Mandapam",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97144378",
+      "name": "Sivankoil (Raja Raja Choleshwar Mahadevar Temple)",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97144380",
+      "name": "Chandraprabha Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97144550",
+      "name": "Vandavasi Fort",
+      "claimed": "Tiruvannamalai",
+      "adm2": "Vellore"
+    },
+    {
+      "id": "wd-Q97479642",
+      "name": "Jvaraharesvara Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97479645",
+      "name": "Munkudmisvara Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479646",
+      "name": "Large Siva Temple (Apathsahaesvara Temple)",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97479647",
+      "name": "Dharmaraja’s Rock-cut Throne",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479648",
+      "name": "Dolostva Mandapa",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479649",
+      "name": "Draupadi’s Bath",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479650",
+      "name": "Seven Pidaris",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479651",
+      "name": "Huge Stone Figures Of The Lion, Elephant , And A Bull",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479652",
+      "name": "Kotikal Mandapa",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479653",
+      "name": "Large Unfinished Rock Sculpture Similar To Arjuna’s Penance",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479654",
+      "name": "Mahishasura Mardini Rock",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479658",
+      "name": "Rayagopuram(Unfinished)",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479660",
+      "name": "Valayankuttai Ratha",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479661",
+      "name": "Stone Sculpture Representing The Group Of Monkeys",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479664",
+      "name": "Two Rock Cut Temples At North East Corner Of The Koneri Pallam Tank",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479665",
+      "name": "Two Small-Carved Rocks To The South Of The Shore Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479666",
+      "name": "Pidari Rathas",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479667",
+      "name": "Unfinished Ratha And Stone Couch",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479669",
+      "name": "Dharmeswarar Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97479670",
+      "name": "Vaikunta Perumal Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97479671",
+      "name": "Fort Sadras Cemetery",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479675",
+      "name": "Two Inscribed Rocks, Salavankuppam",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97479677",
+      "name": "Lesser Siva Temple(Kanthalingesvasatemple)",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97479680",
+      "name": "Venkatesaperumal Temple",
+      "claimed": "Kanchipuram",
+      "adm2": "Chengalputtu"
+    },
+    {
+      "id": "wd-Q97479682",
+      "name": "Tirupulisvara Temple",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97480180",
+      "name": "Megalithic Cists and Cairns",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97480206",
+      "name": "Megalithic Cists and Cairns",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    },
+    {
+      "id": "wd-Q97481107",
+      "name": "Alagarmalai Cavern With Panchapandava Beds Midway Between Algarmallai And Kidampatti",
+      "claimed": "Madurai",
+      "adm2": "Dindigul"
+    },
+    {
+      "id": "wd-Q97481257",
+      "name": "Ranganatha Temple",
+      "claimed": "Vellore",
+      "adm2": "Ranipet"
+    },
+    {
+      "id": "wd-Q97481262",
+      "name": "Choleswara Temple",
+      "claimed": "Vellore",
+      "adm2": "Ranipet"
+    },
+    {
+      "id": "wd-Q97481265",
+      "name": "Somanadheeswarar temple",
+      "claimed": "Vellore",
+      "adm2": "Ranipet"
+    },
+    {
+      "id": "wd-Q97481269",
+      "name": "The Sholinghur Tank",
+      "claimed": "Ranipet",
+      "adm2": "Thiruvallur"
+    },
+    {
+      "id": "wd-Q97481273",
+      "name": "Vallimalai Murugan temple (Subramanya Temple)",
+      "claimed": "Vellore",
+      "adm2": "Ranipet"
+    },
+    {
+      "id": "wd-Q97481275",
+      "name": "Jain Sculpture And Inscription",
+      "claimed": "Vellore",
+      "adm2": "Ranipet"
+    },
+    {
+      "id": "wd-Q97692764",
+      "name": "Thirumalai Naicker Mandapam",
+      "claimed": "Madurai",
+      "adm2": "Dindigul"
+    },
+    {
+      "id": "wd-Q98601601",
+      "name": "Fort Sadras",
+      "claimed": "Chengalpattu",
+      "adm2": "Kancheepuram"
+    }
+  ]
+}

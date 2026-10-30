@@ -1,0 +1,4 @@
+# Raw and processed data must stay byte-identical across checkouts: raw files are
+# checked against bodySha256 in the manifest and offline reruns must reproduce
+# data/processed byte for byte. Disable end-of-line conversion for data/.
+data/** -text

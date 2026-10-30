@@ -1,0 +1,489 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "itemLabel",
+      "coord",
+      "asi",
+      "whs",
+      "districtLabel",
+      "image",
+      "inception",
+      "inceptionPrecision",
+      "heritageLabel",
+      "typeName",
+      "description"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3437182"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "12th century Chola Hindu temple, UNESCO world heritage site"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hindu temple"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1166-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.356708 10.94841)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "250bis-003"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%22A%20beautiful%20angle%20of%20Airavatesvara%20Temple%22.JPG"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C189"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Airavatesvara Temple"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Thanjavur district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Monument of National Importance"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3437182"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "12th century Chola Hindu temple, UNESCO world heritage site"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hindu temple"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1166-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(79.356708 10.94841)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "250bis-003"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%22A%20beautiful%20angle%20of%20Airavatesvara%20Temple%22.JPG"
+        },
+        "asi": {
+          "type": "literal",
+          "value": "N-TN-C189"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Airavatesvara Temple"
+        },
+        "districtLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Thanjavur district"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "part of UNESCO World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5597433"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Indian protected area and national park"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "national park"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(76.9856427 10.3410227)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342rev-014"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Grass%20Hills%20National%20Park.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Grass Hills National Park"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "part of UNESCO World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "biodiversity hotspot"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "biodiversity hotspot"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "biodiversity hotspot"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342rev"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "biodiversity hotspot"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342rev"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342rev"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4527"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range along the western coast of India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mountain range"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(77.061111111 10.169722222)"
+        },
+        "whs": {
+          "type": "literal",
+          "value": "1342rev"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Western Ghats"
+        },
+        "heritageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "World Heritage Site"
+        }
+      }
+    ]
+  }
+}

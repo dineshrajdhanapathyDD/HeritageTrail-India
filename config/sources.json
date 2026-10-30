@@ -41,7 +41,11 @@
           { "key": "amenity", "value": "place_of_worship", "requireKeys": ["historic"] }
         ],
         "excludeTags": [
-          { "key": "historic", "value": "memorial" }
+          { "key": "historic", "value": "memorial" },
+          { "key": "historic", "value": "boundary_stone" },
+          { "key": "historic", "value": "wayside_cross" },
+          { "key": "historic", "value": "wayside_shrine" },
+          { "key": "historic", "value": "milestone" }
         ]
       }
     },

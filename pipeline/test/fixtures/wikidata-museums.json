@@ -1,0 +1,92 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "itemLabel",
+      "coord",
+      "asi",
+      "whs",
+      "districtLabel",
+      "image",
+      "inception",
+      "inceptionPrecision",
+      "heritageLabel",
+      "typeName",
+      "description"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3536763"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "museum of human history and culture in India"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "museum"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(80.257289 13.07065)"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Madras%20museum%20theatre%20in%20October%202007.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Government Museum, Chennai"
+        },
+        "inception": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1851-01-01T00:00:00Z"
+        },
+        "inceptionPrecision": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "9"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113992715"
+        },
+        "description": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "museum in Madurai, Tamil Nadu"
+        },
+        "typeName": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "museum"
+        },
+        "coord": {
+          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "type": "literal",
+          "value": "Point(78.138657594 9.930330684)"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/001%20Government%20Museum%2C%20Madurai%202022%20August%2013.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Government Museum, Madurai"
+        }
+      }
+    ]
+  }
+}

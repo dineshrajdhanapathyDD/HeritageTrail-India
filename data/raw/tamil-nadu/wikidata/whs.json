@@ -1,0 +1,1486 @@
+{
+  "head" : {
+    "vars" : [ "item", "itemLabel", "coord", "asi", "whs", "districtLabel", "image", "inception", "inceptionPrecision", "heritageLabel", "typeName", "description" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3437182"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "12th century Chola Hindu temple, UNESCO world heritage site"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindu temple"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1166-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.356708 10.94841)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis-003"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/%22A%20beautiful%20angle%20of%20Airavatesvara%20Temple%22.JPG"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "N-TN-C189"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airavatesvara Temple"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monument of National Importance"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3437182"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "12th century Chola Hindu temple, UNESCO world heritage site"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindu temple"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1166-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.356708 10.94841)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis-003"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/%22A%20beautiful%20angle%20of%20Airavatesvara%20Temple%22.JPG"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "N-TN-C189"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Airavatesvara Temple"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3936889"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tiger reserve in Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tiger reserve of India"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.31666667 8.68333333)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-001"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Kalakkad%20Mundanthurai.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kalakkad Mundanthurai Tiger Reserve"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3936889"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tiger reserve in Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "protected area"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.31666667 8.68333333)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-001"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Kalakkad%20Mundanthurai.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kalakkad Mundanthurai Tiger Reserve"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5597433"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indian protected area and national park"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "national park"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.9856427 10.3410227)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-014"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Grass%20Hills%20National%20Park.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grass Hills National Park"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5609778"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Grizzled Squirrel Wildlife Sanctuary (GSWS), also known as Srivilliputhur Wildlife Sanctuary, was established in 1988 to protect the vulnerable grizzled giant squirrel (Ratufa macroura) in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "protected area"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.55833333 9.575)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-011"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Giant-squirrel.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Grizzled Squirrel Wildlife Sanctuary"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13116281"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Protected area in Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "national park"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.08333333 10.38333333)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-015"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karian Shola National Park"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65998810"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of a World Heritage site in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindu temple"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.194893906 12.627165885)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "249-002"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "N-TN-C49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mukunda Nayanar Temple"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chengalpattu district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monument of National Importance"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65998810"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of a World Heritage site in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindu temple"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.194893906 12.627165885)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "249-002"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "N-TN-C49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mukunda Nayanar Temple"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chengalpattu district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65998810"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of a World Heritage site in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "temple"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.194893906 12.627165885)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "249-002"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "N-TN-C49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mukunda Nayanar Temple"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chengalpattu district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monument of National Importance"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65998810"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of a World Heritage site in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "temple"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(80.194893906 12.627165885)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "249-002"
+      },
+      "asi" : {
+        "type" : "literal",
+        "value" : "N-TN-C49"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mukunda Nayanar Temple"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chengalpattu district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q463735"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heritage rail line in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain railway"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.791944444 11.344316666)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "944ter-002"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/NMR%20up%20train%20at%20Kateri%20Road%2005-02-28%2004.jpeg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nilgiri Mountain Railway"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q463735"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heritage rail line in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "railway line"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.791944444 11.344316666)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "944ter-002"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/NMR%20up%20train%20at%20Kateri%20Road%2005-02-28%2004.jpeg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nilgiri Mountain Railway"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q463735"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heritage rail line in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "narrow-gauge railway"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.791944444 11.344316666)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "944ter-002"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/NMR%20up%20train%20at%20Kateri%20Road%2005-02-28%2004.jpeg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nilgiri Mountain Railway"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q463735"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Heritage rail line in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "heritage railway"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.791944444 11.344316666)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "944ter-002"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/NMR%20up%20train%20at%20Kateri%20Road%2005-02-28%2004.jpeg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nilgiri Mountain Railway"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "group of structures or buildings"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "group of structures or buildings"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "group of structures or buildings"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "group of structures or buildings"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "historic site"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "historic site"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "historic site"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695229"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "10th to 12th centuries shaivism Hindu temples, UNESCO World Heritage sites situated in India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "historic site"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.783055555)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Living Chola Temples"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916943"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "11th century Tamil Chola Dynasty Temple and UNESCO World Heritage Site"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hindu temple"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1010-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.78305556)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250-001"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20temple%20de%20Brihadishwara%20%28Tanjore%2C%20Inde%29%20%2814354574611%29.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prahadisvarar Temple"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916943"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "11th century Tamil Chola Dynasty Temple and UNESCO World Heritage Site"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gopuram"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1010-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.1325 10.78305556)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250-001"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20temple%20de%20Brihadishwara%20%28Tanjore%2C%20Inde%29%20%2814354574611%29.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prahadisvarar Temple"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1493439"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Village in Thanjavur District, Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "village in India"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(79.45278 11.20524)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "250bis-002"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Gangaikonda%20Cholapuram%20view.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gangaikonda Cholapuram"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thanjavur district"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2985390"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "national park in Tamil Nadu, India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "national park"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2001-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(76.475 11.266666666)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-022"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Niltahr.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mukurthi National Park"
+      },
+      "districtLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nilgiris district"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "biodiversity hotspot"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "biodiversity hotspot"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "biodiversity hotspot"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "biodiversity hotspot"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4527"
+      },
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range along the western coast of India"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountain range"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.061111111 10.169722222)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev"
+      },
+      "image" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Naikolli%20Mala%20near%20Anamudi.jpg"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Ghats"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "World Heritage Site"
+      }
+    }, {
+      "item" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q97379507"
+      },
+      "typeName" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "protected area"
+      },
+      "inception" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1997-01-01T00:00:00Z"
+      },
+      "inceptionPrecision" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+        "type" : "literal",
+        "value" : "9"
+      },
+      "coord" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(77.283333333 9.216666666)"
+      },
+      "whs" : {
+        "type" : "literal",
+        "value" : "1342rev-012"
+      },
+      "itemLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tirunelveli (North) Forest (part)"
+      },
+      "heritageLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "part of UNESCO World Heritage Site"
+      }
+    } ]
+  }
+}

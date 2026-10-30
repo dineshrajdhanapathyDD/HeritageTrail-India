@@ -108,7 +108,7 @@ Each decision is binding for Phases 3 to 7. The rationale is one line.
 │  ├─ src/{schema,config,geo,ids,index}.ts
 │  └─ test/
 ├─ pipeline/               Node CLI (tsx): run --state <slug> [--offline] [--sources a,b], boundaries
-│  └─ src/{http,rawStore,config,normalize,validate,dedupe,output,cli}.ts, src/adapters/{wikidata,osm,commons,boundaries}.ts
+│  └─ src/{http,rawStore,config,paths,geojson,normalize,validate,dedupe,output,run,cli}.ts, src/adapters/{types,wikidata,osm,commons,boundaries}.ts
 ├─ data/
 │  ├─ raw/<state>/<source>/*.json + manifest.json   committed raw responses
 │  ├─ raw/boundaries/                               gitignored geoBoundaries downloads
@@ -171,8 +171,12 @@ with a 2 km tolerance for coastal and border points.
   GeoJSON and reported.
 
 **District.** Wikidata district is compared with the ADM2 polygon containing the point (Levenshtein ratio ≥ 0.8 on
-normalized names). No Wikidata district: take ADM2 and flag `district-derived`. Disagreement: keep Wikidata, flag
-`district-mismatch`.
+normalized names). Match: use the ADM2 spelling. No Wikidata district: take ADM2 and flag `district-derived`.
+Disagreement: keep Wikidata (spelled as the closest ADM2 name when one matches), flag `district-mismatch`, and list
+the pair in the report. Evidence for keeping Wikidata: in the 2026-10-30 run, 63 of the 75 mismatches came from
+geoBoundaries ADM2 having the names Kancheepuram and Chengalputtu swapped (an interior point of the ADM2
+"Chengalputtu" polygon lies in OSM's Kanchipuram district, Q15157, and vice versa for Chengalpattu, Q65976177).
+Consumers that join sites to district polygons by name must account for that swap.
 
 **Dedupe.**
 
@@ -192,12 +196,23 @@ In merges Wikidata coordinates win; a disagreement over 500 m adds `coordinate-c
   `https://asi.nic.in/pdf/CPM_List.pdf`, 2025-04-08), used only for a coverage-gap figure in the report.
 - `config/sources.json`: per source the endpoint, terms URL, licence, licence URL, attribution text and provenance
   note, plus Overpass tag filters (`historic` = fort, castle, monument, archaeological_site, ruins, temple;
-  `tourism=museum`; `amenity=place_of_worship` with `historic`; `historic=memorial` excluded).
+  `tourism=museum`; `amenity=place_of_worship` with `historic`, excluding `historic` = memorial, boundary_stone,
+  wayside_cross, wayside_shrine, milestone; unnamed elements are skipped).
 - `config/categories.json`: ordered rules (museum, fort, temple, archaeological-site, monument, fallback `other`).
 - HTTP: identifying User-Agent, retry with 30 s backoff on 429/502/503/504, max 3 attempts. If Overpass still fails
   the run continues and the report records the failure.
 
 All three config files are validated with zod schemas in `shared/src/config.ts`.
+
+**Adding a state** needs only `config/states/<slug>.json`, then `npm run pipeline -- boundaries` (writes
+`<slug>-state.geojson` and `<slug>-districts.geojson` and checks `expectedDistrictCount`) and
+`npm run pipeline -- run --state <slug>`. **Adding a site source** needs an adapter implementing `SourceAdapter`
+(`pipeline/src/adapters/types.ts`: `fetch(state, ctx)` through the raw store, `normalize(raw, state)` to
+`CandidateRecord[]`), one line in `SITE_ADAPTERS` (`pipeline/src/run.ts`) and an entry in `config/sources.json`.
+
+Raw copies: each response is stored verbatim with a manifest entry; `--offline` re-reads them, refusing a copy whose
+request (`querySha256`) or body (`bodySha256`) no longer matches. `data/**` has `-text` in `.gitattributes` so line
+endings never change the bytes.
 
 ## 7. DynamoDB key design
 
