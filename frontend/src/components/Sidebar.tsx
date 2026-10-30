@@ -25,10 +25,12 @@ export function Sidebar({ insights, mapCenter }: { insights: Insights; mapCenter
       layout
       initial={{ opacity: 0, x: -16 }}
       animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -24 }}
       transition={{ type: 'spring', stiffness: 260, damping: 30 }}
       className={`panel pointer-events-auto fixed inset-x-0 bottom-0 z-30 flex flex-col rounded-t-2xl md:absolute md:inset-x-auto md:bottom-10 md:left-4 md:top-[92px] md:rounded-2xl ${
         state.sheetOpen ? 'max-h-[56dvh]' : 'max-h-[64px]'
       } md:max-h-none ${wide ? 'md:w-[560px]' : 'md:w-[380px]'}`}
+      id="explore-panel"
       aria-label="Explore heritage sites"
     >
       <button

@@ -8,3 +8,5 @@ data/raw/boundaries/
 .env*.local
 test-results/
 playwright-report/
+.playwright-mcp/
+infra/cdk-outputs.json

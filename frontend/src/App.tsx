@@ -27,7 +27,7 @@ function dataBounds(data: LoadedData): [number, number, number, number] {
   return [w, s, e, n];
 }
 
-function Brand() {
+function Brand({ panelHidden, onTogglePanel }: { panelHidden: boolean; onTogglePanel: () => void }) {
   const { data, config } = useApp();
   const coverage = data.states.map((s) => s.name).join(', ');
   return (
@@ -50,6 +50,26 @@ function Brand() {
           {config.mode === 'local' && ' · local mode'}
         </p>
       </div>
+      <button
+        type="button"
+        onClick={onTogglePanel}
+        aria-expanded={!panelHidden}
+        aria-controls="explore-panel"
+        title={panelHidden ? 'Show the explore panel' : 'Hide the panel to see the full map'}
+        className="ml-auto flex shrink-0 items-center gap-1 rounded-full border border-laterite-600/40 px-3 py-1 text-xs font-semibold text-laterite-700 transition-colors hover:bg-laterite-600 hover:text-ivory-50"
+      >
+        <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" aria-hidden="true">
+          <path
+            d={panelHidden ? 'M4 6l4 4 4-4' : 'M4 10l4-4 4 4'}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        {panelHidden ? 'Show panel' : 'Hide panel'}
+      </button>
     </motion.header>
   );
 }
@@ -94,6 +114,7 @@ function Shell() {
     return out;
   }, [visible, selected, showNearby, nearbyResults]);
   const onSelect = useCallback((id: string) => dispatch({ type: 'select', id }), [dispatch]);
+  const [panelHidden, setPanelHidden] = useState(false);
 
   return (
     <div className="relative h-dvh w-full overflow-hidden bg-ivory-100">
@@ -112,8 +133,8 @@ function Shell() {
         onSelect={onSelect}
         onMoveEnd={setMapCenter}
       />
-      <Brand />
-      <Sidebar insights={insights} mapCenter={mapCenter} />
+      <Brand panelHidden={panelHidden} onTogglePanel={() => setPanelHidden((h) => !h)} />
+      <AnimatePresence>{!panelHidden && <Sidebar key="sidebar" insights={insights} mapCenter={mapCenter} />}</AnimatePresence>
       <AnimatePresence>{selected && <DetailsPanel key={selected.properties.id} feature={selected} />}</AnimatePresence>
       <Legend densityOn={state.layers.density} />
       <Attribution />
