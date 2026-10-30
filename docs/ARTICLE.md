@@ -258,5 +258,5 @@ Next steps:
 - **Live website:** https://d6thdya945lhl.cloudfront.net
 - **GitHub repository:** https://github.com/dineshrajdhanapathyDD/HeritageTrail-India
 - **Dataset research:** [docs/DATASETS.md](DATASETS.md)
-- **Architecture:** [docs/ARCHITECTURE.md](ARCHITECTURE.md)
+- **Architecture:** [docs/ARCHITECTURE.md](ARCHITECTURE.md), diagram [architecture.drawio](architecture.drawio) ([PNG](architecture.png))
 - **Security:** [docs/SECURITY.md](SECURITY.md)

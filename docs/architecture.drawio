@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Kiro" version="24.0.0">
+  <diagram id="heritagetrail-architecture" name="HeritageTrail India architecture">
+    <mxGraphModel dx="1700" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;HeritageTrail India - Architecture&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;Stack HeritageTrail-dev, us-east-1, deployed with AWS CDK (TypeScript)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontColor=#7A2E1D;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="users" value="&lt;b&gt;Users&lt;/b&gt; (web browser)&lt;br&gt;React + MapLibre GL app" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;align=left;spacingLeft=6;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grp-sources" value="&lt;b&gt;Open data sources&lt;/b&gt;" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FBF6EC;strokeColor=#B98A3E;verticalAlign=top;align=center;fontColor=#7A2E1D;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="220" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="src-wd" value="&lt;b&gt;Wikidata&lt;/b&gt; (SPARQL)&lt;br&gt;CC0 1.0&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;names, coordinates, districts, ASI and UNESCO IDs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B98A3E;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="src-osm" value="&lt;b&gt;OpenStreetMap&lt;/b&gt; (Overpass API)&lt;br&gt;ODbL 1.0&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;forts, temples, museums, coordinate cross-check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B98A3E;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="295" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="src-commons" value="&lt;b&gt;Wikimedia Commons&lt;/b&gt; API&lt;br&gt;per-file licence&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;image URL, author, licence (linked, not copied)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B98A3E;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="src-gb" value="&lt;b&gt;geoBoundaries&lt;/b&gt; IND ADM1/ADM2&lt;br&gt;CC BY / ODbL&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;state and district polygons&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B98A3E;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="465" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="grp-pipeline" value="&lt;b&gt;Ingestion pipeline&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;pipeline/ (Node.js CLI, runs locally)&lt;/font&gt;" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FBF6EC;strokeColor=#B98A3E;verticalAlign=top;align=center;fontColor=#7A2E1D;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="260" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p-adapt" value="Source adapters&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;fetch + keep raw copies (retry, --offline)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3432A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p-norm" value="Normalize to one schema (zod)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3432A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="285" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="p-val" value="Validate&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;inside India + inside claimed state, district check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3432A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p-dedupe" value="Dedupe + flag&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;QID / name+distance, missing fields, verification&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3432A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="405" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p-out" value="&lt;b&gt;data/raw/&lt;/b&gt; + &lt;b&gt;data/processed/&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;tamil-nadu.geojson, report, boundaries&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#F2CF73;strokeColor=#B98A3E;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="475" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#A3432A;" edge="1" parent="1" source="p-adapt" target="p-norm"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-p2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#A3432A;" edge="1" parent="1" source="p-norm" target="p-val"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-p3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#A3432A;" edge="1" parent="1" source="p-val" target="p-dedupe"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-p4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#A3432A;" edge="1" parent="1" source="p-dedupe" target="p-out"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-src" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#B98A3E;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="grp-sources" target="p-adapt"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cdk" value="&lt;b&gt;AWS CDK&lt;/b&gt; (TypeScript)&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;cdk deploy -c env=dev&lt;br&gt;Lambdas bundled with local esbuild (no Docker)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E7157B;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="640" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-cdk" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#E7157B;" edge="1" parent="1" source="p-out" target="cdk"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="grp-aws" value="AWS Cloud" style="points=[];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=0;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="1080" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="grp-region" value="Region us-east-1 - stack HeritageTrail-dev" style="points=[];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=0;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="1040" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cf" value="&lt;b&gt;Amazon CloudFront&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;security-headers policy&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3site" value="&lt;b&gt;S3 site bucket&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;React app, /config.json,&lt;br&gt;/data/*.geojson&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loc" value="&lt;b&gt;Amazon Location Service&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Maps (tiles), Places, Routes&lt;br&gt;API key heritagetrail-dev&lt;br&gt;(6 actions, referer-restricted)&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.location_service;" vertex="1" parent="1">
+          <mxGeometry x="900" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="apigw" value="&lt;b&gt;Amazon API Gateway&lt;/b&gt; (REST)&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;stage dev, request validation,&lt;br&gt;throttle 20 rps / burst 40&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lapi" value="&lt;b&gt;API Lambda&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Node.js 22, arm64&lt;br&gt;GET /sites, /sites/{id},&lt;br&gt;/sites/nearby, /stats&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsum" value="&lt;b&gt;Summary Lambda&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;POST /sites/{id}/summary&lt;br&gt;(optional, enableSummaries)&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="450" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ddb" value="&lt;b&gt;Amazon DynamoDB&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;sites table, pk/sk, GSI1, GSI2&lt;br&gt;on-demand, PITR, encrypted&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock" value="&lt;b&gt;Amazon Bedrock&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Amazon Nova 2 Lite&lt;br&gt;us.amazon.nova-2-lite-v1:0&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="560" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3data" value="&lt;b&gt;S3 data bucket&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;raw/ + processed/ GeoJSON&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="900" y="650" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lingest" value="&lt;b&gt;Ingest Lambda&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;loads GeoJSON into DynamoDB&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="650" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cw" value="&lt;b&gt;CloudWatch Logs&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;API access logs + 3 Lambdas,&lt;br&gt;30-day retention&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="650" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iam" value="&lt;b&gt;IAM: one least-privilege role per Lambda&lt;/b&gt;&lt;br&gt;API: dynamodb GetItem, Query&lt;br&gt;Ingest: s3 GetObject (processed/*), dynamodb BatchWrite/Put/Delete/Query&lt;br&gt;Summary: dynamodb Get/Put, bedrock:InvokeModel (Nova 2 Lite only)&lt;br&gt;No AWS credentials in the browser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDECEC;strokeColor=#DD344C;fontSize=10;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="738" width="440" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u-cf" value="1. HTTPS: app + GeoJSON" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#232F3E;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="users" target="cf">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1030" y="150" /><mxPoint x="720" y="150" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-u-loc" value="2. tiles, place search, routes&lt;br&gt;(API key)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#DD344C;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.25;exitY=1;" edge="1" parent="1" source="users" target="loc">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1015" y="200" /><mxPoint x="930" y="200" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-u-api" value="3. REST API" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#E7157B;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=1;" edge="1" parent="1" source="users" target="apigw">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1045" y="200" /><mxPoint x="1140" y="200" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-cf-s3" value="Origin Access Control" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#8C4FFF;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="cf" target="s3site"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-api-l" value="proxy" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#E7157B;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="apigw" target="lapi"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-api-s" value="proxy" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#E7157B;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="apigw" target="lsum">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1140" y="480" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-l-ddb" value="GetItem / Query" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C925D1;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="lapi" target="ddb">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1570" y="300" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-s-ddb" value="Get / Put" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C925D1;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="lsum" target="ddb">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1460" y="480" /><mxPoint x="1460" y="405" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-s-br" value="InvokeModel (grounded&lt;br&gt;in stored source text)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#01A88D;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="lsum" target="bedrock">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1350" y="590" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-cdk-site" value="deploy site" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#E7157B;dashed=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.25;" edge="1" parent="1" source="cdk" target="s3site">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="580" y="657" /><mxPoint x="580" y="480" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-cdk-data" value="deploy data" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#E7157B;dashed=1;fontSize=10;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.75;" edge="1" parent="1" source="cdk" target="s3data">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="580" y="693" /><mxPoint x="580" y="770" /><mxPoint x="930" y="770" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e-s3-ingest" value="S3 event (processed/*.geojson)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7AA116;fontSize=10;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="s3data" target="lingest"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-ingest-ddb" value="BatchWriteItem" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C925D1;fontSize=10;labelBackgroundColor=#FFFFFF;entryX=1;entryY=0.5;" edge="1" parent="1" source="lingest" target="ddb">
+          <mxGeometry x="0.55" relative="1" as="geometry"><Array as="points"><mxPoint x="1635" y="680" /><mxPoint x="1635" y="390" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="note" value="Live: https://d6thdya945lhl.cloudfront.net  |  Repo: github.com/dineshrajdhanapathyDD/HeritageTrail-India  |  Local mode: the app runs on the committed GeoJSON with a plain basemap when no API key is set" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="20" y="845" width="1100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
