@@ -106,8 +106,7 @@ export class Frontend extends Construct {
   }
 
   /** Uploads frontend/dist plus a deploy-time /config.json, then invalidates the distribution. */
-  deploySite(siteConfig: SiteConfigJson): s3deploy.BucketDeployment {
-    const dist = repoPath('frontend', 'dist');
+  deploySite(siteConfig: SiteConfigJson, dist = repoPath('frontend', 'dist')): s3deploy.BucketDeployment {
     if (!existsSync(dist)) throw new Error(`${dist} not found: run "npm run build -w frontend" before cdk synth`);
     return new s3deploy.BucketDeployment(this, 'DeploySite', {
       sources: [s3deploy.Source.asset(dist), s3deploy.Source.jsonData('config.json', siteConfig)],

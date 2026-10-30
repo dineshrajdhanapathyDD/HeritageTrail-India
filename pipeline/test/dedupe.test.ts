@@ -54,6 +54,22 @@ describe('dedupe (decision 15)', () => {
     expect(flags['osm-node-11']).toEqual([]);
   });
 
+  it('(c) does not flag different names more than 50 m apart', () => {
+    const a = candidate({ key: 'osm-node-20', name: 'North Gate', category: 'fort' });
+    const b = candidate({ key: 'osm-node-21', name: 'South Gate', category: 'fort', lon: eastOf(LON, LAT, 0.08) });
+    const { records, stats } = dedupe([a, b]);
+    expect(records).toHaveLength(2);
+    expect(records.flatMap((r) => [...r.flags])).toEqual([]);
+    expect(stats.possibleDuplicatePairs).toBe(0);
+  });
+  it('does not flag coordinate-conflict when merged members are within 500 m', () => {
+    const wd = candidate({ key: 'wd-Q7', name: 'Old Gate', category: 'fort' });
+    const osm = candidate({ key: 'osm-node-7', name: 'Old Gate', category: 'fort', wikidataQid: 'Q7', lon: eastOf(LON, LAT, 0.45) });
+    const { records } = dedupe([wd, osm]);
+    expect(records).toHaveLength(1);
+    expect([...records[0]!.flags]).toEqual([]);
+    expect(sourcesAgree(records[0]!)).toBe(true);
+  });
   it('flags coordinate-conflict when a merged member is more than 500 m away', () => {
     const wd = candidate({ key: 'wd-Q471838', name: 'Sankagiri Fort', category: 'fort' });
     const osm = candidate({ key: 'osm-node-7689382152', name: 'Sankagiri Fort', category: 'fort', wikidataQid: 'Q471838', lon: eastOf(LON, LAT, 49) });

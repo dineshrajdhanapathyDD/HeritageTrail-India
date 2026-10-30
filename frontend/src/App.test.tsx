@@ -167,8 +167,11 @@ describe('App with an Amazon Location API key', () => {
     });
     const user = await renderApp();
     expect(screen.getByTestId('map-root')).toHaveAttribute('data-map-style', 'amazon');
-    expect(String(instances[0]?.options.style)).toBe(
-      'https://maps.geo.ap-south-1.amazonaws.com/v2/styles/Standard/descriptor?key=test-key',
+    // The map instance is created in an effect; under load it can appear after the result count.
+    await waitFor(() =>
+      expect(String(instances[0]?.options.style)).toBe(
+        'https://maps.geo.ap-south-1.amazonaws.com/v2/styles/Standard/descriptor?key=test-key',
+      ),
     );
 
     for (const name of ['Government Museum, Chennai', 'Shore Temple']) {

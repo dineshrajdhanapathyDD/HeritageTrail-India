@@ -18,4 +18,6 @@ if (!('ResizeObserver' in globalThis)) {
 
 afterEach(() => {
   cleanup();
+  // The maplibre mock attaches marker elements to document.body; drop any left behind.
+  document.body.innerHTML = '';
 });

@@ -9,6 +9,8 @@ import { repoPath } from './paths.ts';
 
 export interface HeritageStackProps extends StackProps {
   config: EnvironmentConfig;
+  /** Directory uploaded as the site (default frontend/dist). Tests pass a small fixture directory. */
+  siteAssetPath?: string;
 }
 
 export class HeritageStack extends Stack {
@@ -26,13 +28,16 @@ export class HeritageStack extends Stack {
 
     const loc = new Location(this, 'Location', { config, allowedOrigins });
 
-    frontend.deploySite({
-      region: config.region,
-      locationApiKey: loc.apiKeyValue,
-      mapStyle: config.mapStyle,
-      apiBaseUrl: api.baseUrl,
-      summariesEnabled: config.enableSummaries,
-    });
+    frontend.deploySite(
+      {
+        region: config.region,
+        locationApiKey: loc.apiKeyValue,
+        mapStyle: config.mapStyle,
+        apiBaseUrl: api.baseUrl,
+        summariesEnabled: config.enableSummaries,
+      },
+      props.siteAssetPath,
+    );
 
     // Data uploads: processed GeoJSON (triggers ingest) and the raw source copies for provenance.
     const processed = new s3deploy.BucketDeployment(this, 'DeployProcessedData', {

@@ -23,6 +23,9 @@ export class FakeMap {
   layers: Record<string, unknown>[] = [];
   flyTo = vitestFn();
   fitBounds = vitestFn();
+  easeTo = vitestFn();
+  /** Features returned by querySourceFeatures (tests put cluster features here). */
+  sourceFeatures: unknown[] = [];
   constructor(public options: Record<string, unknown>) {
     instances.push(this);
     setTimeout(() => this.fire('load'), 0);
@@ -59,9 +62,6 @@ export class FakeMap {
   setLayoutProperty() {
     return this;
   }
-  easeTo() {
-    return this;
-  }
   getZoom() {
     return 7;
   }
@@ -78,7 +78,7 @@ export class FakeMap {
     return true;
   }
   querySourceFeatures() {
-    return [];
+    return this.sourceFeatures;
   }
   remove() {}
 }
@@ -92,14 +92,24 @@ function vitestFn() {
   return fn;
 }
 
+/** Markers attach their element to document.body so tests can click HTML cluster markers. */
 export class Marker {
-  setLngLat() {
+  element: HTMLElement | undefined;
+  lngLat: unknown;
+  constructor(options: { element?: HTMLElement } = {}) {
+    this.element = options.element;
+  }
+  setLngLat(lngLat: unknown) {
+    this.lngLat = lngLat;
     return this;
   }
   addTo() {
+    if (this.element) document.body.appendChild(this.element);
     return this;
   }
-  remove() {}
+  remove() {
+    this.element?.remove();
+  }
 }
 
 export class LngLatBounds {
