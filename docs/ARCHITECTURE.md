@@ -29,7 +29,7 @@ flowchart LR
   RAW -- "--offline rerun" --> AD
   OUT --> PROC[("data/processed/<br/>&lt;state&gt;.geojson, report, index, boundaries")]
 
-  subgraph AWS["AWS account (CDK stack, default ap-south-1)"]
+  subgraph AWS["AWS account (CDK stack, default us-east-1)"]
     S3D[("S3 data bucket<br/>raw/ + processed/")]
     ING["Lambda ingest"]
     DDB[("DynamoDB table<br/>GSI1 state, GSI2 geohash3")]
@@ -75,7 +75,7 @@ Each decision is binding for Phases 3 to 7. The rationale is one line.
 | 4 | Pipeline in TypeScript run with `tsx`, Node 22 `fetch`, `@turf/*`, `fastest-levenshtein`; one adapter per source; states, sources and categories in JSON config. | Adding a state is a new `config/states/<slug>.json`; adding a source is an adapter file plus a `config/sources.json` entry. |
 | 5 | Lambdas on Node.js 22.x (`NodejsFunction`), bundled by local esbuild (`forceDockerBundling: false`, `externalModules: []`). | Docker is usually not running on the 6 GB build host. |
 | 6 | Amazon Location V2 standalone APIs (geo-maps, geo-places, geo-routes). The only Location resource is one `AWS::Location::APIKey` allowing `geo-maps:GetTile`, `geo-maps:GetStaticMap`, `geo-places:Geocode`, `geo-places:Autocomplete`, `geo-places:SearchText`, `geo-routes:CalculateRoutes` on `arn:aws:geo-maps|geo-places|geo-routes:<region>::provider/default`, with a referer allow-list (CloudFront domain; `http://localhost:5173/*`, `http://localhost:4173/*` in `dev` only). | V2 is the current developer guide and needs no map/place-index/route-calculator resources; the key is scoped to read-only actions. |
-| 7 | Default region `ap-south-1` (Mumbai). Evidence in section 9. | All three Location V2 features answered there; lowest latency for Indian users; higher-quota tier. |
+| 7 | Default region `us-east-1` (user's choice in Phase 5; overridable with `-c region=<r>`). Evidence in section 9. | All three Location V2 features and the Bedrock profile answer there, so the whole stack runs in one region; ap-south-1 was also verified and remains an option. |
 | 8 | Bedrock in a separate configurable region: `bedrockRegion: "us-east-1"`, `bedrockModelId: "us.amazon.nova-2-lite-v1:0"`, `enableSummaries` flag. When false, no summary Lambda, route or IAM is synthesized. IAM grants `bedrock:InvokeModel` on the profile ARN plus its three foundation-model ARNs. | The model is verified on the user's account in us-east-1; the feature is optional. |
 | 9 | Frontend always loads static GeoJSON from `/data/` (`index.json`, per-state files, boundaries), copied from `data/processed/` by `frontend/scripts/sync-data.mjs` in `predev`/`prebuild`. Map, clustering, search, filters, nearby and insights run client-side. The API is used only for the optional AI summary. | The app runs locally with no backend and the same files ship to CloudFront. |
 | 10 | Runtime config: the frontend fetches `/config.json` (`region`, `locationApiKey`, `mapStyle`, `apiBaseUrl`, `summariesEnabled`), falls back to `import.meta.env.VITE_*`, then to local mode. CDK writes `config.json` with `BucketDeployment` + `Source.jsonData`, reading the key value with an `AwsCustomResource` calling `location:DescribeKey`. | No rebuild after deploy and no AWS credentials in frontend code. |
@@ -255,8 +255,10 @@ are called directly from the browser with the API key; the summary call goes thr
 - `geo-places geocode "Thanjavur"` returned "Thanjavur, Tamil Nadu, India" at [79.12903, 10.76868].
 - `geo-routes calculate-routes` from Chennai [80.2707, 13.0827] to Mahabalipuram [80.1989, 12.6175] returned
   58,013 m with a 1,370-point LineString (CLI flag `--leg-geometry-format Simple`).
-- The same three calls also succeeded in us-east-1. ap-south-1 was chosen for latency and its higher quota tier
-  (GetTile 5,000/s per the AWS quotas page). `infra/scripts/check-region.ts` repeats these checks read-only.
+- The same three calls also succeeded in us-east-1. Phase 2 picked ap-south-1 for latency; in Phase 5 the user chose
+  us-east-1 as the deployment region. `npm run check:region -w infra` (read-only) passed in us-east-1: style
+  descriptor 138,430 bytes, Thanjavur geocode at [79.12903, 10.76868], Chennai to Mahabalipuram 58,013 m with
+  1,370 points, Bedrock profile ACTIVE with model regions us-east-1, us-east-2, us-west-2, no existing API keys.
 
 **Bedrock verification (decision 8).** Read-only `aws bedrock get-inference-profile` showed
 `us.amazon.nova-2-lite-v1:0` ACTIVE, routing to foundation-model ARNs in us-east-1, us-east-2 and us-west-2.

@@ -19,7 +19,7 @@ export interface RuntimeConfig {
   summariesEnabled: boolean;
 }
 
-export const DEFAULT_REGION = 'ap-south-1';
+export const DEFAULT_REGION = 'us-east-1';
 
 const regionSchema = z.string().regex(/^[a-z]{2}(-[a-z]+)+-\d$/);
 const apiBaseUrlSchema = z.url({ protocol: /^https?$/ });

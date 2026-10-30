@@ -5,7 +5,7 @@ describe('runtime config', () => {
   it('defaults to local mode with no key', () => {
     expect(resolveRuntimeConfig(null, {})).toEqual({
       mode: 'local',
-      region: 'ap-south-1',
+      region: 'us-east-1',
       locationApiKey: null,
       mapStyle: 'Standard',
       apiBaseUrl: null,
@@ -22,7 +22,7 @@ describe('runtime config', () => {
     expect(c.apiBaseUrl).toBe('https://api.example.test/dev');
     expect(c.summariesEnabled).toBe(true);
     const bad = resolveRuntimeConfig({ region: 'not a region', mapStyle: 'Neon', apiBaseUrl: 'javascript:alert(1)', summariesEnabled: true }, {});
-    expect(bad).toMatchObject({ region: 'ap-south-1', mapStyle: 'Standard', apiBaseUrl: null, summariesEnabled: false });
+    expect(bad).toMatchObject({ region: 'us-east-1', mapStyle: 'Standard', apiBaseUrl: null, summariesEnabled: false });
   });
 
   it('falls back to env when config.json is missing or not JSON', async () => {
