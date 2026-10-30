@@ -18,6 +18,7 @@
     "typecheck": "npm run typecheck --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
     "pipeline": "npm run cli -w pipeline --",
-    "synth": "npm run build -w frontend && npm run synth -w infra"
+    "synth": "npm run build -w frontend && npm run synth -w infra",
+    "license:audit": "node scripts/license-audit.mjs"
   }
 }
