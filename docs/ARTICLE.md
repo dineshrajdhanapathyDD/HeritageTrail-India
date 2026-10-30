@@ -73,6 +73,11 @@ district density table. All of it is computed from the published data.
 
 ![Insights](screenshots/07-insights.png)
 
+**8. Full-map view.** The **Hide panel** button on the title card hides the left panel so the whole map is visible.
+**Show panel** brings it back.
+
+![Panel hidden](screenshots/08-panel-hidden-full-map.png)
+
 ## How I built it
 
 I built it with Kiro, using a workflow of AI agents that worked through seven phases in order. Each phase was
