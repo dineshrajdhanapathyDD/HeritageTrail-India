@@ -42,8 +42,9 @@ export class Api extends Construct {
       restApiName: `heritagetrail-${config.envName}`,
       description: 'HeritageTrail India read API and optional grounded summaries',
       endpointTypes: [apigw.EndpointType.REGIONAL],
-      // Access logging needs the account-level API Gateway CloudWatch role; none is set in the target account.
-      cloudWatchRole: true,
+      // Access logging uses the account-level API Gateway CloudWatch role, which already exists in the
+      // target account (owned by another stack). User choice: do not take it over.
+      cloudWatchRole: false,
       deployOptions: {
         stageName: config.envName,
         throttlingRateLimit: config.throttle.rateLimit,
