@@ -119,6 +119,33 @@ export function compareStrings(a: string, b: string): number {
   return a < b ? -1 : a > b ? 1 : 0;
 }
 
+/** OSM tags that can hold personal contact details; dropped before raw copies are stored. */
+export const CONTACT_TAG_RE = /^(phone|mobile|fax|email|contact:.+)$/;
+
+/**
+ * Removes contact tags (phone, mobile, fax, email, contact:*) from an Overpass JSON response so no
+ * personal data is kept in data/raw. Other content is unchanged; non-JSON bodies are returned as is.
+ */
+export function scrubContactTags(body: string): string {
+  let doc: { elements?: Array<{ tags?: Record<string, string> }> };
+  try {
+    doc = JSON.parse(body);
+  } catch {
+    return body;
+  }
+  if (!Array.isArray(doc.elements)) return body;
+  let changed = false;
+  for (const el of doc.elements) {
+    for (const key of Object.keys(el.tags ?? {})) {
+      if (CONTACT_TAG_RE.test(key)) {
+        delete el.tags![key];
+        changed = true;
+      }
+    }
+  }
+  return changed ? `${JSON.stringify(doc, null, 2)}\n` : body;
+}
+
 export function onlineFetcher(store: RawStore, http: HttpOptions): RawFetcher {
   return {
     offline: false,
@@ -127,9 +154,10 @@ export function onlineFetcher(store: RawStore, http: HttpOptions): RawFetcher {
       const fetchedAt = new Date().toISOString();
       try {
         const res = await httpRequest(req, http);
-        store.record(req, fetchedAt, { body: res.body, status: res.status });
+        const body = req.source === 'osm-overpass' ? scrubContactTags(res.body) : res.body;
+        store.record(req, fetchedAt, { body, status: res.status });
         store.save();
-        return { ok: true, body: res.body, fetchedAt };
+        return { ok: true, body, fetchedAt };
       } catch (err) {
         const status = err instanceof HttpError ? err.status : null;
         const error = err instanceof Error ? err.message : String(err);

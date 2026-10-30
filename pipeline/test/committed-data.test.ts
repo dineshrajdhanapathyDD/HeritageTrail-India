@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { HeritageCollection } from '@heritagetrail/shared';
 import { pathsFor, REPO_ROOT } from '../src/paths.ts';
+import { CONTACT_TAG_RE } from '../src/rawStore.ts';
 
 const paths = pathsFor(REPO_ROOT);
 const readJson = (f: string) => JSON.parse(readFileSync(join(paths.processedDir, f), 'utf8'));
@@ -35,6 +36,18 @@ describe('committed data/processed/tamil-nadu.geojson', () => {
     const names = new Set(fc.features.flatMap((f) => f.properties.sources.map((s) => s.name)));
     expect([...names].sort()).toEqual(['osm-overpass', 'wikidata']);
     expect(fc.metadata.sources.map((s) => s.id)).not.toEqual(expect.arrayContaining(['unesco']));
+  });
+
+  it('never marks a coordinate-conflict record as verified', () => {
+    const conflicts = fc.features.filter((f) => f.properties.flags.includes('coordinate-conflict'));
+    expect(conflicts.length).toBeGreaterThan(0);
+    for (const f of conflicts) expect(f.properties.verificationStatus, f.properties.id).toBe('unverified');
+  });
+
+  it('keeps no contact tags in the committed raw OSM copies', () => {
+    const raw = JSON.parse(readFileSync(join(REPO_ROOT, 'data', 'raw', 'tamil-nadu', 'osm-overpass', 'sites.json'), 'utf8'));
+    const keys = raw.elements.flatMap((e: { tags?: Record<string, string> }) => Object.keys(e.tags ?? {}));
+    expect(keys.filter((k: string) => CONTACT_TAG_RE.test(k))).toEqual([]);
   });
 
   it('matches its report and index', () => {

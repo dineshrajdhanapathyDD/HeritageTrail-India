@@ -70,6 +70,7 @@ describe('end-to-end offline run on fixtures', async () => {
     expect(byId.get('wd-Q113992715')).toMatchObject({ verificationStatus: 'verified', category: 'museum' });
     expect(byId.has('osm-node-7100854585')).toBe(false);
     expect(byId.get('wd-Q471838')!.flags).toContain('coordinate-conflict');
+    expect(byId.get('wd-Q471838')!.verificationStatus).toBe('unverified');
     expect(byId.get('osm-node-1669711997')).toMatchObject({ verificationStatus: 'unverified', name: 'Thirumayam Fort' });
     expect(byId.get('wd-Q3437182')).toMatchObject({ unesco: 'component', unescoUrl: 'https://whc.unesco.org/en/list/250' });
     expect(byId.get('wd-Q3437182')!.image?.license).toBe('CC BY-SA 3.0');

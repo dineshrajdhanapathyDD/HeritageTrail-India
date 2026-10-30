@@ -104,8 +104,9 @@ If a key leaks into a place it should not be (for example a public issue), rotat
 
 - The processed data contains heritage site facts and source references only. The only person-related field is the
   Commons `Artist` string, kept because the image licence requires attribution, and shown only next to the image.
-- Raw OSM responses in `data/raw/` can contain organisation contact tags (for example a museum's public email). The
-  processed output keeps none of them.
+- Contact tags (`phone`, `mobile`, `fax`, `email`, `contact:*`) are removed from Overpass responses before the raw
+  copies in `data/raw/` are written (`scrubContactTags` in `pipeline/src/rawStore.ts`), so neither the raw copies nor
+  the processed output contain phone numbers or email addresses. A pipeline test checks the committed raw copy.
 - No secrets exist in the repository. The frontend has no AWS credentials; it uses only the public, restricted
   Location API key from `/config.json`. `.env*.local` files are gitignored.
 - Lambda logs are structured JSON with route names, counts and error class names only. Request bodies, query values

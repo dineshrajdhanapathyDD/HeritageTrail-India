@@ -140,7 +140,15 @@ export function canonicalDistrict(geo: StateGeometry, claim: string): string {
 /**
  * Decision 14: verified when inside the state (location checks passed) with an ASI Monument ID or
  * a UNESCO WHS ID, or when two different sources agree within 500 m. Otherwise unverified.
+ * A record whose sources disagree on its position by more than 500 m (`coordinate-conflict`) is never
+ * verified, even with an identifier: the identifier does not tell which coordinate is right.
  */
-export function verificationStatus(input: { hasAsiId: boolean; hasWhsId: boolean; sourcesAgree: boolean }): Exclude<VerificationStatus, 'rejected'> {
+export function verificationStatus(input: {
+  hasAsiId: boolean;
+  hasWhsId: boolean;
+  sourcesAgree: boolean;
+  coordinateConflict?: boolean;
+}): Exclude<VerificationStatus, 'rejected'> {
+  if (input.coordinateConflict) return 'unverified';
   return input.hasAsiId || input.hasWhsId || input.sourcesAgree ? 'verified' : 'unverified';
 }

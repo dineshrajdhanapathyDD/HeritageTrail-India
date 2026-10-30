@@ -74,6 +74,8 @@ describe('verification status (decision 14)', () => {
     expect(verificationStatus({ hasAsiId: false, hasWhsId: true, sourcesAgree: false })).toBe('verified');
     expect(verificationStatus({ hasAsiId: false, hasWhsId: false, sourcesAgree: true })).toBe('verified');
     expect(verificationStatus({ hasAsiId: false, hasWhsId: false, sourcesAgree: false })).toBe('unverified');
+    // An identifier does not settle which coordinate is right when sources disagree by > 500 m.
+    expect(verificationStatus({ hasAsiId: true, hasWhsId: true, sourcesAgree: false, coordinateConflict: true })).toBe('unverified');
   });
 });
 

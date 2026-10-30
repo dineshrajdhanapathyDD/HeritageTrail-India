@@ -1,7 +1,7 @@
 # HeritageTrail India
 
 A map-first web app for exploring India's heritage sites: temples, forts, monuments, museums, archaeological sites
-and UNESCO World Heritage components. The first state covered is **Tamil Nadu (629 sites, 371 verified)**; the data
+and UNESCO World Heritage components. The first state covered is **Tamil Nadu (629 sites, 365 verified)**; the data
 pipeline, API and frontend are built per state, so other states are a configuration change.
 
 All site data comes from open sources that were checked by hand (Wikidata, OpenStreetMap, Wikimedia Commons,
@@ -130,7 +130,7 @@ npm run synth                     # builds the frontend, then cdk synth (no Dock
 npm run license:audit             # production dependency licences
 ```
 
-Current results (this commit): `npm test` passes in all five workspaces (shared 27, pipeline 71, backend 36,
+Current results (this commit): `npm test` passes in all five workspaces (shared 27, pipeline 73, backend 36,
 frontend 46, infra 9 tests); the Playwright smoke test passes in Chromium; `npm run build -w frontend` and
 `npm run synth` succeed.
 
@@ -206,7 +206,7 @@ The processed site data is offered under ODbL 1.0; see [data/LICENSE-DATA.md](da
 
 From `data/processed/tamil-nadu.report.json`:
 
-- 629 published sites: 371 verified, 258 unverified; 1 rejected (Western Ghats, its point lies in Kerala). By
+- 629 published sites: 365 verified, 264 unverified; 1 rejected (Western Ghats, its point lies in Kerala). By
   category: temple 186, fort 44, monument 117, museum 85, archaeological site 102, other 95. UNESCO: 2 inscribed
   items, 12 components, 1 tentative.
 - **Historical period is sparse:** 603 sites have no period (Wikidata inception is rarely set). The period filter
@@ -220,7 +220,8 @@ From `data/processed/tamil-nadu.report.json`:
   keep the Wikidata district (75 district mismatches are flagged, 63 of them this swap), and district density for
   those two districts pairs counts with the other polygon's area. The app shows this note.
 - 84 records carry a possible-duplicate flag (42 pairs not merged), and 6 have a coordinate conflict between
-  Wikidata and OSM (for example Sankagiri Fort, 49 km apart). Check flagged records before relying on them.
+  Wikidata and OSM (for example Sankagiri Fort, 49 km apart). Records with a coordinate conflict are always
+  `unverified`, even when they have an ASI or WHS ID. Check flagged records before relying on them.
 
 ## Licence
 

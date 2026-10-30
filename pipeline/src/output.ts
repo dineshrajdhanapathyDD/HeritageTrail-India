@@ -86,7 +86,12 @@ export function buildFeature(r: MergedRecord, geo: StateGeometry, images: Readon
     image,
     sources,
     license: recordLicense(sources),
-    verificationStatus: verificationStatus({ hasAsiId: asiIds.length > 0, hasWhsId: whsIds.length > 0, sourcesAgree: sourcesAgree(r) }),
+    verificationStatus: verificationStatus({
+      hasAsiId: asiIds.length > 0,
+      hasWhsId: whsIds.length > 0,
+      sourcesAgree: sourcesAgree(r),
+      coordinateConflict: flags.includes('coordinate-conflict'),
+    }),
     flags: sortFlags(flags),
   };
   return {

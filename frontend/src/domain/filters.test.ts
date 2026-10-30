@@ -68,7 +68,8 @@ describe('search and filters on the committed Tamil Nadu data', () => {
     expect(forts.length).toBeGreaterThan(0);
     expect(forts.every((f) => f.properties.category === 'fort')).toBe(true);
 
-    const unesco = filterSites(features, { ...DEFAULT_FILTERS, unescoOnly: true });
+    // Great Living Chola Temples is unverified (coordinate-conflict between its sources), so include unverified.
+    const unesco = filterSites(features, { ...DEFAULT_FILTERS, unescoOnly: true, includeUnverified: true });
     expect(unesco.map((f) => f.properties.id)).toContain('wd-Q695229'); // Great Living Chola Temples
     expect(unesco.every((f) => f.properties.unesco !== null)).toBe(true);
 

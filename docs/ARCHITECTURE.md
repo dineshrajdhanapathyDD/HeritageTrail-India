@@ -165,8 +165,10 @@ with a 2 km tolerance for coastal and border points.
 **Verification status.**
 
 - `verified`: inside the claimed state polygon (or within 2 km of its edge, flagged `boundary-tolerance`), name and
-  coordinates present, and either an ASI Monument ID or WHS ID, or two sources agree within 500 m.
-- `unverified`: inside the state but single-source with no identifier.
+  coordinates present, no `coordinate-conflict`, and either an ASI Monument ID or WHS ID, or two sources agree
+  within 500 m.
+- `unverified`: inside the state but single-source with no identifier, or sources disagree on the position by more
+  than 500 m (`coordinate-conflict`, even when an identifier exists).
 - `rejected`: outside the India bbox, outside the claimed state beyond tolerance, or no coordinates. Excluded from the
   GeoJSON and reported.
 
@@ -249,7 +251,7 @@ all features except routing, place search and AI summaries. Routing shows "requi
 **Deployed mode**: `/config.json` supplies region, API key, map style and API base URL. Tiles, geocoding and routes
 are called directly from the browser with the API key; the summary call goes through API Gateway.
 
-**Region verification (decision 7).** Read-only calls on 2026-10-30, account 466742534146:
+**Region verification (decision 7).** Read-only calls on 2026-10-30, in the developer's AWS account:
 
 - `geo-maps get-style-descriptor --style Standard` in ap-south-1 returned 138,433 bytes.
 - `geo-places geocode "Thanjavur"` returned "Thanjavur, Tamil Nadu, India" at [79.12903, 10.76868].

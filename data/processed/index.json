@@ -5,7 +5,7 @@
     "name": "Tamil Nadu",
     "file": "tamil-nadu.geojson",
     "featureCount": 629,
-    "verifiedCount": 371,
+    "verifiedCount": 365,
     "stateBoundaryFile": "boundaries/tamil-nadu-state.geojson",
     "districtsFile": "boundaries/tamil-nadu-districts.geojson"
   }
