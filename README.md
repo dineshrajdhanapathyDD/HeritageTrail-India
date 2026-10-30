@@ -22,19 +22,9 @@ Features:
 
 ## Architecture
 
-```text
- Wikidata (CC0) ─┐
- OSM Overpass ───┤   pipeline/ (Node CLI)                       data/raw/<state>/      (verbatim responses)
- Commons API ────┼─► adapters → normalize → validate → dedupe ─► data/processed/<state>.geojson + report
- geoBoundaries ──┘                                              data/processed/boundaries/*.geojson
-                                                                         │
-                         ┌───────────────────────────────────────────────┤ cdk deploy (BucketDeployment)
-                         ▼                                               ▼
-  Browser ── CloudFront ── S3 site bucket (React app, /config.json, /data/*.geojson)
-     │                                       S3 data bucket ── S3 event ──► Ingest Lambda ──► DynamoDB
-     ├── Amazon Location (maps, places, routes) with a restricted API key
-     └── API Gateway REST ──► API Lambda (DynamoDB reads) / Summary Lambda (Amazon Bedrock, Amazon Nova)
-```
+
+<img width="1662" height="820" alt="map drawio" src="https://github.com/user-attachments/assets/5b0b1f04-c3cb-47fd-951f-285125f6e59f" />
+
 
 - The frontend renders the static GeoJSON from `/data` for the map, search, filters, nearby and insights. It calls
   Amazon Location directly with a public, restricted API key, and the REST API only for AI summaries.
