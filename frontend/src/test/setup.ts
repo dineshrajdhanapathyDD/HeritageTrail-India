@@ -1,7 +1,12 @@
-import '@testing-library/jest-dom/vitest';
-import { afterEach } from 'vitest';
+// Type augmentation only; the runtime entry is externalized and can extend a different `vitest`
+// instance than the one the tests use, so the matchers are registered explicitly below.
+import type {} from '@testing-library/jest-dom/vitest';
+import * as jestDomMatchers from '@testing-library/jest-dom/matchers';
+import { afterEach, expect } from 'vitest';
 import { cleanup } from '@testing-library/react';
 import { MotionGlobalConfig } from 'framer-motion';
+
+expect.extend(jestDomMatchers);
 
 // Finish Framer Motion animations instantly so exit transitions do not linger in the DOM.
 MotionGlobalConfig.skipAnimations = true;
